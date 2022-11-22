@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+    <h1 class="text-3xl text-rose-400">Koding 
+        <span class="text-xs bg-slate-700 p-1 rounded-md text-sky-400 inline-block">BETA</span> </h1>
+    <h2 class="">Refrensi programming bahasa Indonesia</h2>
+
+    <div class="mt-5">
+        <ul>
+            <!-- Ranges through content/posts/*.md -->
+            {{ range .Pages }}
+                <li>
+                    <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+                </li>
+            {{ end }}
+        </ul>
+    </div>
+    
+{{ end }}

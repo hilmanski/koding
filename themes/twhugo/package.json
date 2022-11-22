@@ -1,0 +1,13 @@
+{
+  "name": "twhugo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./assets/maindev.css -o ./assets/main.css",
+    "dev": "npx tailwindcss -i ./assets/maindev.css -o ./assets/main.css --watch"
+  }
+}

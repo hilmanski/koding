@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   background: #23272F;
+   color: #F6F7F9;
+   max-width: 900px;
+   margin: 100px auto 0;
+   font-size: 18px;
+}
+
+a {
+    color: #cb2f6e;
+}
+
+code {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    border-radius: 15px;
+    padding: 10px;
+}

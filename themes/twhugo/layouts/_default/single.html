@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+    <h1 class="text-3xl text-rose-400"> {{.Title }} </h1>
+
+    {{ if .Params.snippet }}
+    <h2 class="italic text-sm"> {{ .Params.snippet }} </h2>
+    {{ end }}
+
+    <div class="mt-5">
+        {{ .Content }}
+    </div>
+
+
+    <!-- Code Highlighter -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/atom-one-dark.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+{{ end }}
