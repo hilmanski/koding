@@ -587,6 +587,18 @@ video {
   right: -1rem;
 }
 
+.left-2 {
+  left: 0.5rem;
+}
+
+.left-5 {
+  left: 1.25rem;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -1288,12 +1300,32 @@ pre code.hljs {
     margin-left: 250px;
   }
 
+  .lg\:ml-\[100px\] {
+    margin-left: 100px;
+  }
+
+  .lg\:ml-\[300px\] {
+    margin-left: 300px;
+  }
+
+  .lg\:ml-\[200px\] {
+    margin-left: 200px;
+  }
+
   .lg\:block {
     display: block;
   }
 
   .lg\:w-8\/12 {
     width: 66.666667%;
+  }
+
+  .lg\:w-10\/12 {
+    width: 83.333333%;
+  }
+
+  .lg\:w-6\/12 {
+    width: 50%;
   }
 
   .lg\:hover\:bg-blue-500:hover {
