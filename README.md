@@ -3,10 +3,6 @@
 - Just use normal CodeSandbox iframe for faster and beautiful code environment
 - DONT WRITE YOUR OWN EDITOR
 
-  - learn how to use module package in vanilla javascript
-
-- REMOVE package json and node_modules
-
 # About
 
 Koding. Referensi programming / koding berbahasa Indonesia
