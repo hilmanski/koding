@@ -551,10 +551,6 @@ video {
   visibility: visible;
 }
 
-.invisible {
-  visibility: hidden;
-}
-
 .collapse {
   visibility: collapse;
 }
@@ -585,18 +581,6 @@ video {
 
 .-right-4 {
   right: -1rem;
-}
-
-.left-2 {
-  left: 0.5rem;
-}
-
-.left-5 {
-  left: 1.25rem;
-}
-
-.left-3 {
-  left: 0.75rem;
 }
 
 .-z-10 {
@@ -663,10 +647,6 @@ video {
   margin-top: 1.25rem;
 }
 
-.ml-0 {
-  margin-left: 0px;
-}
-
 .-mt-2 {
   margin-top: -0.5rem;
 }
@@ -713,10 +693,6 @@ video {
 
 .inline-table {
   display: inline-table;
-}
-
-.table-caption {
-  display: table-caption;
 }
 
 .flow-root {
@@ -919,10 +895,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .border {
   border-width: 1px;
 }
@@ -1075,11 +1047,6 @@ video {
   font-style: normal;
 }
 
-.ordinal {
-  --tw-ordinal: ordinal;
-  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
-}
-
 .text-slate-200 {
   --tw-text-opacity: 1;
   color: rgb(226 232 240 / var(--tw-text-opacity));
@@ -1108,10 +1075,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
 }
 
 .mix-blend-plus-lighter {
@@ -1194,10 +1157,6 @@ video {
   transition-duration: 150ms;
 }
 
-.\[keywords\:node-addon-api\] {
-  keywords: node-addon-api;
-}
-
 body {
   background: #23272F;
   color: #F6F7F9;
@@ -1207,7 +1166,7 @@ body {
 }
 
 a {
-  color: #cb2f6e;
+  color: #c55682;
 }
 
 /* =========================
@@ -1216,6 +1175,31 @@ a {
 
 .content p{
   line-height: 2rem;
+}
+
+.content ol {
+  list-style: decimal;
+  list-style-position: inside;
+}
+
+.content figcaption{
+  text-align: center;
+  font-style: italic;
+  font-size: 0.8rem;
+  margin: 5px 0;
+  color: #c1c1c2;
+}
+
+.content img {
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.content code {
+  font-size: 0.9rem;
+  padding: 2px;
+  border-radius: 5px;
+  background: #37393f;
 }
 
 .content h2{
@@ -1229,7 +1213,7 @@ a {
   content: '👉🏽 ';
 }
 
-.content p:not(:last-child), .content ul{
+.content p:not(:last-child), .content ul, .content figure{
   margin-bottom: 20px;
 }
 
@@ -1300,28 +1284,8 @@ pre code.hljs {
     margin-left: 250px;
   }
 
-  .lg\:ml-\[100px\] {
-    margin-left: 100px;
-  }
-
-  .lg\:ml-\[300px\] {
-    margin-left: 300px;
-  }
-
-  .lg\:ml-\[200px\] {
-    margin-left: 200px;
-  }
-
   .lg\:block {
     display: block;
-  }
-
-  .lg\:w-8\/12 {
-    width: 66.666667%;
-  }
-
-  .lg\:w-10\/12 {
-    width: 83.333333%;
   }
 
   .lg\:w-6\/12 {

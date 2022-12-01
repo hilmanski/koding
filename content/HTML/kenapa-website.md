@@ -1,6 +1,6 @@
 ---
 title: "Kenapa membuat website"
-snippet: "Kenapa penting dan menarik untuk kamu belajar membuat website?"
+snippet: "Alasan kenapa penting dan menarik untuk kamu belajar membuat website?"
 date: 2022-11-22T00:00:20-08:00
 label: HTML
 order: 10

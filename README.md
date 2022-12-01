@@ -1,7 +1,13 @@
 # Now
 
-- Just use normal CodeSandbox iframe for faster and beautiful code environment
-- DONT WRITE YOUR OWN EDITOR
+- Add image / gif / picture / illustration
+  make sure no boring part even on one page (Write this on you doc u want to share)
+  event using AI is better.
+
+- Codesandbox shotcode
+  {{<codesandbox>}}koding-html-intro-1s28xs{{</codesandbox>}}
+
+- Bikin tombol "edit on github"
 
 # About
 
@@ -22,7 +28,8 @@ maybe you need to install package before running Hugo command
 
 ## Writing Guide
 
-Clear. short. Always edit.
+- Clear. short. Always edit.
+- No boring part. Always add image / code / gif/ anything outside written text
 
 ## Dev
 

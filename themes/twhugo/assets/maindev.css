@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #cb2f6e;
+    color: #c55682;
 }
 
 /* =========================
@@ -21,6 +21,32 @@ a {
 .content p{
     line-height: 2rem;
 }
+
+.content ol {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+.content figcaption{
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8rem;
+    margin: 5px 0;
+    color: #c1c1c2;
+}
+
+.content img {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.content code {
+    font-size: 0.9rem;
+    padding: 2px;
+    border-radius: 5px;
+    background: #37393f;
+}
+
 
 
 .content h2{
@@ -34,7 +60,7 @@ a {
     content: '👉🏽 ';
 }
 
-.content p:not(:last-child), .content ul{
+.content p:not(:last-child), .content ul, .content figure{
     margin-bottom: 20px;
 }
 

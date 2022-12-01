@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html><head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Apa itu HTML </title>
+    
+        
+    <link rel="stylesheet" href="http://kodi.ng/main.min.css"> 
+
+</head><body><header class="mb-5">
+    <a href="/">/Koding</a>
+</header><div id="content">
+    
+
+    <style>
+        body {
+            max-width: 95%;
+        }
+    </style>
+
+    <div class="flex mb-10">
+        <main class="w-full lg:w-6/12 lg:ml-[250px] -mt-2">
+            <div class="text-center">
+                <h1 class="text-4xl text-rose-400 label-HTML "> Apa itu HTML </h1>
+
+                
+                <h2 class="italic text-md max-w-[350px] mx-auto"> HTML adalah kerangka dasar untuk mulai membuat website. Pelajari lebih lanjut apa itu HTML </h2>
+                
+            </div>
+
+            <div class="content mt-10">
+                <p>Dalam pembuatan website, ada beberapa teknologi yang diperlukan.<br>
+Salah satu dan yang paling mendasar adalah HTML.</p>
+<div class="alert alert-info 
+        text-center bg-gray-800 my-5 p-4 text-md rounded-xl border border-yellow-400">
+    <h3 class="text-lg"> 😲 Info sampingan </h3>
+    
+
+<p> HTML itu singkatan dari <span class='italic'>hypertext markup language</span>.</p>
+
+</div>
+<p>HTML digunakan untuk membuat kerangka dasar website (situs web).<br>
+Karena itu penting untuk mulai belajar HTML jika ingin membuat website atau menjadi seorang Web Developer (pengembang website).</p>
+<h2 id="apa-sih-kerangka-dasar-website-">Apa sih kerangka dasar website ?</h2>
+<p>Sering disebutkan, kalau HTML berguna sebagai &ldquo;kerangka dasar&rdquo;. Apa sih maksudnya?</p>
+<p>Tulisan, tombol, link(tautan), gambar, dan video adalah contoh kerangka dasar yang bisa kita lihat di halaman website. Elemen-elemen tadi bisa kita tampilkan dengan &ldquo;kode-kode&rdquo; HTML.</p>
+<h2 id="kode-sendiri-itu-apa">Kode sendiri itu apa?</h2>
+<p>Jika bicara dengan manusia kita menggunakan bahasa manusia. Saat bicara dengan komputer, kita menggunakan bahasa komputer yang disebut kode.</p>
+<p>Ada banyak bahasa komputer dan kode dengan tujuannya masing-masing. Salah satunya, HTML, bahasa yang kita gunakan untuk membuat website.</p>
+<h2 id="contoh-kode-html">Contoh kode HTML</h2>
+<p>Berikut contoh kode HTML.
+Klik dan ganti tulisan &ldquo;Pak Jokowi&rdquo; di bawah, jadi nama kamu</p>
+
+
+<div class='hljs language-xml text-center'>
+&lt;p&gt; Mau belajar koding, <input id="nameInput" class='bg-transparent p-1 text-slate-200 w-[100px]' type='text' value='Pak Jokowi'> ?
+&lt;/p&gt;
+</div>
+<p class='text-center'>Yang menghasilkan: </p>
+
+
+
+<p class='text-center mb-10 -mt-5 text-sky-400'>Mau belajar koding, <span id="namePlaceHolder">Pak Jokowi</span> ?</p>
+<script>
+    const nameInput = document.getElementById('nameInput');
+    const namePlaceHolder = document.getElementById('namePlaceHolder');
+    nameInput.addEventListener("input", function() {
+         namePlaceHolder.innerHTML = nameInput.value
+    });
+</script>
+
+<p>Ini contoh lain kode HTML yang lebih lengkap. Tenang.. Kamu tidak perlu mengerti apa-apa dari kode di bawah.</p>
+<pre tabindex="0"><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Judul Halaman&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;Judul utama&lt;/h1&gt;
+&lt;p&gt;aku mah apa atuh, cuma paragraf.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>Semuanya akan kita pelajari secara perlahan.</p>
+
+            </div>
+
+            <div class="flex justify-between mt-10">
+                
+                
+                
+                
+                    <a class="flex items-center text-slate-400 hover:text-slate-300" title="next page in HTML" href="http://kodi.ng/html/kenapa-website/"> 
+                        Kenapa membuat website 
+                        <svg viewBox="0 0 3 6" class="ml-3 w-auto h-1.5 text-slate-400 overflow-visible group-hover:text-slate-600 dark:group-hover:text-slate-300"><path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                    </a>
+                
+            </div>
+        </main>
+
+
+
+        <sidebar class="fixed hidden lg:block">
+            <p class="mb-5">Referensi HTML</p>
+
+            <ul class="text-md ">
+            
+            
+                <a class='block mb-2 text-slate-300' 
+                    href="/html/mulai/">Apa itu HTML </a></li>
+            
+                <a class='block mb-2 text-slate-300' 
+                    href="/html/kenapa-website/">Kenapa membuat website </a></li>
+            
+                <a class='block mb-2 text-slate-300' 
+                    href="/html/menulis/">Menulis HTML </a></li>
+            
+            </ul>
+        </sidebar>
+
+    </div>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/atom-one-dark.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+
+        </div><footer>
+
+</footer>
+
+
+<script src="http://kodi.ng/main.min.js" defer></script></body>
+</html>
