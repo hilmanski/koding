@@ -1,10 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["content/**/*.md", "layouts/**/*.html"],
+  content: [
+    './../../**/*.md',
+    "layouts/**/*.html"
+  ],
   theme: {
     extend: {},
-    fontSize: {  
-      "md": "0.9rem"
+    fontSize: {
+      sm: '0.8rem',
+      base: '1rem',
+      md: '0.9rem',
+      lg: '1.1rem',
+      xl: '1.25rem',
+      "2xl": '1.563rem',
+      "3xl": '1.953rem',
+      "4xl": '2.441rem',
+      "5xl": '3.052rem'  
     }
   },
   plugins: [],

@@ -3,20 +3,80 @@
 @tailwind utilities;
 
 body {
-   background: #23272F;
-   color: #F6F7F9;
-   max-width: 900px;
-   margin: 100px auto 0;
-   font-size: 18px;
+    background: #23272F;
+    color: #F6F7F9;
+    max-width: 900px;
+    margin: 50px auto 0;
+    font-size: 18px;
 }
 
 a {
     color: #cb2f6e;
 }
 
-code {
+/* =========================
+=== Content Area
+============================ */
+
+.content p{
+    line-height: 2rem;
+}
+
+
+.content h2{
+ font-size: 1.5rem;
+ margin-top: 30px;
+ margin-bottom: 15px;
+ color: rgb(189, 221, 249);
+}
+
+.content h2::before {
+    content: '👉🏽 ';
+}
+
+.content p:not(:last-child), .content ul{
+    margin-bottom: 20px;
+}
+
+.content ul:not(:first-child) {
+    margin-top: -10px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+pre {
+    margin: 20px 0;
     font-size: 0.9rem;
     line-height: 1.4rem;
     border-radius: 15px;
-    padding: 10px;
+    padding: 25px !important; 
+    border: 1px solid rgba(125 ,125 ,125 ,0.2);
+    background: #282c34;
+}
+
+pre code.hljs {
+    background: transparent;
+    border: none;
+    padding: 0 !important;
+}
+
+.info p {
+    margin-bottom: 0px;
+}
+
+/* =========================
+=== Label Colors    
+============================ */
+.label-HTML {
+    color: #3492df;
+}
+
+/* =========================
+=== Responsive mobile size    
+============================ */
+@media screen and (max-width: 900px) {
+    body {
+        margin: 50px auto;
+        max-width: 90%;
+    }
 }

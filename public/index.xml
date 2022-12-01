@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Koding - referensi programming Bahasa Indonesia</title>
+    <link>http://kodi.ng/</link>
+    <description>Recent content on Koding - referensi programming Bahasa Indonesia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language><atom:link href="http://kodi.ng/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apa itu HTML</title>
+      <link>http://kodi.ng/html/</link>
+      <pubDate>Sun, 20 Nov 2022 09:03:20 -0800</pubDate>
+      
+      <guid>http://kodi.ng/html/</guid>
+      <description>HTML digunakan untuk membuat kerangka dasar website.
+Dalam pembuatan website, ada beberapa teknologi yang diperlukan.
+Salah satunya adalah HTML.
+ 🤙 Info sampingan   HTML itu singkatan dari hypertext markup language.
+ Contoh kode HTML
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;Page Title&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;This is a Heading&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;This is a paragraph.&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; </description>
+    </item>
+    
+  </channel>
+</rss>

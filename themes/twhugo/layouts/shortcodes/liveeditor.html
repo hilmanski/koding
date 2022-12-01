@@ -1,0 +1,14 @@
+
+{{ $id := .Get `id` }}
+
+<!-- Refrence for ContentEditable {{ htmlUnescape .Inner }} -->
+<div class="flex">
+    <div>
+        <textarea class="text-white bg-slate-900" id="textarea-{{$id}}">{{.Inner}}</textarea>
+        <button onclick="liveCode(event, {{$id}})">Try</button>
+    </div>
+
+    <div>
+        <iframe id="iframe-{{$id}}" frameborder="0"></iframe>
+    </div>
+</div>

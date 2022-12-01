@@ -1,0 +1,6 @@
+<footer>
+
+</footer>
+
+{{ $js := resources.Get "main.js" | minify  }}
+<script src="{{ $js.Permalink }}" defer></script>

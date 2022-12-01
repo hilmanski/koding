@@ -1,19 +1,58 @@
 {{ define "main" }}
 
-    <h1 class="text-3xl text-rose-400"> {{.Title }} </h1>
+    <div class="flex mb-10">
+        <main class="w-full lg:w-8/12 ml-0 lg:ml-[250px]  -mt-2">
+            <div class="text-center">
+                <h1 class="text-4xl text-rose-400 label-{{.Params.label}} "> {{.Title }} </h1>
 
-    {{ if .Params.snippet }}
-    <h2 class="italic text-sm"> {{ .Params.snippet }} </h2>
-    {{ end }}
+                {{ if .Params.snippet }}
+                <h2 class="italic text-md max-w-[350px] mx-auto"> {{ .Params.snippet }} </h2>
+                {{ end }}
+            </div>
 
-    <div class="mt-5">
-        {{ .Content }}
+            <div class="content mt-10">
+                {{ .Content }}
+            </div>
+
+            <div class="flex justify-between mt-10">
+                {{ $pages := where site.RegularPages "Section" .Section }}
+                {{ with ($pages.ByParam "order").Next . }}
+                    <a class="flex items-center text-slate-400 hover:text-slate-300" title="previous page in {{ .Section }}" href="{{ .Permalink }}"> 
+                        <svg viewBox="0 0 3 6" class="mr-3 w-auto h-1.5 text-slate-400 overflow-visible group-hover:text-slate-600 dark:group-hover:text-slate-300"><path d="M3 0L0 3L3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        {{.Title }} </a>
+                {{ end }}
+                
+                {{ with ($pages.ByParam "order").Prev . }}
+                    <a class="flex items-center text-slate-400 hover:text-slate-300" title="next page in {{ .Section }}" href="{{ .Permalink }}"> 
+                        {{.Title }} 
+                        <svg viewBox="0 0 3 6" class="ml-3 w-auto h-1.5 text-slate-400 overflow-visible group-hover:text-slate-600 dark:group-hover:text-slate-300"><path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                    </a>
+                {{ end }}
+            </div>
+        </main>
+
+
+
+        <sidebar class="fixed hidden lg:block">
+            <p class="mb-5">Referensi {{.Params.label}}</p>
+
+            <ul class="text-md ">
+            {{ $pages := (where .Site.Pages "Section" .Section) }}
+            {{ range sort $pages ".Params.order" "asc" }}
+                <a class='block mb-2 text-slate-300' 
+                    href="{{ .RelPermalink }}">{{ .Title }} </a></li>
+            {{ end }}
+            </ul>
+        </sidebar>
+
     </div>
-
 
     <!-- Code Highlighter -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/atom-one-dark.min.css">
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
+
+
+   
 
 {{ end }}

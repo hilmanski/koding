@@ -1,6 +1,19 @@
+# Now
+
+- Just use normal CodeSandbox iframe for faster and beautiful code environment
+- DONT WRITE YOUR OWN EDITOR
+
+  - learn how to use module package in vanilla javascript
+
+- REMOVE package json and node_modules
+
 # About
 
-Koding. Refrensi programming / koding berbahasa Indonesia
+Koding. Referensi programming / koding berbahasa Indonesia
+
+# Deploy
+
+maybe you need to install package before running Hugo command
 
 # Author
 
@@ -30,8 +43,28 @@ cd themes/twhugo
 yarn dev
 ```
 
+## Guide shortcode
+
+- Write alert (info box)
+
+```
+{{<alert class="info">}}
+
+<p> HTML itu singkatan dari <span class='italic'>hypertext markup language</span>.</p>
+{{</alert>}}
+```
+
+- Write Live editor
+
+```
+{{<liveeditor id="1">}}<h1> amazing </h1>{{</liveeditor>}}
+{{<liveiframe id="1">}}
+// id must unique on each page
+```
+
 ## Plan
 
+- Subchapter
 - Avoid boring text with image, code and info/warning.
 - clean highlight
 - sandbox
@@ -56,6 +89,7 @@ yarn dev
 - Main site: Hugo static site generator
 - CSS: tailwind
 - Code higlight https://highlightjs.org/
+- Plan, not yet -> Codesandbox: code playground (use SK github account)
 
 ## Design Inspiration
 

@@ -1,0 +1,10 @@
+baseURL: http://kodi.ng/
+languageCode: id
+title: Koding - referensi programming Bahasa Indonesia
+theme: twhugo
+
+params:
+  description: Referensi programming dalam Bahasa Indonesia. Untuk kamu yang mau belajar Koding.
+
+outputs:
+  home: ["HTML", "RSS"]
