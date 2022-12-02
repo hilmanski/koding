@@ -9,7 +9,7 @@ order: 40
 Untuk mulai menulis kode HTML, ada cara yang perlu diikuti.
 
 ## Mengenal elemen HTML  
-Untuk memberitahu file HTML bahwa kita ingin menampilkan elemen tertentu, misalnya menampilkan text, gambar, video atau yang lainnya, kita perlu mengikuti penulisan elemen HTML itu sendiri.
+Untuk memberitahu file HTML bahwa kita ingin menampilkan elemen tertentu, misalnya menampilkan text, gambar, video atau yang lainnya, kita perlu mengikuti penulisan elemen HTML yang sudah ditentukan.
 
 Secara umum penulisannya seperti ini: 
 
@@ -57,25 +57,3 @@ Kamu juga bisa mencoba memainkan konten di bawah ini
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 {{</rawhtml>}}
-
-
-## Apa itu tag HTML?
-Pada pola pertama kita melihat `<nama-tag>` . 
-```
-<nama-tag> Isi atau nilai dari setiap tagnya </nama-tag>
-```
-
-Apa sih tag itu? Tag adalah nama yang kita berikan untuk "penanda" HTML seperti contoh-contoh yang kita lihat sebelumnya.
-
-`Tag "p"` adalah penanda untuk tulisan paragraf  
-`Tag "h1"` adalah penanda untuk judul (penampilannya tebal dan besar)
-
-{{<alert class="info">}}
-
-<p> Penting: penutup tag (tag kedua) punya garis miring ke depan &lt;/nama-tag&gt;.</p>
-{{</alert>}}
-
-Sehingga bisa dikatakan setiap elemen HTML terdiri dari:
-1. tag pembuka
-2. Isi konten
-3. tag penutup

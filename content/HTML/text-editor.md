@@ -63,7 +63,7 @@ Kamu akan melihat ini
 
 ## Selamat! 🥳🥳
 
-Kamu sudah berhasil membuat file HTMl pertamamu. Mudah bukan? Coba ganti isinya dengan tulisan lain yang kamu inginkan.
+Kamu sudah berhasil membuat file HTML pertamamu. Mudah bukan? Coba ganti isinya dengan tulisan lain yang kamu inginkan.
 
 ## Selanjutnya
 
