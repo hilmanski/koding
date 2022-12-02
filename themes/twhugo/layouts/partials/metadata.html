@@ -1,0 +1,21 @@
+{{ $title := .Title }}
+{{ $desc := "" }}
+{{ $tags:= "" }}
+
+
+{{ if .Description }} 
+    {{ $desc = .Description }} 
+{{ end }} 
+
+{{ if .Site.Params.Description }} 
+    {{ $desc = .Site.Params.Description }}  
+{{ end }}
+
+{{ if .Params.snippet }}
+    {{ $desc = .Params.snippet }}  
+{{ end }}
+
+
+
+<title> {{ .Title }} </title>
+<meta name="description" content="{{$desc | truncate 140}}" property="og:description">
