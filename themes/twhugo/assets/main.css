@@ -648,6 +648,10 @@ video {
   margin-bottom: auto;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -678,6 +682,10 @@ video {
 
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
 }
 
 .block {
@@ -1018,6 +1026,10 @@ video {
 
 .text-2xl {
   font-size: 1.563rem;
+}
+
+.text-xs {
+  font-size: 0.8rem;
 }
 
 .text-xl {
