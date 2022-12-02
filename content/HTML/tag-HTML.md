@@ -11,14 +11,14 @@ Sebelumnya kita melihat pola penulisan HTML seperti ini:
 <nama-tag> Isi atau nilai dari setiap tagnya </nama-tag>
 ```
 
-Apa sih tag itu? Tag adalah nama yang berguna sebagai "penanda" elemen HTML. Tag ini sudah ditentukan, kita tidak bisa kreatif membuat namanya.
+Apa itu `tag`? Tag adalah nama yang berguna sebagai "penanda" elemen HTML. Tag ini sudah ditentukan, kita tidak bisa kreatif membuat namanya.
 
 `Tag "p"` adalah penanda untuk tulisan paragraf  
 `Tag "h1"` adalah penanda untuk judul (penampilannya tebal dan besar)
 
-{{<alert class="info">}}
+{{<alert class="warning">}}
 
-<p> Penting: penutup tag (tag kedua) punya garis miring ke depan &lt;/nama-tag&gt;. <br>
+<p> penutup tag (tag kedua) punya garis miring ke depan &lt;/nama-tag&gt;. <br>
 Berbeda dengan tag pertama yang tidak punya garis miring.</p>
 {{</alert>}}
 

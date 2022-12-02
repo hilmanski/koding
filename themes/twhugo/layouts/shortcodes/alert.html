@@ -1,5 +1,21 @@
-<div class="alert alert-{{ with .Get `class` }}{{.}}{{end}} 
-        text-center bg-gray-800 my-5 p-4 text-md rounded-xl border border-yellow-400">
-    <h3 class="text-lg"> 😲 Info sampingan </h3>
+{{ $type := .Get `class`}}
+{{ $title := "" }}
+{{ $color := "yellow" }}
+
+{{ if eq $type "info" }}
+    {{ $title = "😲 Info sampingan"}}
+    {{ $color = "sky" }}
+{{ end }}
+
+{{ if eq $type "warning" }}
+    {{ $title = "🧐 Penting!"}}
+{{ end }}
+
+ 
+
+
+<div class="alert alert-{{ $type }} 
+        text-center bg-gray-800 my-5 p-4 text-md rounded-xl border border-{{$color}}-400">
+    <h3 class="text-lg"> {{ $title }} </h3>
     {{ .Inner }}
 </div>

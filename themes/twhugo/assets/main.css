@@ -648,8 +648,8 @@ video {
   margin-bottom: auto;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
+.mr-1 {
+  margin-right: 0.25rem;
 }
 
 .mt-2 {
@@ -682,10 +682,6 @@ video {
 
 .mb-5 {
   margin-bottom: 1.25rem;
-}
-
-.mr-1 {
-  margin-right: 0.25rem;
 }
 
 .block {
@@ -937,6 +933,11 @@ video {
 .border-yellow-400 {
   --tw-border-opacity: 1;
   border-color: rgb(250 204 21 / var(--tw-border-opacity));
+}
+
+.border-sky-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(56 189 248 / var(--tw-border-opacity));
 }
 
 .bg-transparent {

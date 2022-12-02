@@ -2,9 +2,16 @@
 
 Koding. Referensi programming / koding berbahasa Indonesia
 
-# Deploy
 
-maybe you need to install package before running Hugo command
+## Checklist before launch
+
+- footer (sitemap, RSS, about me)
+- Logo
+- Complete the HTML refrence
+- Upgrade design 100x better (use nice images)
+- Clear separate documentation (repo) - ideally editable too (open) - or at Notion (SI)
+- Donation link?
+- various "alert"
 
 # Author
 
@@ -76,13 +83,6 @@ yarn dev
 - next/prev
 - whole sidebar menu (toggle / collapsable)
 
-## Checklist before launch
-
-- 1 category done
-- clear guide how to contribute
-- footer (sitemap, RSS, about me)
-- Logo
-
 ## Tech stack
 
 - Main site: Hugo static site generator
@@ -92,6 +92,7 @@ yarn dev
 
 ## Design Inspiration
 
+(Move this to docs)
 - https://beta.reactjs.org/
 - https://www.w3schools.com/
 - https://www.joshwcomeau.com/
