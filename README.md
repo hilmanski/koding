@@ -1,13 +1,21 @@
 # Now
 
+- Do not half ass on it. Be developer, editor, writer, and designer one thing at a time. No "just add this image" it musht think through
+
 - Add image / gif / picture / illustration
   make sure no boring part even on one page (Write this on you doc u want to share)
   event using AI is better.
 
 - Codesandbox shotcode
+  Info: it's not working for "static HTML". search for alternative
   {{<codesandbox>}}koding-html-intro-1s28xs{{</codesandbox>}}
-
+  /s
 - Bikin tombol "edit on github"
+
+- Find how to lazy load image
+
+- Write everything in Notion
+  Log, reason why teaching HTML start without doctype, etc..
 
 # About
 

@@ -38,8 +38,6 @@
             </div>
         </main>
 
-
-
         <sidebar class="fixed hidden lg:block">
             <p class="mb-5">Referensi {{.Params.label}}</p>
 
@@ -51,6 +49,16 @@
             {{ end }}
             </ul>
         </sidebar>
+
+
+
+        <aside class="fixed right-5 max-w-3/12">
+            <p class="mb-2"> Daftar Konten </p>
+            
+            <div>
+            {{ .TableOfContents }}
+            </div>
+        </aside>
 
     </div>
 

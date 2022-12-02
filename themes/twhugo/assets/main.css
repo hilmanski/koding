@@ -583,6 +583,10 @@ video {
   right: -1rem;
 }
 
+.right-5 {
+  right: 1.25rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -645,6 +649,10 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .-mt-2 {
@@ -1011,6 +1019,10 @@ video {
   font-size: 1.563rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+}
+
 .text-4xl {
   font-size: 2.441rem;
 }
@@ -1265,6 +1277,10 @@ pre code.hljs {
 .hover\:text-slate-300:hover {
   --tw-text-opacity: 1;
   color: rgb(203 213 225 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 .group:hover .group-hover\:text-slate-600 {
