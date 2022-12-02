@@ -61,10 +61,10 @@ yarn dev
 
 ## Plan
 
+- social image (OG graph autoamte by vercel)
+- work on metadata (og metadata.html)
 - Subchapter
-- Avoid boring text with image, code and info/warning.
 - clean highlight
-- sandbox
 - easy direct link to edit on Github
 - comment (utterance.us)
 - Bikin tombol "edit on github"
