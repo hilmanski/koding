@@ -26,7 +26,7 @@ Kita butuh tempat untuk menulis kodenya. Secara umum, di OS masing-masing sudah 
 Tidak masalah Text Editor apapun yang kamu pilih. Ini hanya alat dengan tujuan sama.
 Untuk memudahkan kamu yang ingin mengikuti panduan ini, kita akan menggunakan text-editor VS Code. Kamu bisa unduh secara gratis di sini: [situs VS Code](https://code.visualstudio.com)
 
-{{< figure src="https://ucarecdn.com/e6632e77-bce0-4277-901a-c9d60d7745d8/ScreenShot20221201at163627.png" title="screenshot VS CODE" >}}
+{{< mediacontent src="https://ucarecdn.com/e6632e77-bce0-4277-901a-c9d60d7745d8/ScreenShot20221201at163627.png" title="screenshot VS CODE" >}}
 
 Silahkan unduh, install dan membuka aplikasi VS Code ini.
 
@@ -37,12 +37,12 @@ Setelah membuka aplikasi VS Code atau text editor pilihan kamu.
 1. Buat file baru 📖  
    Dengan klik `Menu > File > new file`
 
-{{< figure src="https://ucarecdn.com/96aa94cb-3025-4425-b4dc-88dd9de47184/Xnapper20221201165355.png" title="screenshot new file di VSCode" >}}
+{{< mediacontent src="https://ucarecdn.com/96aa94cb-3025-4425-b4dc-88dd9de47184/Xnapper20221201165355.png" title="screenshot new file di VSCode" >}}
 
 2. Tulis apa saja yang kamu mau ✍🏽  
    Contoh saya mengetik "Halo koding!"
 
-{{< figure src="https://ucarecdn.com/58f575ca-f9a3-4675-bcac-2197b1ed9dc2/starttext.gif" title="Gif mengetik" >}}
+{{< mediacontent src="https://ucarecdn.com/58f575ca-f9a3-4675-bcac-2197b1ed9dc2/starttext.gif" title="Gif mengetik" >}}
 
 3. Simpan file ini 💾  
    Dengan klik `ctrl + S` atau pada Mac `command + s` atau klik `menu > file > save`
@@ -55,11 +55,11 @@ Kamu bisa mengganti `index` dengan nama apa saja yang kamu mau. Yang penting ada
 
 Lihat di folder tempat kamu menyimpan file tadi. Kamu bisa klik 2x atau klik kanan > buka di browser pilihanmu.
 
-{{< figure src="https://ucarecdn.com/322542d7-63c9-42a0-8c9d-a2a2ccc42077/openfile.png" title="Membuka file html" >}}
+{{< mediacontent src="https://ucarecdn.com/322542d7-63c9-42a0-8c9d-a2a2ccc42077/openfile.png" title="Membuka file html" >}}
 
 Kamu akan melihat ini
 
-{{< figure src="https://ucarecdn.com/514c089f-1c5a-4514-8dc0-dbb8dc4e9217/resultinit.png" title="Hasil html" >}}
+{{< mediacontent src="https://ucarecdn.com/514c089f-1c5a-4514-8dc0-dbb8dc4e9217/resultinit.png" title="Hasil html" >}}
 
 ## Selamat! 🥳🥳
 

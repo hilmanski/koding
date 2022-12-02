@@ -17,7 +17,7 @@ Website adalah media pemersatu dunia. Yang bisa kamu lakukan dengan situs Web:
 - Membuat aplikasi berbasis web yang digunakanan banyak orang.
 - Dan masih banyak lagi tentunya!
 
-{{< figure src="https://media.giphy.com/media/SpopD7IQN2gK3qN4jS/giphy.gif" title="scroll website ©Silgoweb" alt="GIF scrolling website" >}}
+{{< mediacontent src="https://media.giphy.com/media/SpopD7IQN2gK3qN4jS/giphy.gif" title="scroll website ©Silgoweb" alt="GIF scrolling website" >}}
 
 ## Keunggulan situs web dibandingkan aplikasi handphone
 
@@ -29,7 +29,7 @@ Berikut beberapa poin keunggulan website:
 
 ## Apa itu Web Developer?
 
-{{< figure src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" title="sedang membuat program dari Giphy " alt="GIF orang sedang membuat program" >}}
+{{< mediacontent src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" title="sedang membuat program dari Giphy " alt="GIF orang sedang membuat program" >}}
 
 
 Web developer atau pengembang web, adalah istilah untuk orang yang membuat website. Seperti yang ingin kamu lakukan dengan belajar HTML ini.

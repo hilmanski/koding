@@ -24,7 +24,7 @@ Sering disebutkan, kalau HTML berguna sebagai "kerangka dasar". Apa sih maksudny
 
 Tulisan, tombol, link(tautan), gambar, dan video adalah contoh kerangka dasar yang bisa kita lihat di halaman website. Elemen-elemen tadi bisa kita tampilkan dengan "kode-kode" HTML.
 
-{{< figure src="https://ucarecdn.com/571eebe3-439a-4573-b5b7-ae5e54c0a5d6/ScreenShot20221201at201124.png" title="blueprint monitor website" alt="blueprint monitor website">}}
+{{< mediacontent src="https://ucarecdn.com/571eebe3-439a-4573-b5b7-ae5e54c0a5d6/ScreenShot20221201at201124.png" title="blueprint monitor website" alt="blueprint monitor website">}}
 
 ## Kode sendiri itu apa?
 
