@@ -18,7 +18,8 @@ Apa sih tag itu? Tag adalah nama yang berguna sebagai "penanda" elemen HTML. Tag
 
 {{<alert class="info">}}
 
-<p> Penting: penutup tag (tag kedua) punya garis miring ke depan &lt;/nama-tag&gt;.</p>
+<p> Penting: penutup tag (tag kedua) punya garis miring ke depan &lt;/nama-tag&gt;. <br>
+Berbeda dengan tag pertama yang tidak punya garis miring.</p>
 {{</alert>}}
 
 Sehingga bisa dikatakan setiap elemen HTML terdiri dari:
