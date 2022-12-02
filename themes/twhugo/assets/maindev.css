@@ -22,6 +22,10 @@ a {
     line-height: 2rem;
 }
 
+.content .alert p{
+    line-height: 1.5rem;
+}
+
 .content ol {
     list-style: decimal;
     list-style-position: inside;
@@ -38,6 +42,10 @@ a {
 .content img {
     margin-top: 10px;
     border-radius: 10px;
+}
+
+.content img, .content figure {
+    margin: 10px auto;
 }
 
 .content code {

@@ -17,17 +17,25 @@ Salah satu dan yang paling mendasar adalah HTML.
 HTML digunakan untuk membuat kerangka dasar website (situs web).  
 Karena itu penting untuk mulai belajar HTML jika ingin membuat website atau menjadi seorang Web Developer (pengembang website).
 
+
 ## Apa sih kerangka dasar website ?
 
 Sering disebutkan, kalau HTML berguna sebagai "kerangka dasar". Apa sih maksudnya?
 
 Tulisan, tombol, link(tautan), gambar, dan video adalah contoh kerangka dasar yang bisa kita lihat di halaman website. Elemen-elemen tadi bisa kita tampilkan dengan "kode-kode" HTML.
 
+{{< figure src="https://ucarecdn.com/571eebe3-439a-4573-b5b7-ae5e54c0a5d6/ScreenShot20221201at201124.png" title="blueprint monitor website" alt="blueprint monitor website">}}
+
 ## Kode sendiri itu apa?
 
 Jika bicara dengan manusia kita menggunakan bahasa manusia. Saat bicara dengan komputer, kita menggunakan bahasa komputer yang disebut kode.
 
-Ada banyak bahasa komputer dan kode dengan tujuannya masing-masing. Salah satunya, HTML, bahasa yang kita gunakan untuk membuat website.
+{{<alert class="info">}}
+<p>Dengan bisa berbahasa komputer, kita bisa menyuruh komputer melakukan hal apa saja melalui program yang dibuat.</p>
+{{</alert>}}
+
+Ada banyak bahasa komputer dengan tujuannya masing-masing. Salah satunya, HTML, bahasa yang kita gunakan untuk membuat website.
+
 
 ## Contoh kode HTML
 

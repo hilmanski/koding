@@ -1,22 +1,3 @@
-# Now
-
-- Do not half ass on it. Be developer, editor, writer, and designer one thing at a time. No "just add this image" it musht think through
-
-- Add image / gif / picture / illustration
-  make sure no boring part even on one page (Write this on you doc u want to share)
-  event using AI is better.
-
-- Codesandbox shotcode
-  Info: it's not working for "static HTML". search for alternative
-  {{<codesandbox>}}koding-html-intro-1s28xs{{</codesandbox>}}
-  /s
-- Bikin tombol "edit on github"
-
-- Find how to lazy load image
-
-- Write everything in Notion
-  Log, reason why teaching HTML start without doctype, etc..
-
 # About
 
 Koding. Referensi programming / koding berbahasa Indonesia
@@ -65,13 +46,18 @@ yarn dev
 {{</alert>}}
 ```
 
-- Write Live editor
 
+- Codesandbox shotcode
+  Info: it's not working for "static HTML". search for alternative
 ```
-{{<liveeditor id="1">}}<h1> amazing </h1>{{</liveeditor>}}
-{{<liveiframe id="1">}}
-// id must unique on each page
+{{<codesandbox>}}koding-html-intro-1s28xs{{</codesandbox>}}
 ```
+
+
+- Figure / Image / GIf
+{{< figure src="https://ucarecdn.com/96aa94cb-3025-4425-b4dc-88dd9de47184/Xnapper20221201165355.png" title="screenshot new file di VSCode" >}}
+
+
 
 ## Plan
 
@@ -81,6 +67,8 @@ yarn dev
 - sandbox
 - easy direct link to edit on Github
 - comment (utterance.us)
+- Bikin tombol "edit on github"
+- Write Live editor ?
 
 ## Next
 
@@ -108,6 +96,17 @@ yarn dev
 - https://www.w3schools.com/
 - https://www.joshwcomeau.com/
 
-## Links that helped me built this site
 
-- https://flaviocopes.com/hugo-add-tailwind/
+# Notes
+
+- Do not half ass on it. Be developer, editor, writer, and designer one thing at a time. No "just add this image" it musht think through
+
+- Add image / gif / picture / illustration
+  make sure no boring part even on one page (Write this on you doc u want to share)
+  event using AI is better.
+
+
+- Find how to lazy load image
+
+- Write everything in Notion
+  Log, reason why teaching HTML start without doctype, etc..

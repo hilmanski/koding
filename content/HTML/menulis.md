@@ -1,9 +1,9 @@
 ---
 title: "Menulis HTML"
-snippet: "Belajar bagaimana cara mulai menulis bahasa HTML untuk membuat website"
+snippet: "Belajar bagaimana cara mulai menulis bahasa HTML untuk membuat website. Persiapan apa saja yang dibutuhkan?"
 date: 2022-11-22T00:03:20-08:00
 label: HTML
-order: 20
+order: 30
 ---
 
 Setelah mengetahui fungsi dari HTML. Tanpa basa basi lagi, kita akan intip bagaimana kamu bisa membuat file HTML.
@@ -24,11 +24,11 @@ Kita butuh tempat untuk menulis kodenya. Secara umum, di OS masing-masing sudah 
 - OS Linux : Vi / Nano
 
 Tidak masalah Text Editor apapun yang kamu pilih. Ini hanya alat dengan tujuan sama.
-Tapi untuk memudahkan teman-teman yang ingin mengikuti panduan ini, kita akan menggunakan text-editor VS Code. Kamu bisa download secara gratis di sini: [situs VS Code](https://code.visualstudio.com)
+Untuk memudahkan kamu yang ingin mengikuti panduan ini, kita akan menggunakan text-editor VS Code. Kamu bisa unduh secara gratis di sini: [situs VS Code](https://code.visualstudio.com)
 
 {{< figure src="https://ucarecdn.com/e6632e77-bce0-4277-901a-c9d60d7745d8/ScreenShot20221201at163627.png" title="screenshot VS CODE" >}}
 
-Silahkan download, install dan membuka aplikasi VS Code ini.
+Silahkan unduh, install dan membuka aplikasi VS Code ini.
 
 ## Membuat file HTML
 
@@ -67,6 +67,6 @@ Kamu sudah berhasil membuat file HTMl pertamamu. Mudah bukan? Coba ganti isinya 
 
 ## Selanjutnya
 
-File HTML bisa berisi text biasa seperti ini. Namun bisa jauh lebih asyik dari ini! seperti menambah gambar, link, video dan elemen lainnya!
+File HTML bisa berisi text biasa seperti di atas. Namun bisa jauh lebih asyik dari ini! seperti menambah gambar, link, video dan elemen lainnya!
 
 Kita akan pelajari seputar hal ini di bagian berikutnya.

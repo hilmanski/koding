@@ -8,14 +8,26 @@
     </style>
 
     <div class="flex mb-10">
-        <main class="w-full lg:w-6/12 lg:ml-[250px] -mt-2">
+        <main class="w-full lg:w-6/12 mx-auto -mt-2">
             <div class="text-center">
                 <h1 class="text-4xl text-rose-400 label-{{.Params.label}} "> {{.Title }} </h1>
 
                 {{ if .Params.snippet }}
-                <h2 class="italic text-md max-w-[350px] mx-auto"> {{ .Params.snippet }} </h2>
+                <h2 class="italic text-md max-w-sm mx-auto"> {{ .Params.snippet }} </h2>
                 {{ end }}
             </div>
+
+
+
+
+        <!-- <aside class="">
+            <p class="mb-2"> Daftar Konten </p>
+            
+            <div>
+            {{ .TableOfContents }}
+            </div>
+        </aside> -->
+
 
             <div class="content mt-10">
                 {{ .Content }}
@@ -49,16 +61,6 @@
             {{ end }}
             </ul>
         </sidebar>
-
-
-
-        <aside class="fixed right-5 max-w-3/12">
-            <p class="mb-2"> Daftar Konten </p>
-            
-            <div>
-            {{ .TableOfContents }}
-            </div>
-        </aside>
 
     </div>
 
