@@ -1,21 +1,26 @@
 {{ $type := .Get `class`}}
 {{ $title := "" }}
-{{ $color := "yellow" }}
+{{ $color := "border-yellow-200" }}
 
 {{ if eq $type "info" }}
     {{ $title = "😲 Info sampingan"}}
-    {{ $color = "sky" }}
+    {{ $color = "border-sky-200" }}
 {{ end }}
 
 {{ if eq $type "warning" }}
     {{ $title = "🧐 Penting!"}}
 {{ end }}
 
+{{ if eq $type "try" }}
+    {{ $title = "🤔 Coba deh"}}
+    {{ $color = "border-emerald-200" }}
+{{ end }}
+
  
 
 
 <div class="alert alert-{{ $type }} 
-        text-center bg-gray-800 my-5 p-4 text-md rounded-xl border border-{{$color}}-400">
+        text-center bg-gray-800 my-5 p-4 text-md rounded-xl border {{$color}}">
     <h3 class="text-lg"> {{ $title }} </h3>
     {{ .Inner }}
 </div>

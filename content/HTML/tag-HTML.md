@@ -1,9 +1,10 @@
 ---
-title: "Mengenal Tag HTML"
+title: "Apa itu tag HTML"
 snippet: "Apa itu tag HTML? belajar bagaimana cara pola penulisan elemen elemen di HTML."
-date: 2022-11-22T00:03:20-08:00
+date: 2022-12-01T00:03:20-08:00
 label: HTML
-order: 50
+order: 40
+chapter: Tag HTML
 ---
 
 Sebelumnya kita melihat pola penulisan HTML seperti ini:

@@ -1,9 +1,9 @@
 ---
 title: "Elemen HTML"
 snippet: "Apa itu elemen HTML? Belajar bagaimana cara penulisan bahasa HTML untuk membuat website."
-date: 2022-11-22T00:03:20-08:00
+date: 2022-12-01T00:03:20-08:00
 label: HTML
-order: 40
+order: 30
 ---
 
 Untuk mulai menulis kode HTML, ada cara yang perlu diikuti.
@@ -49,11 +49,4 @@ Kamu bisa mencoba sendiri:
 - Lihat hasil di browser
 
 Kamu juga bisa mencoba memainkan konten di bawah ini  
-{{<rawhtml>}}
-<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="LYrgBBG" data-editable="true" data-user="sekolahkoding" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/sekolahkoding/pen/LYrgBBG">
-  sample P and h1 tag</a> by Sekolah Koding (<a href="https://codepen.io/sekolahkoding">@sekolahkoding</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-{{</rawhtml>}}
+{{<codepen src="LYrgBBG">}}

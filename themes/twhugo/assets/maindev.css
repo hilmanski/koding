@@ -56,7 +56,6 @@ a {
 }
 
 
-
 .content h2{
  font-size: 1.5rem;
  margin-top: 30px;
@@ -68,8 +67,12 @@ a {
     content: '👉🏽 ';
 }
 
-.content p:not(:last-child), .content ul, .content figure{
+.content p:not(:last-child), .content ul, .content figure, .content iframe{
     margin-bottom: 20px;
+}
+
+.content iframe {
+    margin-top: 20px;
 }
 
 .content ul:not(:first-child) {

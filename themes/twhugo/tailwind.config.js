@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     './../../**/*.md',
-    "layouts/**/*.html"
+    'layouts/**/*.html'
   ],
   theme: {
     extend: {},

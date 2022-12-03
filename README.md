@@ -13,9 +13,11 @@ Koding. Referensi programming / koding berbahasa Indonesia
 - Donation link?
 - various "alert"
 
-# Author
+# Link
 
-[hilmanski](https://hilman.space)
+- Situs : [kodi.ng](https://kodi.ng)
+- Dokumentasi : [docs.kodi.ng](https://docs.kodi.ng)
+- Author: [hilmanski](https://hilman.space)  
 
 ## Content Plan
 
@@ -88,26 +90,9 @@ yarn dev
 - Main site: Hugo static site generator
 - CSS: tailwind
 - Code higlight https://highlightjs.org/
-- Plan, not yet -> Codesandbox: code playground (use SK github account)
-
-## Design Inspiration
-
-(Move this to docs)
-- https://beta.reactjs.org/
-- https://www.w3schools.com/
-- https://www.joshwcomeau.com/
+- Codepen, Codesandbox
 
 
 # Notes
 
-- Do not half ass on it. Be developer, editor, writer, and designer one thing at a time. No "just add this image" it musht think through
-
-- Add image / gif / picture / illustration
-  make sure no boring part even on one page (Write this on you doc u want to share)
-  event using AI is better.
-
-
-- Find how to lazy load image
-
-- Write everything in Notion
-  Log, reason why teaching HTML start without doctype, etc..
+- Do not half ass on it. Be developer, editor, writer, and designer. One at a time.

@@ -56,6 +56,9 @@
             <ul class="text-md ">
             {{ $pages := (where .Site.Pages "Section" .Section) }}
             {{ range sort $pages ".Params.order" "asc" }}
+                {{ if .Params.chapter}}
+                <p class="mt-5 mb-2 text-white font-semibold"> {{ .Params.chapter}}</p>
+                {{ end }}
                 <a class='block mb-2 text-slate-300' 
                     href="{{ .RelPermalink }}">{{ .Title }} </a></li>
             {{ end }}
@@ -68,5 +71,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/atom-one-dark.min.css">
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
+
+    {{ if in .Content "codepen" }}
+        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    {{ end }}
 
 {{ end }}
