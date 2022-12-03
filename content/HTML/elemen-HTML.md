@@ -4,6 +4,7 @@ snippet: "Apa itu elemen HTML? Belajar bagaimana cara penulisan bahasa HTML untu
 date: 2022-12-01T00:03:20-08:00
 label: HTML
 order: 30
+chapter: Elemen dan Tag HTML
 ---
 
 Untuk mulai menulis kode HTML, ada cara yang perlu diikuti.

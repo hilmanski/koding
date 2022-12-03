@@ -4,7 +4,6 @@ snippet: "Apa itu tag HTML? belajar bagaimana cara pola penulisan elemen elemen 
 date: 2022-12-01T00:03:20-08:00
 label: HTML
 order: 40
-chapter: Tag HTML
 ---
 
 Sebelumnya kita melihat pola penulisan HTML seperti ini:
