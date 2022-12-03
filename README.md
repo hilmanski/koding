@@ -18,13 +18,17 @@ Silahkan ke bagian [discussion di repository](https://github.com/hilmanski/kodin
 
 ## Dev (Run locally)
 
-Run server
+- Install [Hugo](https://gohugo.io/) if yo haven't
+
+- Clone repo
+
+- Run server
 
 ```
 hugo serve
 ```
 
-Watch tailwind
+- Watch tailwind
 
 ```
 yarn install //for first time
@@ -32,7 +36,7 @@ cd themes/twhugo
 yarn dev
 ```
 
-Create new file
+- Create new file
 ```
 hugo new HTML/nama.md
 ```
