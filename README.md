@@ -93,11 +93,6 @@ Change the order based on latest order
 - Codepen, Codesandbox
 
 
-# Notes
-
-- Do not half ass on it. Be developer, editor, writer, and designer. One at a time.
-
-
 ## Checklist before launch
 
 - Footer (sitemap, RSS, about me)
