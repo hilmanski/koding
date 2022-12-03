@@ -1,18 +1,12 @@
+
+
+
 # About
 
 Koding. Referensi programming / koding berbahasa Indonesia
 
 ## Bertanya atau beri masukan?  
-Silahkan ke bagian discussion di repository ini.
-
-## Checklist before launch
-
-- Footer (sitemap, RSS, about me)
-- Logo
-- Complete the HTML refrence
-- Upgrade design 100x better (use nice images)
-- Og Image vercel
-
+Silahkan ke bagian [discussion di repository](https://github.com/hilmanski/koding/discussions) ini.
 
 ## Link
 
@@ -32,6 +26,7 @@ hugo serve
 Watch tailwind
 
 ```
+yarn install //for first time
 cd themes/twhugo
 yarn dev
 ```
@@ -96,3 +91,12 @@ Change the order based on latest order
 # Notes
 
 - Do not half ass on it. Be developer, editor, writer, and designer. One at a time.
+
+
+## Checklist before launch
+
+- Footer (sitemap, RSS, about me)
+- Logo
+- Complete the HTML refrence
+- Upgrade design 100x better (use nice images)
+- Og Image vercel for each page

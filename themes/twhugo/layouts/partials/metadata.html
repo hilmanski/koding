@@ -1,6 +1,7 @@
 {{ $title := .Title }}
 {{ $desc := "" }}
 {{ $tags:= "" }}
+{{ $ogimage:= "https://ucarecdn.com/079be566-da50-4b04-89df-f476275df8cc/a_wood_desk_with_retro_computer_pc_monitor_keyboard_ful_41204824936944f0a7ade28c02a7069f.png"}}
 
 
 {{ if .Description }} 
@@ -19,3 +20,10 @@
 
 <title> {{ .Title }} </title>
 <meta name="description" content="{{$desc | truncate 140}}" property="og:description">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@hilmanski" />
+<meta name="twitter:creator" content="@hilmanski" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{$desc | truncate 140}}" />
+<meta property="og:image" content="{{ $ogimage | safeHTML }}" />
