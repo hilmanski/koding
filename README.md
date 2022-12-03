@@ -61,7 +61,7 @@ hugo new HTML/nama.md
 
 - Codepen
 ```
-{{<codepen>}}id-codepend{{</codepen>}}
+{{<codepen src="id-codepen"}}
 ```
 
 - Codesandbox shotcode
