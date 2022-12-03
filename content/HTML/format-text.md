@@ -58,6 +58,9 @@ Tulisan kecil bisa dibuat dengan small tag
 <small> Saya tulisan kecil </small>
 ```
 
+Contoh penggunaan:   
+`Saya besar, kalau {{<rawhtml>}}<small>saya kecil</small>{{</rawhtml>}}`
+
 ## Cara membuat tulisan di tengah bawah
 Membuat posisi tulisan di tengah bawah bisa dengan `<sub>`, yang diambbil dari kata subscript
 

@@ -69,13 +69,13 @@ Kamu sudah berhasil membuat file HTML pertamamu. Mudah bukan? Coba ganti isinya 
 Di beberapa bagian kamu juga akan melihat tampilan seperti ini
 {{<codepen src="LYrgBBG">}}
 
-Ini adalah tempat kamu bermain (playground), di mana kamu bisa mengubah tulisan di sebelah kiri, sebelum melihat hasilnya di sebelah kanan beberapa detik kemudian. 
+Ini adalah tempat kamu bermain (playground), di mana kamu bisa mengubah tulisan di sebelah kiri *(jika membuka dengan ukuran handphone perlu klik tabnya)*, sebelum melihat hasilnya di sebelah kanan beberapa detik kemudian. 
 
 {{<alert class="try">}}
 <p> Ganti tulisan di atas dan tunggu beberapa detik</p>
 {{</alert>}}
 
-Semua tulisan yang disebelah kiri boleh kamu salin ke text-editormu jika ingin mencobanya sendiri.
+Kodenya bisa kamu salin ke text-editormu jika ingin mencoba sendiri.
 
 
 ## Selanjutnya
