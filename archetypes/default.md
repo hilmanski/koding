@@ -1,6 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+snippet: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+label: HTML
+order: 10
 ---
 

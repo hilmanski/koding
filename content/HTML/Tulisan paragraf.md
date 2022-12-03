@@ -39,3 +39,12 @@ Lihat bedanya? Website kita jadi tahu, bahwa setiap tulisan yang dibungkus denga
 
 <p> Tambahkan kode di atas dengan paragraf yang baru kamu buat dan lihat hasilnya.</p>
 {{</alert>}}
+
+## Tampilan dasar tag p
+Secara otomatis (default), tag p ditampilkan dengan: 
+- Lebar 100%, artinya konten setelah p akan berada di bagian berikutnya.
+- Warna hitam dengan ukurang font normal
+
+{{<alert class="info">}}
+Tenang saja, kamu bisa mengganti semua tampilan otomatis <br> dengan bantuan "CSS" nanti
+{{</alert>}}

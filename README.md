@@ -2,6 +2,8 @@
 
 Koding. Referensi programming / koding berbahasa Indonesia
 
+## Bertanya atau beri masukan?  
+Silahkan ke bagian discussion di repository ini.
 
 ## Checklist before launch
 
@@ -44,6 +46,12 @@ cd themes/twhugo
 yarn dev
 ```
 
+Create new file
+```
+hugo new HTML/nama.md
+```
+Change the order based on latest order
+
 ## Guide shortcode
 
 - Write alert (info box)
@@ -62,6 +70,8 @@ yarn dev
 {{<codesandbox>}}koding-html-intro-1s28xs{{</codesandbox>}}
 ```
 
+- Codepen
+{{<codepen>}}koding-html-intro-1s28xs{{</codepen>}}
 
 - Figure / Image / GIf
 {{< mediacontent src="https://ucarecdn.com/96aa94cb-3025-4425-b4dc-88dd9de47184/Xnapper20221201165355.png" title="screenshot new file di VSCode" >}}
