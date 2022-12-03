@@ -72,8 +72,10 @@ Di beberapa bagian kamu juga akan melihat tampilan seperti ini
 Ini adalah tempat kamu bermain (playground), di mana kamu bisa mengubah tulisan di sebelah kiri, sebelum melihat hasilnya di sebelah kanan beberapa detik kemudian. 
 
 {{<alert class="try">}}
-<p> Ganti tulisan "Judul mantap" di atas dan tunggu beberapa detik</p>
+<p> Ganti tulisan di atas dan tunggu beberapa detik</p>
 {{</alert>}}
+
+Semua tulisan yang disebelah kiri boleh kamu salin ke text-editormu jika ingin mencobanya sendiri.
 
 
 ## Selanjutnya

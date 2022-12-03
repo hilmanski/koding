@@ -76,4 +76,13 @@
         <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
     {{ end }}
 
+    <script>
+        const _article = document.getElementsByClassName('content')[0]
+        
+        const _links = _article.getElementsByTagName('a')
+        for (var i = 0; i<_links.length; i++) {
+          _links[i].setAttribute('target', '_blank')
+        }
+      </script>
+
 {{ end }}

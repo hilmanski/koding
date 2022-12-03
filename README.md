@@ -7,18 +7,18 @@ Silahkan ke bagian discussion di repository ini.
 
 ## Checklist before launch
 
-- footer (sitemap, RSS, about me)
+- Footer (sitemap, RSS, about me)
 - Logo
 - Complete the HTML refrence
 - Upgrade design 100x better (use nice images)
-- Clear separate documentation (repo) - ideally editable too (open) - or at Notion (SI)
-- Donation link?
-- various "alert"
+- Og Image vercel
+
 
 ## Link
 
 - Situs : [kodi.ng](https://kodi.ng)
 - Dokumentasi : [docs.kodi.ng](https://docs.kodi.ng)
+- Ask / Comment / Feedback: [Discussion](https://github.com/hilmanski/koding/discussions)
 - Author: [hilmanski](https://hilman.space)  
 
 ## Dev (Run locally)
