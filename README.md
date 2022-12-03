@@ -46,6 +46,10 @@ hugo new HTML/nama.md
 - update the "order", based on latest order. Increase it by 10
 - if new chapter -> add key "chapter" in frontmatter
 
+## Content
+- separate what-is "topic" pages
+- separate Apa-itu-ABC-tag-HTML pages
+
 ## Guide shortcode
 
 - Write alert (info box)

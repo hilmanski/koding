@@ -1,5 +1,5 @@
 ---
-title: "HTML Tag P - paragraf"
+title: "Menampilkan paragraf HTML"
 snippet: "Apa itu tag P di HTML? belajar bagaimana cara membuat tulisan paragraf di HTML."
 date: 2022-12-02T00:03:20-08:00
 label: HTML
