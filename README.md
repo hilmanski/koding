@@ -36,11 +36,15 @@ cd themes/twhugo
 yarn dev
 ```
 
-- Create new file
+##  Create new file
+
+Run command
 ```
 hugo new HTML/nama.md
 ```
-Change the order based on latest order
+- change HTML to whatever folder/language you're working on
+- update the "order", based on latest order. Increase it by 10
+- if new chapter -> add key "chapter" in frontmatter
 
 ## Guide shortcode
 
@@ -52,16 +56,19 @@ Change the order based on latest order
 <p> HTML itu singkatan dari <span class='italic'>hypertext markup language</span>.</p>
 {{</alert>}}
 ```
+// variasi class= info / warning / try
 
+
+- Codepen
+```
+{{<codepen>}}id-codepend{{</codepen>}}
+```
 
 - Codesandbox shotcode
   Info: it's not working for "static HTML". search for alternative
 ```
 {{<codesandbox>}}koding-html-intro-1s28xs{{</codesandbox>}}
 ```
-
-- Codepen
-{{<codepen>}}koding-html-intro-1s28xs{{</codepen>}}
 
 - Figure / Image / GIf
 {{< mediacontent src="https://ucarecdn.com/96aa94cb-3025-4425-b4dc-88dd9de47184/Xnapper20221201165355.png" title="screenshot new file di VSCode" >}}
