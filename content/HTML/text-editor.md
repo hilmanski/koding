@@ -65,6 +65,17 @@ Kamu akan melihat ini
 
 Kamu sudah berhasil membuat file HTML pertamamu. Mudah bukan? Coba ganti isinya dengan tulisan lain yang kamu inginkan.
 
+## Code Playground di kodi.ng
+Di beberapa bagian kamu juga akan melihat tampilan seperti ini
+{{<codepen src="LYrgBBG">}}
+
+Ini adalah tempat kamu bermain (playground), di mana kamu bisa mengubah tulisan di sebelah kiri, sebelum melihat hasilnya di sebelah kanan beberapa detik kemudian. 
+
+{{<alert class="try">}}
+<p> Ganti tulisan "Judul mantap" di atas dan tunggu beberapa detik</p>
+{{</alert>}}
+
+
 ## Selanjutnya
 
 File HTML bisa berisi text biasa seperti di atas. Namun bisa jauh lebih asyik dari ini! seperti menambah gambar, link, video dan elemen lainnya!

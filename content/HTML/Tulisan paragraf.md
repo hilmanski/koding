@@ -24,7 +24,7 @@ Di HTML, kita juga menampilkan tulisan tanpa tag `<p>` . Lalu apa bedanya.
 Meskipun kita punya dua baris tulisan yang berbeda, HTML akan menampilkan tulisan secara berderet tanpa peduli ada jarak antara mereka. 
 
 {{<alert class="try">}}
-<p> Beri jarak yang jauh di kode ada antara tulisan dengan klik di bagian yang ingin kamu pisah dan ketik (enter/return), lihat apakah ada perbedaanya..</p>
+<p> Beri jarak yang jauh di kode atas antara tulisannya, dengan klik di bagian yang ingin kamu pisah dan ketik (enter/return), lihat apakah ada perbedaanya..</p>
 {{</alert>}}
 
 Jawaba: Tidak ada perbedaan.
