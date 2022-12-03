@@ -15,23 +15,13 @@ Silahkan ke bagian discussion di repository ini.
 - Donation link?
 - various "alert"
 
-# Link
+## Link
 
 - Situs : [kodi.ng](https://kodi.ng)
 - Dokumentasi : [docs.kodi.ng](https://docs.kodi.ng)
 - Author: [hilmanski](https://hilman.space)  
 
-## Content Plan
-
-- webtech (HTML, CSS, Javascript, ...)
-- apa-itu (website, mobile, SEO, etc..)
-
-## Writing Guide
-
-- Clear. short. Always edit.
-- No boring part. Always add image / code / gif/ anything outside written text
-
-## Dev
+## Dev (Run locally)
 
 Run server
 

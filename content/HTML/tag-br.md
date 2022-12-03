@@ -23,3 +23,14 @@ Contoh penggunaan tag br
 - Di atas kita punya tag `<p>` yang harusnya menampilkan satu baris
 - Sekarang ada jarak karena tambahan tag `<br>`
 - Kamu bisa menggunakan tag `<br>` di mana saja, tidak harus di tag `<p>`
+
+## `<br>` Bisa digunakan berkali-kali 
+tag br Bisa kamu gunakan berkali-kali untuk memberi jarak yang lebih jauh antar tulisan.
+
+
+{{<alert class="try">}}
+<p> Tambahkan tag br dibawah dengan copy paste dan lihat hasilnya.</p>
+{{</alert>}}
+
+
+{{<codepen src="jOKQWOQ">}}
