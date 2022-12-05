@@ -1,5 +1,6 @@
 ---
-title: "Menampilkan daftar di HTML"
+title: "Menampilkan daftar HTML"
+slug: "menampilkan-daftar-HTML"
 snippet: "Daftar atau list bisa kita tampilkan di HTML dengan tiga cara berbeda, menggunakan tag ul, ol atau dt"
 date: 2022-12-05T17:39:48+08:00
 label: HTML

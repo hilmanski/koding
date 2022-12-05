@@ -1,5 +1,6 @@
 ---
 title: "Memberi jarak HTML"
+slug: "memberi-jarak-HTML"
 snippet: "Tag br pada HTML berguna sebagai pemberi jarak antar satu tulisan ke tulisan line. Nama br diambil dari kata break atau line break."
 date: 2022-12-03T08:47:07+08:00
 label: HTML

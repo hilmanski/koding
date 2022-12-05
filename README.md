@@ -1,3 +1,6 @@
+# Bug
+slug shouldn't be the name file
+
 # Status
 
 Masih dalam tahap pengembangan. *Sangat* baru dimulai. Dibuka untuk mendapatkan feedback awal. Tidak pelu membuat PR terkait menambah konten untuk saat ini (sampai pengumuman berikutnya).
@@ -81,6 +84,7 @@ hugo new HTML/nama.md
 
 - Footer (sitemap, RSS, about me)
 - Logo
+- favicon
 - Complete the HTML refrence
 - Upgrade design 100x better (use nice images)
 - Make hompage background alive (nice homepage)
@@ -89,6 +93,15 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 - work on metadata (og metadata.html)
 - about page with disqus-comments
 - clean highlight
+
+(After)   
+- share on sekolahkoding
+- share on pulodev  
+- share on linkedIn
+- share on facebook
+- share on twitter
+- share on instagram
+- share on tiktok
 
 
 ## Next plan

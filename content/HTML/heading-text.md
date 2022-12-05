@@ -1,5 +1,6 @@
 ---
 title: "Menampilkan judul HTML"
+slug: "menampilkan-judul-HTML"
 snippet: "Apa itu tag Heading di HTML dan bagaimana cara menggunakannya. Heading umumnya digunakan sebagai judul dan subjudul"
 date: 2022-12-03T15:02:01+08:00
 label: HTML

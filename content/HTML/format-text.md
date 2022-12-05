@@ -1,5 +1,6 @@
 ---
 title: "Format Text HTML"
+slug: "format-text-HTML"
 snippet: "Mengubah format tulisan di HTML dari tulisan biasa menjadi punya berbagai gaya. Seperti tebal, miring, garis bawah, menjadi kecil dan lainnya"
 date: 2022-12-03T10:06:55+08:00
 label: HTML

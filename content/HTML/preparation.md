@@ -1,5 +1,6 @@
 ---
 title: "Persiapan membuat website"
+slug: "persiapan-membuat-website"
 snippet: "Apa itu text editor? Persiapan apa saja yang dibutuhkan untuk menulis kode HTML dalam pembuatan website?"
 date: 2022-12-01T00:03:20-08:00
 label: HTML

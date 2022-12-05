@@ -1,5 +1,6 @@
 ---
 title: "Apa itu HTML"
+slug: "apa-itu-HTML"
 snippet: "HTML adalah kerangka dasar untuk mulai membuat website. Pelajari lebih lanjut apa itu HTML"
 date: 2022-11-20T09:03:20-08:00
 label: HTML

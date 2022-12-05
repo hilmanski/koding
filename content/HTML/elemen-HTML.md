@@ -1,5 +1,6 @@
 ---
 title: "Elemen HTML"
+slug: "elemen-HTML"
 snippet: "Apa itu elemen HTML? Belajar bagaimana cara penulisan bahasa HTML untuk membuat website."
 date: 2022-12-01T00:03:20-08:00
 label: HTML

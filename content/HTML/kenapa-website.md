@@ -1,5 +1,6 @@
 ---
 title: "Kenapa membuat website"
+slug: "kenapa-membuat-website"
 snippet: "Alasan kenapa penting dan menarik untuk kamu belajar membuat website? apa keunggulan dibanding aplikasi mobile?"
 date: 2022-11-22T00:00:20-08:00
 label: HTML

@@ -1,5 +1,6 @@
 ---
 title: "Apa itu tag HTML"
+slug: "apa-itu-tag-HTML"
 snippet: "Apa itu tag HTML? belajar bagaimana cara pola penulisan elemen elemen di HTML."
 date: 2022-12-01T00:03:20-08:00
 label: HTML
