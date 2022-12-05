@@ -18,10 +18,8 @@ Silahkan ke bagian [discussion di repository](https://github.com/hilmanski/kodin
 
 ## Dev (Run locally)
 
-- Install [Hugo](https://gohugo.io/) if yo haven't
-
+- Install [Hugo](https://gohugo.io/)
 - Clone repo
-
 - Run server
 
 ```
@@ -79,22 +77,25 @@ hugo new HTML/nama.md
 
 
 
-## Plan
+## Before first trelease
 
+- Footer (sitemap, RSS, about me)
+- Logo
+- Complete the HTML refrence
+- Upgrade design 100x better (use nice images)
+- Make hompage background alive (nice homepage)
+example: https://twitter.com/meezwhite/status/1599450806217867265
 - social image (OG graph autoamte by vercel)
 - work on metadata (og metadata.html)
-- Subchapter
+- about page with disqus-comments
 - clean highlight
-- easy direct link to edit on Github
-- comment (utterance.us)
-- Bikin tombol "edit on github"
+
+
+## Next plan
+- add CSS
+- add JS
+- comment (utterance.us) ? needed
 - Write Live editor ?
-
-## Next
-
-- create HTML content
-- next/prev
-- whole sidebar menu (toggle / collapsable)
 
 ## Tech stack
 
@@ -103,11 +104,3 @@ hugo new HTML/nama.md
 - Code higlight https://highlightjs.org/
 - Codepen, Codesandbox
 
-
-## Checklist before launch
-
-- Footer (sitemap, RSS, about me)
-- Logo
-- Complete the HTML refrence
-- Upgrade design 100x better (use nice images)
-- Og Image vercel for each page
