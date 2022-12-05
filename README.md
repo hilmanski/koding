@@ -61,7 +61,7 @@ hugo new HTML/nama.md
 <p> HTML itu singkatan dari <span class='italic'>hypertext markup language</span>.</p>
 {{</alert>}}
 ```
-// variasi class= info / warning / try
+// variasi class= info / warning / try / comment
 
 
 - Codepen
