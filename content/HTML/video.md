@@ -39,13 +39,52 @@ Contoh hasil
 - Tipe video ada pada atribut type di tag `<source>`
 - Sebagai pengaman, saat browser tidak mendukung video atau tipenya, kita menuliskan di baris akhir *(Your browser does not support the video tag.)*
 
-## Informasi lain mengenai tag video
+## Atribut controls di tag video
 Atribut `controls` digunakan untuk menampikan video player, yang bisa digunakan untuk memutar dan memberhentikan video di HTML.
 
-Kita bisa memasukkan satu `<source>` atau lebih dari satu sebagai cadangan ketika file sebelumnya tidak didukung. 
+Secara otomatis, kamu melihat tombol play/pause, waktu lama video, kontrol volume, download, full screen dan playback speed
 
-Kita bisa mengatur ukuran video player dengan mengganti nilai tag `width` atau `height`.
+## Source boleh lebih dari satu
+Kita bisa memasukkan satu `<source>` saja atau lebih sebagai cadangan ketika file sebelumnya tidak didukung. 
 
+Contoh hanya memasukkan satu sumber
+```
+<video width="400" height="600" controls>
+  <source src="movie.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+```
+
+Contoh memasukkan banyak sumber
+```
+<video width="400" height="600" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+```
+Saat format `mp4` tidak didukung, maka browser akan melihat format `ogg`.
+
+## Mengatur ukuran video
+Kita bisa mengatur ukuran video player dengan mengganti nilai tag `width` untuk lebar dan `height` untuk gambar.
+
+## Format yang didukung
 Untuk melihat browser apa yang mendukung tipe jenis apa. Cek di situs [caniuse video](https://caniuse.com/?search=video)
 
+## Mengambil video dari lokasi relatif
+Selain dengan link langsung dari video tersebut, jika kita mempunyai video di folder yang sama di mana HTML kita berada, kita bisa menampilkannya berdasarkan lokasi tersebut. 
+
+Contoh stuktur folder kamu seperti ini:
+```
+|_ index.html
+|_ assets/
+    |_ video.mp4
+```
+Di mana kamu punya video yang diletakkan di dalam folder `assets` yang berada di lokasi sama dengan file `index.html` . Maka cara mengambilnya 
+```
+<video width="400" height="600" controls>
+  <source src="/assets/video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+```
 

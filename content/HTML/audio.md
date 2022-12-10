@@ -16,7 +16,7 @@ Contoh penggunaaan tag audio
 ```
 <audio controls>
   <source src="suara.ogg" type="audio/ogg">
-  <source src="suara.mp3" type="audio/mpeg">
+  <source src="suara.mp3" type="audio/mp3">
   Your browser does not support the audio tag.
 </audio>
 ```
@@ -25,7 +25,7 @@ Contoh hasil
 
 {{<rawhtml>}}
 <audio controls>
-  <source src="https://ucarecdn.com/385ea418-2e8c-4edf-9e86-fa424f178b25/suarahalo.mp3" type="audio/mpeg">
+  <source src="https://ucarecdn.com/385ea418-2e8c-4edf-9e86-fa424f178b25/suarahalo.mp3" type="audio/mp3">
   Your browser does not support the audio tag.
 </audio>
 {{</rawhtml>}}
@@ -38,9 +38,31 @@ Contoh hasil
 - Tipe audio ada pada atribut type di tag `<source>`
 - Sebagai pengaman, saat browser tidak mendukung audio atau tipenya, kita menuliskan di baris akhir *(Your browser does not support the audio tag.)*
 
-## Informasi lain mengenai tag audio
+## Atirbut controls tag audio
 Atribut `controls` digunakan untuk menampikan audio player, yang bisa digunakan untuk memutar dan memberhentikan suara di HTML.
 
-Kita bisa memasukkan satu `<source>` atau lebih dari satu sebagai cadangan ketika file sebelumnya tidak didukung. 
+Secara otomatis, kamu melihat tombol play/pause, waktu lama audio, kontrol volume, download dan playback speed
 
+## Lebih dari satu sumber
+Kita bisa memasukkan satu `<source>` saja atau lebih sebagai cadangan ketika file sebelumnya tidak didukung. 
+
+## Format audio apa yang didukung browser
 Untuk melihat browser apa yang mendukung tipe jenis apa. Cek di situs [caniuse audio](https://caniuse.com/?search=audio)
+
+## Mengambil audio dari lokasi relatif
+Selain dengan link langsung dari audio tersebut, jika kita mempunyai audio di folder yang sama di mana HTML kita berada, kita bisa menampilkannya berdasarkan lokasi tersebut. 
+
+Contoh stuktur folder kamu seperti ini:
+```
+|_ index.html
+|_ assets/
+    |_ audio.mp3
+```
+Di mana kamu punya audio yang diletakkan di dalam folder `assets` yang berada di lokasi sama dengan file `index.html` . Maka cara mengambilnya 
+```
+<audio controls>
+  <source src="/assets/audio.mp3" type="audio/mp3">
+  Your browser does not support the audio tag.
+</audio>
+```
+
