@@ -4,7 +4,7 @@ slug: "menampilkan-gambar-HTML"
 snippet: "Gunakan tag img untuk menampikan gambar di situs yang kamu buat dengan kode HTML"
 date: 2022-12-03T16:10:10+08:00
 label: HTML
-order: 100
+order: 210
 ---
 
 Bosan dong kalau tulisan terus isi websitenya. Sekarang kita lihat cara memasukkan gambar di situs kamu dengan HTML.

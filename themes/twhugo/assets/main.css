@@ -640,6 +640,10 @@ video {
   margin-top: -1.25rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mt-auto {
   margin-top: auto;
 }
@@ -686,10 +690,6 @@ video {
 
 .ml-3 {
   margin-left: 0.75rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
 }
 
 .block {

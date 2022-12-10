@@ -4,7 +4,7 @@ slug: "menampilkan-daftar-HTML"
 snippet: "Daftar atau list bisa kita tampilkan di HTML dengan tiga cara berbeda, menggunakan tag ul, ol atau dt"
 date: 2022-12-05T17:39:48+08:00
 label: HTML
-order: 110
+order: 100
 ---
 
 Membuat daftar makanan, daftar tugas, daftar belanja dan daftar lainnya, akan sulit jika terlihat seperti tulisan lainnya. Untung saja HTML punya cara untuk menampilkan sebuah daftar dengan menarik. Sehingga bisa terlihat seperti ini:

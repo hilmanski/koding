@@ -1,6 +1,3 @@
-# Bug
-slug shouldn't be the name file
-
 # Status
 
 Masih dalam tahap pengembangan. *Sangat* baru dimulai. Dibuka untuk mendapatkan feedback awal. Tidak pelu membuat PR terkait menambah konten untuk saat ini (sampai pengumuman berikutnya).

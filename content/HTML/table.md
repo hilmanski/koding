@@ -4,7 +4,7 @@ slug: "membuat-tabel-di-HTML"
 snippet: "Saat menampilkan data yang terstruktur biasanya kita menggunakan sebuah table yang terbagi ke baris dan kolom. Lihat caranya di HTML"
 date: 2022-12-05T18:58:11+08:00
 label: HTML
-order: 120
+order: 110
 ---
 
 Saat menampilkan data yang terstruktur biasanya kita menggunakan sebuah tabel yang terbagi ke baris dan kolom. Seperti berikut
