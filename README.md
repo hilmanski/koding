@@ -1,3 +1,8 @@
+## Next
+Sidebar styling: bigger chapter name
+  horizontal line and hover effect on list sidebar
+multimedia: iframe, SVG? 
+
 # Status
 
 Masih dalam tahap pengembangan. *Sangat* baru dimulai. Dibuka untuk mendapatkan feedback awal. Tidak pelu membuat PR terkait menambah konten untuk saat ini (sampai pengumuman berikutnya).

@@ -5,6 +5,7 @@ snippet: "HTML adalah kerangka dasar untuk mulai membuat website. Pelajari lebih
 date: 2022-11-20T09:03:20-08:00
 label: HTML
 order: 0
+chapter: "Perkenalan"
 ---
 
 Dalam pembuatan website, ada beberapa teknologi yang diperlukan.  

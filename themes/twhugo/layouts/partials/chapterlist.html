@@ -1,0 +1,24 @@
+<sidebar class="fixed hidden lg:block overflow-y-auto">
+    <p class="mb-5">Referensi {{.Params.label}}</p>
+
+    <div class="text-md">
+    {{ $pages := (where .Site.Pages "Section" .Section) }}
+
+    {{ range sort $pages ".Params.order" "asc" }}
+        {{ if .Params.chapter}}
+            </ul>
+            <p class="mt-6 mb-3 text-white font-semibold"> {{ .Params.chapter}}</p>
+            <ul class="border-l border-gray-500">
+        {{ end }}
+
+        <li class="mb-3">
+        <a class="block mb-2 -ml-[1px] text-slate-300 
+                border-l border-gray-500 pl-3 
+                hover:border-slate-400 hover:text-slate-200 
+                "
+            href="{{ .RelPermalink }}">{{ .Title }} </a>
+        </li>
+    {{ end }}
+    </div>
+
+</sidebar>

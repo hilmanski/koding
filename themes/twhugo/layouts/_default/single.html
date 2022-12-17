@@ -18,8 +18,6 @@
             </div>
 
 
-
-
         <!-- <aside class="">
             <p class="mb-2"> Daftar Konten </p>
             
@@ -55,20 +53,7 @@
             
         </main>
 
-        <sidebar class="fixed hidden lg:block">
-            <p class="mb-5">Referensi {{.Params.label}}</p>
-
-            <ul class="text-md ">
-            {{ $pages := (where .Site.Pages "Section" .Section) }}
-            {{ range sort $pages ".Params.order" "asc" }}
-                {{ if .Params.chapter}}
-                <p class="mt-5 mb-2 text-white font-semibold"> {{ .Params.chapter}}</p>
-                {{ end }}
-                <a class='block mb-2 text-slate-300' 
-                    href="{{ .RelPermalink }}">{{ .Title }} </a></li>
-            {{ end }}
-            </ul>
-        </sidebar>
+        {{ partial "chapterlist" . }}
 
     </div>
 
