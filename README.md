@@ -1,8 +1,3 @@
-## Next
-Sidebar styling: bigger chapter name
-  horizontal line and hover effect on list sidebar
-multimedia: iframe, SVG? 
-
 # Status
 
 Masih dalam tahap pengembangan. *Sangat* baru dimulai. Dibuka untuk mendapatkan feedback awal. Tidak pelu membuat PR terkait menambah konten untuk saat ini (sampai pengumuman berikutnya).
@@ -52,6 +47,7 @@ hugo new HTML/nama.md
 ## Content
 - separate what-is "topic" pages
 - separate Apa-itu-ABC-tag-HTML pages
+contoh (apa itu atribute HTML, apa itu tag HTML, dst..)
 
 ## Guide shortcode
 
@@ -82,7 +78,7 @@ hugo new HTML/nama.md
 
 
 
-## Before first trelease
+## Before first release
 
 - Footer (sitemap, RSS, about me)
 - Logo
@@ -105,6 +101,20 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 - share on instagram
 - share on tiktok
 
+## Next 
+content Form:
+- add select-option
+- add checkbox
+- add radio
+- add datetime
+- add range
+- add search
+- add url
+- add hidden
+- add image
+- add color
+- add file
+- add button/submit
 
 ## Next plan
 - add CSS
