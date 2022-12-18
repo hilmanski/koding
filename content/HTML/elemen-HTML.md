@@ -46,7 +46,7 @@ Perhatikan polanya
 
 
 Kamu bisa mencoba sendiri: 
-- Buka [text-editor](https://kodi.ng/html/text-editor/) mu, 
+- Buka [text-editor](https://kodi.ng/html/persiapan-membuat-website/) mu, 
 - Tulis atau salin elemen yang kamu lihat di atas. 
 - Lihat hasil di browser
 
