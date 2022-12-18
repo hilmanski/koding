@@ -10,7 +10,7 @@ order: 325
 Tidak jarang, pengguna situs kita perlu memasukkan sebuah password. Sebagai bagian dari keamanan, kita perlu menyembunyikan text passwordnya dengan tag input type `password`.
 
 Contoh input password
-```
+```html
 <input type='password'>
 ```
 
@@ -24,7 +24,7 @@ Coba klik kotaknya  👆🏼 dan ketik sesuatu. Kamu akan lihat karakternya beru
 ## Nilai contoh dengan atribut placeholder
 Kita bisa memberi petunjuk atau contoh dari isian passwordnya, dengan atribut `placeholder`
 
-```
+```html
 <input type='password' placeholder='masukkan password di sini'>
 ```
 
@@ -36,7 +36,7 @@ Yang menghasilkan
 ## Nilai default dengan atribut value
 Kita bisa memberi nilai otomatis dari isian passwordnya, dengan atribut `value`
 
-```
+```html
 <input type='password' value='otomatis!'>
 ```
 
@@ -48,7 +48,7 @@ Yang menghasilkan
 ## Mengatur panjang input password
 Panjang dari input bisa disesuaikan dari berapa karakter yang ingin dimasukkan dengan menggunakan atribut `size`. Sebagai contoh saya ingin memberi ukuran `5` karater.
 
-```
+```html
 <input type='password' size='5'>
 ```
 
@@ -62,7 +62,7 @@ Yang menghasilkan
 ## Memberi batas maksimal input password
 Jika dengan atribut `size` mengatur tampilan kotaknya, kali ini kita bisa membatasi berapa maksimal karakter yang dimasukkan dengan atribut `maxlength`.
 
-```
+```html
 <input type='password' maxlength='5'>
 ```
 
@@ -76,7 +76,7 @@ Yang menghasilkan
 ## Memberi batas minimal input password
 Jika dengan atribut `size` mengatur tampilan kotaknya, kali ini kita bisa membatasi berapa minimal karakter yang dimasukkan dengan atribut `minlength`.
 
-```
+```html
 <input type='password' minlength='3'>
 ```
 

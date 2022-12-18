@@ -19,7 +19,7 @@ Contoh hasil dari iframe halaman lain
 {{</rawhtml>}}
 
 Yang dibuat dengan kode berikut
-```
+```html
 <iframe src="https://tailwindcss.com" 
         title="situs tailwindCSS"
         width="100%" height="300">
@@ -37,7 +37,7 @@ Yang dibuat dengan kode berikut
 Atribut `width` dan `height` bisa dimainkan untuk mengubah ukurannya.   
 Contoh lebar iframe 600px dan tinggi iframe 250px bisa dibuat dengan kode ini.
 
-```
+```html
 <iframe src="https://tailwindcss.com" 
         title="situs tailwindCSS"
         width="600" height="250">
@@ -53,7 +53,7 @@ Butuh waktu dan sumber daya untuk menampilkan sebuah situs dengan iframe. Karena
 
 Sudah ada cara praktis untuk melakukan ini, yaitu dengan atribut `loading='lazy'`
 
-```
+```html
 <iframe src="https://tailwindcss.com" 
         title="situs tailwindCSS"
         width="600" height="250"

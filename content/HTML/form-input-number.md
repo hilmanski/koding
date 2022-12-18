@@ -10,7 +10,7 @@ order: 330
 Selain text biasa, sebuah formulir juga biasa berisi data yang isiannya berupa angka. Contoh seperti mengisi umur, mengisi nilai ujian dan lainnya. Gunakan type `number` pada tag input.
 
 Contoh input angka (number)
-```
+```html
 <input type='number'>
 ```
 
@@ -30,7 +30,7 @@ Tampilan input-an angka, ada tombol panah di sebelah kanan saat kamu memposisika
 ## Nilai contoh dengan atribut placeholder
 Kita bisa memberi petunjuk atau contoh dari isian numbernya, dengan atribut `placeholder`
 
-```
+```html
 <input type='number' placeholder='umur kamu'>
 ```
 
@@ -42,7 +42,7 @@ Yang menghasilkan
 ## Nilai default dengan atribut value
 Kita bisa memberi nilai otomatis dari isian numbernya, dengan atribut `value`. Pastikan value berisi angka
 
-```
+```html
 <input type='number' value='100'>
 ```
 
@@ -55,7 +55,7 @@ Yang menghasilkan
 Kita bisa membatasi input yang dimasukkan oleh user dengan bantuan atribut `min` dan atribut `max`. Boleh hanya salah satu atau keduanya.
 
 Contoh di bawah, kita buat input angka dengan minimal 10 dan maksimal 100
-```
+```html
 <input type='number' min='10' max='100'>
 ```
 
@@ -84,7 +84,7 @@ Contoh tombol 1 langkah (tekan panah di kotaknya)
 
 Kita bisa menaikkan dan mengurangi sesuai jumlah yang kita mau dengan memasukkan atribut `step`.
 
-```
+```html
 <input type='number' value='5' step='5'>
 ```
 

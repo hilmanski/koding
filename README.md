@@ -22,14 +22,14 @@ Silahkan ke bagian [discussion di repository](https://github.com/hilmanski/kodin
 - Clone repo
 - Run server
 
-```
+```bash
 hugo serve
 ```
 
 - Watch tailwind
 
-```
-yarn install //for first time
+```bash
+yarn install # for first time
 cd themes/twhugo
 yarn dev
 ```
@@ -37,7 +37,7 @@ yarn dev
 ##  Create new file
 
 Run command
-```
+```bash
 hugo new HTML/nama.md
 ```
 - change HTML to whatever folder/language you're working on
@@ -53,7 +53,7 @@ contoh (apa itu atribute HTML, apa itu tag HTML, dst..)
 
 - Write alert (info box)
 
-```
+```html
 {{<alert class="info">}}
 
 <p> HTML itu singkatan dari <span class='italic'>hypertext markup language</span>.</p>
@@ -63,13 +63,13 @@ contoh (apa itu atribute HTML, apa itu tag HTML, dst..)
 
 
 - Codepen
-```
+```html
 {{<codepen src="id-codepen"}}
 ```
 
 - Codesandbox shotcode
   Info: it's not working for "static HTML". search for alternative
-```
+```html
 {{<codesandbox>}}koding-html-intro-1s28xs{{</codesandbox>}}
 ```
 

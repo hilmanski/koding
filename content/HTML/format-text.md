@@ -16,7 +16,7 @@ Ada dua cara untuk mengubah tulisan menjadi tebal, tag `<b>` dan tag `<strong>`.
 - `<strong>` dibaca strong tag
 
 Text yang ingin dibuat tebal diletakkan diantara tag ini.
-```
+```html
 <b>Aku tulisan tebal</b>
 bisa juga
 <strong>Aku tulisan tebal</strong>
@@ -38,7 +38,7 @@ Ada dua cara untuk mengubah tulisan menjadi miring, tag `<i>` dan tag `<em>`.
 
 
 Text yang ingin dibuat miring diletakkan diantara tag ini.
-```
+```html
 <i>Aku tulisan miring</i>
 bisa juga
 <em>Aku tulisan miring</em>
@@ -55,7 +55,7 @@ Secara visual mereka sama. Perbedaannya hanya secara [semantik](https://id.wikip
 ## Cara membuat tulisan kecil
 
 Tulisan kecil bisa dibuat dengan small tag
-```
+```html
 <small> Saya tulisan kecil </small>
 ```
 
@@ -65,7 +65,7 @@ Contoh penggunaan:
 ## Cara membuat tulisan di tengah bawah
 Membuat posisi tulisan di tengah bawah bisa dengan `<sub>`, yang diambbil dari kata subscript
 
-```
+```html
 <p>Text ini berisi <sub>subscript</sub> . Wow!.</p>
 ```
 
@@ -75,7 +75,7 @@ Bisa digunakan pada kasus seperti menulis
 ## Cara membuat tulisan di tengah atas
 Membuat posisi tulisan di tengah atas bisa dengan `<sup>`, yang diambbil dari kata superscript
 
-```
+```html
 <p>Text ini berisi <sup>superscript</sup> . Wow!.</p>
 ```
 
@@ -84,7 +84,7 @@ catatan kaki `Koding{{<rawhtml>}}<sup>[i]</sup>{{</rawhtml>}}` , lihat bagian "[
 
 ## Cara memberi sorotan (highlight) pada tulisan
 Memberi sorotan pada tulisan bisa dengan mengapitnya di antara tag `<mark>`
-```
+```html
 <p>Ini adalah website tentang <mark>Koding</mark> . Wow!.</p>
 ```
 
@@ -93,7 +93,7 @@ Bisa digunakan pada kasus seperti menulis
 
 ## Cara memberi garis tengah (mencoret) pada tulisan
 Memberi garis di tengah seperti mencoret pada tulisan bisa dengan mengapitnya di antara tag `<del>`
-```
+```html
 <p> Aku ingin <del>kaya</del> bahagia!.</p>
 ```
 
@@ -102,7 +102,7 @@ Bisa digunakan pada kasus seperti menulis
 
 ## Cara memberi garis bawah pada tulisan
 Memberi garis di bawah pada tulisan bisa dengan mengapitnya di antara tag `<ins>`
-```
+```html
 <p> Aku ingin <ins>kaya</ins> bahagia!.</p>
 ```
 

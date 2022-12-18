@@ -50,7 +50,7 @@ Elemen apa saja yang bisa dibuat dengan Form HTML? banyak sekali!
 ## Struktur dasar form HTML
 Form pada HTML, ditandai dengan tag pembuka dan penutup dari `<form>`
 
-```
+```html
 <form>
     // isi formnya
 </form>
@@ -59,14 +59,14 @@ Form pada HTML, ditandai dengan tag pembuka dan penutup dari `<form>`
 Lalu isi dari formnya, tergantung dari elemen apa yang ingin kamu tampilkan, kita bisa lihat satu per satu elemen yang bisa dimasukkan di sebuah form.  
 
 Contoh untuk menampilkan input text
-```
+```html
 <form>
     <input type="text">
 </form>
 ```
 
 Contoh untuk menampilkan input text dan input password
-```
+```html
 <form>
     <input type="text">
     <input type="password">

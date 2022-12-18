@@ -13,7 +13,7 @@ Untuk membantu pengguna situs mengerti apa yang harus diisi kita bisa menggunaka
 
 ## Contoh tag label
 Berikut contoh kode tag label
-```
+```html
 <label> Username: </label> <br>
 <input type="text">
 ```
@@ -36,7 +36,7 @@ Tag label, bukan hanya bisa digunakan pada input-text saja, nanti kita bisa guna
 Untuk menghubungkan sebuah label dengan input, kita bisa menggunakan atribut `for` pada label dan atribut `id` pada input.
 
 Contoh penggunaan
-```
+```html
 <label for="username"> Username: </label> <br>
 <input id="username" type="text">
 ```

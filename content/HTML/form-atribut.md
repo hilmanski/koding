@@ -21,7 +21,7 @@ Untuk di awal, kita belum akan belajar cara mengirim data, karena perlu sebuah s
 {{</alert>}}
 
 Contoh penggunaan 
-```
+```html
 <form action="/action.php">
     <input type="text">
     <input type="password">
@@ -32,7 +32,7 @@ Di sini, `/action.php` adalah lokasi tautan ke mana data kita di kirim
 ## Atribut `target` pada Form HTML
 Sama seperti atribut target yang ada pada tag link. Kita juga bisa membuat form pada saat disubmit pindah ke halaman (tab) baru dengan `target="_blank"`
 
-```
+```html
 <form target="_blank">
     <input type="text">
     <input type="password">
