@@ -1,20 +1,3 @@
-## Article on Process
-content Form:
-- add select-option
-- add checkbox
-- add radio
-- add datetime
-- add range
-- add search
-- add url
-- add hidden
-- add image
-- add color
-- add file
-
-Missing info:
-- New article: atribut umum:  required - readonly 
-
 # Status
 
 Masih dalam tahap pengembangan. *Sangat* baru dimulai. Dibuka untuk mendapatkan feedback awal. Tidak pelu membuat PR terkait menambah konten untuk saat ini (sampai pengumuman berikutnya).
@@ -134,3 +117,30 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 - Code higlight https://highlightjs.org/
 - Codepen, Codesandbox
 
+---
+
+## Next(Micro) Current HTML chapters "FORM" on Process
+content Form:
+- add select-option
+- add checkbox
+- add radio
+- add datetime
+- add range
+- add search
+- add url
+- add hidden
+- add image
+- add color
+- add file
+- New article: atribut umum:  required - readonly 
+- Move attribtue form at the end of chapters ?
+
+## Next(Macro) HTML chapters
+- other tags: code, quotes
+- correct HTML structue: doctype, head, body
+- what is head
+- what is body
+- what is inline and block
+- div and span
+- special chars, entities, symbols
+- Semantic? aside, article, etc...

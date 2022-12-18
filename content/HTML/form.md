@@ -45,6 +45,7 @@ Elemen apa saja yang bisa dibuat dengan Form HTML? banyak sekali!
 - checkbox
 - radio button
 - tombol submit
+- masih banyak lagi!
 
 ## Struktur dasar form HTML
 Form pada HTML, ditandai dengan tag pembuka dan penutup dari `<form>`
