@@ -1,5 +1,5 @@
 {{ define "main" }}
-    
+
 
     <style>
         body {
@@ -20,7 +20,7 @@
 
         <!-- <aside class="">
             <p class="mb-2"> Daftar Konten </p>
-            
+
             <div>
             {{ .TableOfContents }}
             </div>
@@ -34,14 +34,14 @@
             <div class="flex justify-between mt-10">
                 {{ $pages := where site.RegularPages "Section" .Section }}
                 {{ with ($pages.ByParam "order").Next . }}
-                    <a class="flex items-center text-slate-300 hover:text-slate-400" title="previous page in {{ .Section }}" href="{{ .Permalink }}"> 
+                    <a class="flex items-center text-slate-300 hover:text-slate-400" title="previous page in {{ .Section }}" href="{{ .Permalink }}">
                         <svg viewBox="0 0 3 6" class="mr-3 w-auto h-1.5 text-slate-400 overflow-visible group-hover:text-slate-600 dark:group-hover:text-slate-300"><path d="M3 0L0 3L3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                         {{.Title }} </a>
                 {{ end }}
-                
+
                 {{ with ($pages.ByParam "order").Prev . }}
-                    <a class="flex items-center text-slate-300 hover:text-slate-300" title="next page in {{ .Section }}" href="{{ .Permalink }}"> 
-                        {{.Title }} 
+                    <a class="flex items-center text-slate-300 hover:text-slate-300" title="next page in {{ .Section }}" href="{{ .Permalink }}">
+                        {{.Title }}
                         <svg viewBox="0 0 3 6" class="ml-3 w-auto h-1.5 text-slate-400 overflow-visible group-hover:text-slate-600 dark:group-hover:text-slate-300"><path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                     </a>
                 {{ end }}
@@ -50,7 +50,7 @@
             <div class="flex justify-end mt-10">
                 <a class="text-sky-100 text-md hover:text-sky-500" href="https://github.com/hilmanski/koding/edit/main/content/{{ .File.Path }}" target="_blank">🧐 Edit halaman ini</a>
             </div>
-            
+
         </main>
 
         {{ partial "sidebar-chapters" . }}
@@ -59,8 +59,17 @@
 
     <!-- Code Highlighter -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/atom-one-dark.min.css">
+    <style>
+        .code-badge-copy-icon { font-size: 1.8em !important }
+        .code-badge-copy-icon::after { content: url('https://api.iconify.design/tabler/clipboard.svg?color=white') }
+        .code-badge-copy-icon.text-success::after { content: url('https://api.iconify.design/tabler/clipboard-check.svg?color=white') }
+    </style>
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
+    <script src="https://cdn.jsdelivr.net/npm/highlightjs-badge@0.1.9/highlightjs-badge.min.js"></script>
+    <script>
+        hljs.highlightAll()
+        window.onload = () => highlightJsBadge()
+    </script>
 
     {{ if in .Content "codepen" }}
         <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -68,11 +77,11 @@
 
     <script>
         const _article = document.getElementsByClassName('content')[0]
-        
+
         const _links = _article.getElementsByTagName('a')
         for (var i = 0; i<_links.length; i++) {
           _links[i].setAttribute('target', '_blank')
         }
-      </script>
+    </script>
 
 {{ end }}
