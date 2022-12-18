@@ -1,5 +1,4 @@
 Missing info:
-- attribut for on label
 - attribute di setiap input (text, password) -> min dan max length
 - talk about submissionbutton first then (below)
 - attribute input lain secara umum seperti readonly, length, required
@@ -86,6 +85,7 @@ contoh (apa itu atribute HTML, apa itu tag HTML, dst..)
 
 ## Before first release
 
+- Very important ! (reread everything. edit multiple times! hapus "kita" menjadi "gunakan" misalnya)
 - Footer (sitemap, RSS, about me)
 - Logo
 - favicon

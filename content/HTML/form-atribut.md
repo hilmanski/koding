@@ -1,7 +1,7 @@
 ---
 title: "Atribut pada form HTML"
 slug: "atribut-form-html"
-snippet: "Berbagai atribut yang ada pada form HTML yang digunakan untuk membantu penganganan data dari formulir yang dibuat."
+snippet: "Berbagai atribut yang ada pada form HTML yang digunakan untuk membantu penanganan data dari formulir yang dibuat."
 date: 2022-12-17T17:25:58+08:00
 label: HTML
 order: 305

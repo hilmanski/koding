@@ -14,14 +14,14 @@ Untuk membantu pengguna situs mengerti apa yang harus diisi kita bisa menggunaka
 ## Contoh tag label
 Berikut contoh kode tag label
 ```
-<label> Username: </label>
+<label> Username: </label> <br>
 <input type="text">
 ```
 
 Hasilnya
 {{<rawhtml>}}
 <div class='bg-gray-500 p-4'>
-<label> Username: </label>
+<label> Username: </label><br>
 <input type='text' placeholder='contoh isian'>
 </div>
 {{</rawhtml>}}
@@ -30,6 +30,30 @@ Sekarang kotaknya tidak berdiri sendiri! tapi sudah ada text penandanya.
 
 {{<alert class="info">}}
 Tag label, bukan hanya bisa digunakan pada input-text saja, nanti kita bisa gunakan ke berbagai type input lainnya.
+{{</alert>}}
+
+## Atribut for pada label
+Untuk menghubungkan sebuah label dengan input, kita bisa menggunakan atribut `for` pada label dan atribut `id` pada input.
+
+Contoh penggunaan
+```
+<label for="username"> Username: </label> <br>
+<input id="username" type="text">
+```
+
+Hasilnya
+{{<rawhtml>}}
+<div class='bg-gray-500 p-4'>
+<label for="username"> Username: </label><br>
+<input id="username" type="text">
+</div>
+{{</rawhtml>}}
+
+Sekarang coba klik text "Username:" , secara otomatis input akan terpilih agar kamu bisa mulai mengetik tanpa perlu klik kotaknya terlebih dahulu.
+
+{{<alert class="warning">}}
+Pastikan nilai pada atribut for dan id sama.  
+Untuk mendapatkan efek ini.
 {{</alert>}}
 
 ## Gabungkan dengan tag lain

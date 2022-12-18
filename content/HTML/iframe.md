@@ -47,3 +47,18 @@ Contoh lebar iframe 600px dan tinggi iframe 250px bisa dibuat dengan kode ini.
 {{<alert class="info">}}
 <p> Kamu bisa punya lebih dari 1 iframe di satu halaman </p>
 {{</alert>}}
+
+## Lazy loading image
+Butuh waktu dan sumber daya untuk menampilkan sebuah situs dengan iframe. Karena itu penting untuk hanya menampilkan iframe ketika muncul di layar saja. [Baca detailnya di sini](https://web.dev/browser-level-image-lazy-loading/)
+
+Sudah ada cara praktis untuk melakukan ini, yaitu dengan atribut `loading='lazy'`
+
+```
+<iframe src="https://tailwindcss.com" 
+        title="situs tailwindCSS"
+        width="600" height="250"
+        loading="lazy">
+</iframe>
+```
+
+Kamu tidak akan melihat perubahan langsung dengan menambahkan atribut tersebut. Yang dilakukan oleh `loading=lazy` adalah ia hanya akan memuat iframe ketika dibutuhkan, yang akan mempercepat situs kamu dan hemat sumber daya. 

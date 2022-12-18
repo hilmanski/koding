@@ -71,3 +71,14 @@ Di mana kamu punya gambar yang diletakkan di dalam folder `assets` yang berada d
 ```
 <img width="300" height="150" src="/assets/foto1.jpg">
 ```
+
+## Lazy loading image
+Butuh waktu dan sumber daya untuk menampilkan sebuah gambar. Karena itu penting untuk hanya menampilkan gambar ketika muncul di layar saja. [Baca detailnya di sini](https://web.dev/browser-level-image-lazy-loading/)
+
+Sudah ada cara praktis untuk melakukan ini, yaitu dengan atribut `loading='lazy'`
+
+```
+<img src="image.jpg" alt="judul gambar" loading="lazy" />
+```
+
+Kamu tidak akan melihat perubahan langsung dengan menambahkan atribut tersebut. Yang dilakukan oleh `loading=lazy` adalah ia hanya akan memuat gambar ketika dibutuhkan saja, yang akan mempercepat situs kamu dan hemat sumber daya. 
