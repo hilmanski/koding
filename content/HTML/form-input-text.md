@@ -44,3 +44,48 @@ Yang menghasilkan
 {{<rawhtml>}}
 <input type='text' value='otomatis!'>
 {{</rawhtml>}}
+
+## Mengatur panjang input text
+Panjang dari input bisa disesuaikan dari berapa karakter yang ingin dimasukkan dengan menggunakan atribut `size`. Sebagai contoh saya ingin memberi ukuran `5` karater.
+
+```
+<input type='text' size='5'>
+```
+
+Yang menghasilkan
+{{<rawhtml>}}
+<input type='text' size='5'>
+{{</rawhtml>}}
+
+*Perhatikan panjang dari input text kita kali ini berubah.
+
+## Memberi batas maksimal input text
+Jika dengan atribut `size` mengatur tampilan kotaknya, kali ini kita bisa membatasi berapa maksimal karakter yang dimasukkan dengan atribut `maxlength`.
+
+```
+<input type='text' maxlength='5'>
+```
+
+Yang menghasilkan
+{{<rawhtml>}}
+<input type='text' maxlength='5'>
+{{</rawhtml>}}
+
+*Coba masukkan lebih dari 5 karakter!
+
+## Memberi batas minimal input text
+Jika dengan atribut `size` mengatur tampilan kotaknya, kali ini kita bisa membatasi berapa minimal karakter yang dimasukkan dengan atribut `minlength`.
+
+```
+<input type='text' minlength='3'>
+```
+
+Yang menghasilkan
+{{<rawhtml>}}
+<form>
+<input type='text' minlength='3'>
+<input type="submit">
+</form>
+{{</rawhtml>}}
+
+Jika kamu coba memasukkan kurang dari 3 karakter dan tekan tombol submit, maka akan muncul sebuah warning (pengingat).

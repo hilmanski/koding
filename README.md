@@ -1,7 +1,6 @@
 Missing info:
-- attribute di setiap input (text, password) -> min dan max length
-- talk about submissionbutton first then (below)
-- attribute input lain secara umum seperti readonly, length, required
+- required
+- readonly
 
 
 <!-- // add this in type= text for submit example? -->
