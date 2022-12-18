@@ -1018,6 +1018,11 @@ video {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
@@ -1086,16 +1091,16 @@ video {
   padding: 0.25rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
 
 .p-5 {
   padding: 1.25rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .pb-10 {
@@ -1442,6 +1447,35 @@ pre code.hljs {
   color: #38BDF9;
 }
 
+/* Reset default behavior
+because overwritten by tailwind */
+
+input[type="submit"] {
+  -webkit-appearance: auto;
+     -moz-appearance: auto;
+          appearance: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  color: buttontext;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  -o-border-image: initial;
+     border-image: initial;
+}
+
+input[type="submit"]:hover {
+  background-color: #c5c5c5;
+}
+
 /* =========================
 === Responsive mobile size    
 ============================ */
@@ -1512,3 +1546,4 @@ pre code.hljs {
     background-color: rgb(59 130 246 / var(--tw-bg-opacity));
   }
 }
+

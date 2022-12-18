@@ -30,8 +30,7 @@ input, textarea {
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: rgb(63, 62, 62);
-  }
-  
+}
 
 /* =========================
 === Content Area
@@ -136,6 +135,31 @@ pre code.hljs {
     color: #38BDF9;
 }
 
+/* Reset default behavior
+because overwritten by tailwind */
+
+
+input[type="submit"] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    color: buttontext;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+  
+input[type="submit"]:hover {
+    background-color: #c5c5c5;
+}
+
 /* =========================
 === Responsive mobile size    
 ============================ */
@@ -145,3 +169,4 @@ pre code.hljs {
         max-width: 90%;
     }
 }
+

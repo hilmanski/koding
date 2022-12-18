@@ -4,7 +4,7 @@ slug: "input-number-di-HTML"
 snippet: "Menyediakan input untuk user memasukkan data berupa angka di formulir HTML"
 date: 2022-12-17T17:40:28+08:00
 label: HTML
-order: 325
+order: 330
 ---
 
 Selain text biasa, sebuah formulir juga biasa berisi data yang isiannya berupa angka. Contoh seperti mengisi umur, mengisi nilai ujian dan lainnya. Gunakan type `number` pada tag input.
@@ -69,10 +69,6 @@ Contoh di bawah, kita buat input angka dengan minimal 10 dan maksimal 100
 Silahkan coba masukkan angka di bawah 10 atau di atas 100. Maka akan muncul pesan error yang menandakan batas angkanya.   
 
 Jika angkanya di antara 10 dan 100, maka tidak terjadi apa-apa.
-
-{{<alert class="warning">}}
-Kita akan belajar membuat tombol "kirim" di bagian lain, di atas hanya contoh untuk mendemonstrasikan batas minimal dan maksimal angka.
-{{</alert>}}
 
 ## Atribute `step` untuk menentukan jumlah langkah
 Jika menekan tombol panah di sebelah kanan input, kita bisa menaikkan angka secara otomatis atau menguranginya "1 langkah". Contoh jika input 5, maka tombol naik menjadi 6, tombol turun menjadi 4.

@@ -4,7 +4,7 @@ slug: "input-password-di-HTML"
 snippet: "Menerima masukan data password bisa dengan input password dari HTML agar tersembunyi"
 date: 2022-12-17T17:37:16+08:00
 label: HTML
-order: 320
+order: 325
 ---
 
 Tidak jarang, pengguna situs kita perlu memasukkan sebuah password. Sebagai bagian dari keamanan, kita perlu menyembunyikan text passwordnya dengan tag input type `password`.

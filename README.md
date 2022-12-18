@@ -3,6 +3,12 @@ Missing info:
 - talk about submissionbutton first then (below)
 - attribute input lain secara umum seperti readonly, length, required
 
+
+<!-- // add this in type= text for submit example? -->
+<!-- {{<alert class="warning">}}
+Kita akan belajar membuat tombol "kirim" di bagian lain, di atas hanya contoh untuk mendemonstrasikan batas minimal dan maksimal angka.
+{{</alert>}} -->
+
 # Status
 
 Masih dalam tahap pengembangan. *Sangat* baru dimulai. Dibuka untuk mendapatkan feedback awal. Tidak pelu membuat PR terkait menambah konten untuk saat ini (sampai pengumuman berikutnya).
@@ -123,6 +129,7 @@ content Form:
 - add button/submit
 
 ## Next plan
+- Improve HTML content: explore mote attribute for video and audio (muted loop playsinline etc.)
 - add CSS
 - add JS
 - sidebar menu on subjects on mobile (show toggle with burgen menu)
