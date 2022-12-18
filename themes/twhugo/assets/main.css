@@ -1093,12 +1093,12 @@ video {
   padding: 0.5rem;
 }
 
-.pl-3 {
-  padding-left: 0.75rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
 }
 
 .text-center {
@@ -1489,7 +1489,29 @@ pre code.hljs {
   }
 }
 
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+}
+
 @media (min-width: 1024px) {
+  .lg\:ml-20 {
+    margin-left: 5rem;
+  }
+
+  .lg\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
+  .lg\:ml-\[300px\] {
+    margin-left: 300px;
+  }
+
+  .lg\:ml-\[400px\] {
+    margin-left: 400px;
+  }
+
   .lg\:block {
     display: block;
   }
