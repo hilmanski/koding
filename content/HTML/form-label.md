@@ -4,7 +4,7 @@ slug: "tag-label-form-html"
 snippet: "Setiap elemen form bisa diikuti dengan tag label yang berguna sebagai penanda dari elemen tersebut"
 date: 2022-12-17T16:59:45+08:00
 label: HTML
-order: 330
+order: 315
 ---
 
 Seperti yang kamu lihat di halaman sebelumnya, tag input hanya menampilkan form isiannya tanpa ada tulisan yang jelas. 

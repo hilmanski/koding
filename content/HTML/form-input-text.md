@@ -4,10 +4,10 @@ slug: "input-text-di-HTML"
 snippet: "Menerima masukan data tulisan atau text bisa dengan input text dari HTML"
 date: 2022-12-17T17:01:01+08:00
 label: HTML
-order: 320
+order: 310
 ---
 
-Untuk menerima sebuah input text, gunakan tag `<input>` dengan type `text`
+Untuk menerima sebuah input tulisan (text), gunakan tag `<input>` dengan type `text`
 
 Contoh input text
 ```

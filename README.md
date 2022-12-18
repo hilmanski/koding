@@ -1,3 +1,9 @@
+Missing info:
+- attribut for on label
+- attribute di setiap input (text, password) -> min dan max length
+- talk about submissionbutton first then (below)
+- attribute input lain secara umum seperti readonly, length, required
+
 # Status
 
 Masih dalam tahap pengembangan. *Sangat* baru dimulai. Dibuka untuk mendapatkan feedback awal. Tidak pelu membuat PR terkait menambah konten untuk saat ini (sampai pengumuman berikutnya).
@@ -41,7 +47,7 @@ Run command
 hugo new HTML/nama.md
 ```
 - change HTML to whatever folder/language you're working on
-- update the "order", based on latest order. Increase it by 10
+- update the "order", based on latest order. Increase it by 10 or 5
 - if new chapter -> add key "chapter" in frontmatter
 
 ## Content
