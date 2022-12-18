@@ -1,19 +1,19 @@
 # Status
 
-Masih dalam tahap pengembangan. *Sangat* baru dimulai. Dibuka untuk mendapatkan feedback awal. Tidak pelu membuat PR terkait menambah konten untuk saat ini (sampai pengumuman berikutnya).
+Just getting started! Please don't submit a new article for now. Feel free to thow any ideas, correct typos or suggesting new features on issue/PR.
 
 # About
 
-Koding. Referensi programming / koding berbahasa Indonesia
+Programming reference in Indonesian language.
 
-## Bertanya atau beri masukan?  
-Silahkan ke bagian [discussion di repository](https://github.com/hilmanski/koding/discussions) ini.
+## Question or Feedback?
+Visit [discussion tab in this repository](https://github.com/hilmanski/koding/discussions).
 
 ## Link
 
-- Situs : [kodi.ng](https://kodi.ng)
-- Dokumentasi : [docs.kodi.ng](https://docs.kodi.ng)
-- Ask / Comment / Feedback: [Discussion](https://github.com/hilmanski/koding/discussions)
+- Site : [kodi.ng](https://kodi.ng)
+- Documentation : [docs.kodi.ng](https://docs.kodi.ng)
+- Discussion: [Discussion](https://github.com/hilmanski/koding/discussions)
 - Author: [hilmanski](https://hilman.space)  
 
 ## Dev (Run locally)
@@ -43,11 +43,6 @@ hugo new HTML/nama.md
 - change HTML to whatever folder/language you're working on
 - update the "order", based on latest order. Increase it by 10 or 5
 - if new chapter -> add key "chapter" in frontmatter
-
-## Content
-- separate what-is "topic" pages
-- separate Apa-itu-ABC-tag-HTML pages
-contoh (apa itu atribute HTML, apa itu tag HTML, dst..)
 
 ## Guide shortcode
 
@@ -101,6 +96,7 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 - share on twitter
 - share on instagram
 - share on tiktok
+- add kodi.ng link to (hilmanspace, sekolahkoding, halokoding)
 
 ## Next plan
 - Improve HTML content: explore mote attribute for video and audio (muted loop playsinline etc.)
