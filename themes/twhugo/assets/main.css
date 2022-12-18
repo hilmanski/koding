@@ -1481,7 +1481,7 @@ input{
      border-image: initial;
 }
 
-input[type="submit"] {
+input[type="submit"], button {
   -webkit-appearance: auto;
      -moz-appearance: auto;
           appearance: auto;
@@ -1503,7 +1503,7 @@ input[type="submit"] {
      border-image: initial;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover, button:hover {
   background-color: #c5c5c5;
 }
 

@@ -54,3 +54,24 @@ Yang hasilnya
 {{<alert class="info">}}
 Selama belajar seputar form di bagian HTML di kodi.ng, <br>kita hanya akan membuat tampilannya saja. Belum fungsinya
 {{</alert>}}
+
+## Alternatif tombol dengan tag button
+Form juga bisa dikirim dengan tombol `button` selain `input submit`.
+
+Contoh kode dengan button
+```
+<form>
+    <label> Username </label>
+    <input type='text'>
+    <button>Kirim!</button>
+</form>
+```
+
+Yang hasilnya
+{{<rawhtml>}}
+<form>
+<label> Username </label>
+<input type='text'>
+<button>Kirim!</button>
+</form>
+{{</rawhtml>}}

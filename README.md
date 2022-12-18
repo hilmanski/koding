@@ -1,12 +1,19 @@
+## Article on Process
+content Form:
+- add select-option
+- add checkbox
+- add radio
+- add datetime
+- add range
+- add search
+- add url
+- add hidden
+- add image
+- add color
+- add file
+
 Missing info:
-- required
-- readonly
-
-
-<!-- // add this in type= text for submit example? -->
-<!-- {{<alert class="warning">}}
-Kita akan belajar membuat tombol "kirim" di bagian lain, di atas hanya contoh untuk mendemonstrasikan batas minimal dan maksimal angka.
-{{</alert>}} -->
+- New article: atribut umum:  required - readonly 
 
 # Status
 
@@ -111,21 +118,6 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 - share on twitter
 - share on instagram
 - share on tiktok
-
-## Next 
-content Form:
-- add select-option
-- add checkbox
-- add radio
-- add datetime
-- add range
-- add search
-- add url
-- add hidden
-- add image
-- add color
-- add file
-- add button/submit
 
 ## Next plan
 - Improve HTML content: explore mote attribute for video and audio (muted loop playsinline etc.)

@@ -172,7 +172,7 @@ input{
     border-image: initial;
 }
 
-input[type="submit"] {
+input[type="submit"], button {
     appearance: auto;
     user-select: none;
     white-space: pre;
@@ -189,7 +189,7 @@ input[type="submit"] {
     border-image: initial;
 }
   
-input[type="submit"]:hover {
+input[type="submit"]:hover, button:hover {
     background-color: #c5c5c5;
 }
 
