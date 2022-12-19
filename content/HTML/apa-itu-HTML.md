@@ -67,7 +67,7 @@ Klik dan ganti tulisan "Pak Jokowi" di bawah, jadi nama kamu
 
 Ini contoh lain kode HTML yang lebih lengkap. Tenang.. Kamu tidak perlu mengerti apa-apa dari kode di bawah.
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

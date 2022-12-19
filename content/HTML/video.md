@@ -14,7 +14,7 @@ Selain gambar diam, kita juga bisa menampilkan gambar bergerak yang bersuara, al
 Untuk menampilkan video, kita menggunakan tag `<video>`. Tag ini berisi sumber video  yang ingin ditampikan.
 
 Contoh penggunaaan tag video
-```
+```html
 <video width="400" height="600" controls>
   <source src="movie.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
@@ -48,7 +48,7 @@ Secara otomatis, kamu melihat tombol play/pause, waktu lama video, kontrol volum
 Kita bisa memasukkan satu `<source>` saja atau lebih sebagai cadangan ketika file sebelumnya tidak didukung. 
 
 Contoh hanya memasukkan satu sumber
-```
+```html
 <video width="400" height="600" controls>
   <source src="movie.mp4" type="video/mp4">
 Your browser does not support the video tag.
@@ -56,7 +56,7 @@ Your browser does not support the video tag.
 ```
 
 Contoh memasukkan banyak sumber
-```
+```html
 <video width="400" height="600" controls>
   <source src="movie.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
@@ -75,16 +75,15 @@ Untuk melihat browser apa yang mendukung tipe jenis apa. Cek di situs [caniuse v
 Selain dengan link langsung dari video tersebut, jika kita mempunyai video di folder yang sama di mana HTML kita berada, kita bisa menampilkannya berdasarkan lokasi tersebut. 
 
 Contoh stuktur folder kamu seperti ini:
-```
+```&nbsp;
 |_ index.html
 |_ assets/
     |_ video.mp4
 ```
 Di mana kamu punya video yang diletakkan di dalam folder `assets` yang berada di lokasi sama dengan file `index.html` . Maka cara mengambilnya 
-```
+```html
 <video width="400" height="600" controls>
   <source src="/assets/video.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 ```
-

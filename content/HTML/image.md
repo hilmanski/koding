@@ -9,7 +9,7 @@ order: 210
 
 Bosan dong kalau tulisan terus isi websitenya. Sekarang kita lihat cara memasukkan gambar di situs kamu dengan HTML.
 
-```
+```html
 <img src="https://i.ibb.co/k39G1tL/Screen-Shot-2022-12-05-at-17-18-51.png">
 ```
 
@@ -26,7 +26,7 @@ Atribut `src` pada tag Img berguna sebagai informasi dari mana sumber gambar yan
 ## Mengatur lebar pada tag Img
 Untuk menentukan ukuran lebar gambar di HTML, kita menambahkan atribut `width`, yang berisi nilai angka dalam [pixel](https://en.wikipedia.org/wiki/Pixel).
 
-```
+```html
 <img width="100" src="https://i.ibb.co/k39G1tL/Screen-Shot-2022-12-05-at-17-18-51.png">
 ```
 
@@ -41,7 +41,7 @@ Untuk menentukan ukuran tinggi gambar di HTML, kita menambahkan atribut `height`
 
 menghasilkan gambar
 
-```
+```html
 <img height="200" src="https://i.ibb.co/k39G1tL/Screen-Shot-2022-12-05-at-17-18-51.png">
 ```
 
@@ -52,7 +52,7 @@ Di contoh ini kita menampilkan gambar sebelumnya dengan lebar 200 pixel. Secara 
 ## Mengatur lebar dan tinggi Img
 Sangat disarankan untuk mengatur lebar dan tinggi gambar pada saat ingin menampilkannya. Ini membantu browser untuk menyediakan tempat yang dibutuhkan sesuai ukuran tersebut
 
-```
+```html
 <img width="300" height="150" src="https://i.ibb.co/k39G1tL/Screen-Shot-2022-12-05-at-17-18-51.png">
 ```
 
@@ -62,13 +62,13 @@ Sangat disarankan untuk mengatur lebar dan tinggi gambar pada saat ingin menampi
 Selain dengan link langsung dari gambar tersebut, jika kita mempunya gambar di folder yang sama di mana HTML kita berada, kita bisa menampilkannya berdasarkan lokasi tersebut. 
 
 Contoh stuktur folder kamu seperti ini:
-```
+```&nbsp;
 |_ index.html
 |_ assets/
     |_ foto1.jpg
 ```
 Di mana kamu punya gambar yang diletakkan di dalam folder `assets` yang berada di lokasi sama dengan file `index.html` . Maka cara mengambilnya 
-```
+```html
 <img width="300" height="150" src="/assets/foto1.jpg">
 ```
 
@@ -77,7 +77,7 @@ Butuh waktu dan sumber daya untuk menampilkan sebuah gambar. Karena itu penting 
 
 Sudah ada cara praktis untuk melakukan ini, yaitu dengan atribut `loading='lazy'`
 
-```
+```html
 <img src="image.jpg" alt="judul gambar" loading="lazy" />
 ```
 

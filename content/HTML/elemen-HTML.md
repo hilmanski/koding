@@ -15,7 +15,7 @@ Untuk memberitahu file HTML bahwa kita ingin menampilkan elemen tertentu, misaln
 
 Secara umum penulisannya seperti ini: 
 
-```
+```html
 <nama-tag> Isi atau nilai dari setiap tagnya </nama-tag>
 ```
 
@@ -24,17 +24,17 @@ Di atas hanyalah contoh penulisan, bukan elemen HTML yang valid.
 ## Contoh elemen HTML
 
 Untuk menampilkan tulisan paragraf di HTML, caranya seperti ini
-```
+```html
 <p> Aku adalah tulisan bosku! </p>
 ```
 
 Contoh lain, untuk menulis sebuah judul  
-```
+```html
 <h1> Judul Manis </h1>
 ```
 
 Perhatikan polanya
-```
+```html
 <nama-tag> Isi atau nilai dari setiap tagnya </nama-tag>
 ```
 

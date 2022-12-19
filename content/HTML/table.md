@@ -45,7 +45,7 @@ tr:nth-child(even) {
   
 Tabel di atas, dibuat dengan kode HTML berikut
 
-```
+```html
 <table>
   <tr>
     <th>Nama</th>

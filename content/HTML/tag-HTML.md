@@ -8,7 +8,7 @@ order: 40
 ---
 
 Sebelumnya kita melihat pola penulisan HTML seperti ini:
-```
+```html
 <nama-tag> Isi atau nilai dari setiap tagnya </nama-tag>
 ```
 

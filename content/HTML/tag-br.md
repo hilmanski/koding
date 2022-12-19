@@ -12,7 +12,7 @@ Tag `<br>` adalah tag HTML yang kita gunakan untuk memberi jarak. Untuk mudah me
 ## Cara menggunakan `<br>`
 Tag `<br>` tidak perlu pembuka, penutup dan konten, ia bisa berdiri sendiri.
 
-```
+```html
 Text sebelum <br> text setelah br
 ```
 

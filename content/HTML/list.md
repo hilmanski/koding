@@ -19,7 +19,7 @@ Membuat daftar makanan, daftar tugas, daftar belanja dan daftar lainnya, akan su
 ## List tanpa nomor
 Untuk menampikan sebuah daftar tanpa nomor yang berurutan, kita bisa menggunakan tag `<ul>` yang membungkus sederet list `<li>`
 
-```
+```html
 <ul>
     <li> Belajar link </li>
     <li> Belajar gambar </li>
@@ -42,7 +42,7 @@ Tag `<li>` nya boleh sebanyak apapun, sementara tag pembungkusnya yaitu `<ul>` c
 ## List dengan nomor
 Untuk menampikan sebuah daftar dengan nomor urutannya, kita bisa menggunakan tag `<ol>` yang membungkus sederet list `<li>`
 
-```
+```html
 <ol>
     <li> Belajar link </li>
     <li> Belajar gambar </li>
@@ -69,7 +69,7 @@ Tag `<li>` nya boleh sebanyak apapun, sementara tag pembungkusnya yaitu `<ol>` c
 ## Daftar deskripsi
 Selain kedua daftar biasa, HTML juga menyediakan cara menampilkan daftar dengan deskripsinya, menggunakan tag `<dl>` (description list) yang membungkus `<dt>` (definition term) dan `<dd>` yang berisi penjelasannya. 
 
-```
+```html
 <dl>
   <dt>Air</dt>
   <dd>- elemen yang menenangkan</dd>

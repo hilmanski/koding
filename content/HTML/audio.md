@@ -13,7 +13,7 @@ Kita bisa mengendalikan atau sekedar memutar suara di situs kita dengan HTML. Mu
 Untuk mengeluarkan suara, kita menggunakan tag `<audio>`. Tag ini berisi sumber suara yang ingin ditampikan.
 
 Contoh penggunaaan tag audio
-```
+```html
 <audio controls>
   <source src="suara.ogg" type="audio/ogg">
   <source src="suara.mp3" type="audio/mp3">
@@ -53,16 +53,15 @@ Untuk melihat browser apa yang mendukung tipe jenis apa. Cek di situs [caniuse a
 Selain dengan link langsung dari audio tersebut, jika kita mempunyai audio di folder yang sama di mana HTML kita berada, kita bisa menampilkannya berdasarkan lokasi tersebut. 
 
 Contoh stuktur folder kamu seperti ini:
-```
+```&nbsp;
 |_ index.html
 |_ assets/
     |_ audio.mp3
 ```
 Di mana kamu punya audio yang diletakkan di dalam folder `assets` yang berada di lokasi sama dengan file `index.html` . Maka cara mengambilnya 
-```
+```html
 <audio controls>
   <source src="/assets/audio.mp3" type="audio/mp3">
   Your browser does not support the audio tag.
 </audio>
 ```
-

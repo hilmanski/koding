@@ -12,7 +12,7 @@ Dengan tag `<p>` kita bisa membuat tulisan paragraf di website.
 
 
 ## Cara penulisan tag P HTML
-```
+```html
 <p> Isi atau nilai dari setiap tagnya </p>
 ```
 

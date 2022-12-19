@@ -10,7 +10,7 @@ order: 90
 Hal yang menarik dari internet adalah kita semua saling terhubung. Untuk menghubungkan satu halaman ke halaman lain, gunakan tag `<a>`
 
 Berikut penggunaan tag `<a>`
-```
+```html
 <a href='https://sekolahkoding.com/'> Situs Sekolah Koding </a>
 ```
 
@@ -23,7 +23,7 @@ Di atas ada tulisan `href` pada tag pembuka.  Kita bertemu hal baru yang namanya
 Atribut adalah bagian pada tag HTML yang berisi informasi tambahan mengenai elemen tersebut. Ada banyak jenis atribute dengan kegunaannya masing-masing.  
 
 Normalnya format atribut adalah pasangan `katakunci` dan `nilai`, yang dituliskan dengan
-```
+```html
 <nama-tag kataKunci="nilai"> isi </nama-tag>
 ```
 
@@ -33,7 +33,7 @@ Atribut `href` pada tag `<a>` berguna untuk memberitahu ke mana link yang dituju
 ## Membuka link di tab browser lain
 Secara otomatis, link akan dibuka di halaman yang sama. Berarti pengguna konten kamu akan berpindah tempat dari halaman yang sekarang. Jika ingin membuka link berikutnya di halaman lain (new tab). Gunakan atribut `target="_blank"` pada tag `</a>`
 
-```
+```html
 <a target="_blank" href='https://sekolahkoding.com/'> Situs Sekolah Koding </a>
 ```
 Hasilnya: {{<rawhtml>}}<a target="_blank" href='https://sekolahkoding.com/'> Situs Sekolah Koding </a>{{</rawhtml>}}

@@ -22,14 +22,14 @@ Visit [discussion tab in this repository](https://github.com/hilmanski/koding/di
 - Clone repo
 - Run server
 
-```
+```bash
 hugo serve
 ```
 
 - Watch tailwind
 
-```
-yarn install //for first time
+```bash
+yarn install # for first time
 cd themes/twhugo
 yarn dev
 ```
@@ -37,7 +37,7 @@ yarn dev
 ##  Create new file
 
 Run command
-```
+```bash
 hugo new HTML/nama.md
 ```
 - change HTML to whatever folder/language you're working on
@@ -48,7 +48,7 @@ hugo new HTML/nama.md
 
 - Write alert (info box)
 
-```
+```html
 {{<alert class="info">}}
 
 <p> HTML itu singkatan dari <span class='italic'>hypertext markup language</span>.</p>
@@ -58,13 +58,13 @@ hugo new HTML/nama.md
 
 
 - Codepen
-```
+```html
 {{<codepen src="id-codepen"}}
 ```
 
 - Codesandbox shotcode
   Info: it's not working for "static HTML". search for alternative
-```
+```html
 {{<codesandbox>}}koding-html-intro-1s28xs{{</codesandbox>}}
 ```
 

@@ -11,7 +11,7 @@ Pada sebuah tampilan formulir, dibutuhkan tombol yang akan user tekan ketika sud
 
 ## Cara membuat tombol submit di form
 Gunakan tag input dengan type `submit` seperti berikut
-```
+```html
 <input type="submit"/>
 ```
 
@@ -23,7 +23,7 @@ Secara otomatis, HTML akan memasukkan text "Submit" di tombol tersebut.
 
 ## Cara mengubah text submit
 Gunakan atribut `value` dan beri nilai sesuai yang kamu inginkan, untuk mengubah text dari tombol submit
-```
+```html
 <input type="submit" value='Kirim!'/>
 ```
 
@@ -34,7 +34,7 @@ Gunakan atribut `value` dan beri nilai sesuai yang kamu inginkan, untuk mengubah
 ## Contoh form dengan tombol submit
 
 Contoh kode lengkap
-```
+```html
 <form>
     <label> Username </label>
     <input type='text'>
@@ -59,7 +59,7 @@ Selama belajar seputar form di bagian HTML di kodi.ng, <br>kita hanya akan membu
 Form juga bisa dikirim dengan tombol `button` selain `input submit`.
 
 Contoh kode dengan button
-```
+```html
 <form>
     <label> Username </label>
     <input type='text'>
