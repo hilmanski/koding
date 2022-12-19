@@ -34,7 +34,7 @@ Contoh lain, untuk menulis sebuah judul
 ```
 
 Perhatikan polanya
-```htnl
+```html
 <nama-tag> Isi atau nilai dari setiap tagnya </nama-tag>
 ```
 
