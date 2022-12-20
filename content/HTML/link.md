@@ -20,7 +20,7 @@ Berikut penggunaan tag `<a>`
 Di atas ada tulisan `href` pada tag pembuka.  Kita bertemu hal baru yang namanya `atribut`.
 
 ## Apa itu atribut (attribute)?  
-Atribut adalah bagian pada tag HTML yang berisi informasi tambahan mengenai elemen tersebut. Ada banyak jenis atribute dengan kegunaannya masing-masing.  
+Atribut adalah bagian pada tag HTML yang berisi informasi tambahan mengenai elemen tersebut. Ada banyak jenis atribut dengan kegunaannya masing-masing.  
 
 Normalnya format atribut adalah pasangan `katakunci` dan `nilai`, yang dituliskan dengan
 ```html
