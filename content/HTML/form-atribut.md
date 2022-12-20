@@ -12,7 +12,7 @@ Di beberapa bagian bawah, kita akan membahas atribut yang bisa digunakan pada fo
 Kamu boleh melewati bagian bagian atribut di bawah ini.
 
 ## Atribut `action` pada Form HTML
-Form HTML bisa mempunyai beberapa atribute. Yang paling penting adalah atribut `action`.
+Form HTML bisa mempunyai beberapa atribut. Yang paling penting adalah atribut `action`.
 
 Atribut `action` pada form HTML menandakan ke tautan mana data ini ingin dikirim. 
 
@@ -50,4 +50,4 @@ Ada dua nilai dari atribut method yang bisa digunakan, yaitu `get` dan `post`. J
 Dengan method get kita akan menampilkan nilai dari input nya di URL. Karena itu hindari menggunakan get untuk informasi yang panjang dan bersifat rahasia.
 
 ### Method POST
-Dengan method post kita akan menyembunyikan nilai dari input yang kita kirim. Cocok untuk mengirim data yang banyak/panjang dan bersifar rahasia.
+Dengan method post kita akan menyembunyikan nilai dari input yang kita kirim. Cocok untuk mengirim data yang banyak/panjang dan bersifat rahasia.
