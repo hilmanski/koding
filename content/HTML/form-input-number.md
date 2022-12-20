@@ -70,7 +70,7 @@ Silahkan coba masukkan angka di bawah 10 atau di atas 100. Maka akan muncul pesa
 
 Jika angkanya di antara 10 dan 100, maka tidak terjadi apa-apa.
 
-## Atribute `step` untuk menentukan jumlah langkah
+## Atribut `step` untuk menentukan jumlah langkah
 Jika menekan tombol panah di sebelah kanan input, kita bisa menaikkan angka secara otomatis atau menguranginya "1 langkah". Contoh jika input 5, maka tombol naik menjadi 6, tombol turun menjadi 4.
 
 {{<alert class="info">}}

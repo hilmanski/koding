@@ -28,7 +28,7 @@ Meskipun kita punya dua baris tulisan yang berbeda, HTML akan menampilkan tulisa
 <p> Beri jarak yang jauh di kode atas antara tulisannya, dengan klik di bagian yang ingin kamu pisah dan ketik (enter/return), lihat apakah ada perbedaanya..</p>
 {{</alert>}}
 
-Jawaba: Tidak ada perbedaan.
+Jawaban: Tidak ada perbedaan.
 
 2. Dengan tag `<p>`  
 Sekarang kita coba dengan bantuan tag `</p>`
@@ -44,7 +44,7 @@ Lihat bedanya? Website kita jadi tahu, bahwa setiap tulisan yang dibungkus denga
 ## Tampilan dasar tag p
 Secara otomatis (default), tag p ditampilkan dengan: 
 - Lebar 100%, artinya konten setelah p akan berada di bagian berikutnya.
-- Warna hitam dengan ukurang font normal
+- Warna hitam dengan ukuran font normal
 
 {{<alert class="info">}}
 Tenang saja, kamu bisa mengganti semua tampilan otomatis <br> dengan bantuan "CSS" nanti

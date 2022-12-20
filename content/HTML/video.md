@@ -18,7 +18,7 @@ Contoh penggunaaan tag video
 <video width="400" height="600" controls>
   <source src="movie.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
-Your browser does not support the video tag.
+  Your browser does not support the video tag.
 </video>
 ```
 
@@ -51,7 +51,7 @@ Contoh hanya memasukkan satu sumber
 ```html
 <video width="400" height="600" controls>
   <source src="movie.mp4" type="video/mp4">
-Your browser does not support the video tag.
+  Your browser does not support the video tag.
 </video>
 ```
 
@@ -60,7 +60,7 @@ Contoh memasukkan banyak sumber
 <video width="400" height="600" controls>
   <source src="movie.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
-Your browser does not support the video tag.
+  Your browser does not support the video tag.
 </video>
 ```
 Saat format `mp4` tidak didukung, maka browser akan melihat format `ogg`.
@@ -84,6 +84,6 @@ Di mana kamu punya video yang diletakkan di dalam folder `assets` yang berada di
 ```html
 <video width="400" height="600" controls>
   <source src="/assets/video.mp4" type="video/mp4">
-Your browser does not support the video tag.
+  Your browser does not support the video tag.
 </video>
 ```

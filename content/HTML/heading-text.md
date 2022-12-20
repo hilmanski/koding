@@ -16,7 +16,7 @@ Seperti `<h1>` sebagai judul utama, `<h2>` sebagai subjudul, begitu juga seterus
 Dengan menggunakan tag heading untuk menampilkan text kamu, ini akan memudahkan orang yang membaca kontenmu, screenreader dan juga Mesin pencari.
 
 ## Tampilan dari heading
-Secara otomatis, browser akan menampilkan heading dengan tebal dan besar. Ukurang besarnya tergantung dari level heading yang digunakan. 
+Secara otomatis, browser akan menampilkan heading dengan tebal dan besar. Ukuran besarnya tergantung dari level heading yang digunakan. 
 {{<codepen src="abKQZQo">}}
 
 ## Contoh penggunaan heading

@@ -1,7 +1,7 @@
 ---
 title: "Membuat tabel di HTML"
 slug: "membuat-tabel-di-HTML"
-snippet: "Saat menampilkan data yang terstruktur biasanya kita menggunakan sebuah table yang terbagi ke baris dan kolom. Lihat caranya di HTML"
+snippet: "Saat menampilkan data yang terstruktur biasanya kita menggunakan sebuah tabel yang terbagi ke baris dan kolom. Lihat caranya di HTML"
 date: 2022-12-05T18:58:11+08:00
 label: HTML
 order: 110
@@ -71,10 +71,10 @@ Tabel di atas, dibuat dengan kode HTML berikut
 {{</alert>}}
 
 ## Tampilan dasar tabel HTML
-Secara otomatis, tampilan dasar dari table akan terbagi ke baris dan kolom namun tanpa ada batas apa-apa. Tidak ada jarak dan baris. Untuk menghiasnya kita perlu belajar CSS nanti.
+Secara otomatis, tampilan dasar dari tabel akan terbagi ke baris dan kolom namun tanpa ada batas apa-apa. Tidak ada jarak dan baris. Untuk menghiasnya kita perlu belajar CSS nanti.
 
 ## Cara membuat tabel HTML
-- Untuk membuat table, gunakan tag `<table>` sebagai pembungkus
+- Untuk membuat tabel, gunakan tag `<table>` sebagai pembungkus
 - Untuk membuat barisnya, gunakan tag `<tr>` (singkatan dari table row)
 - Untuk membuat isi dari setiap barisnya, gunakan tag `<td>` (singkatan dari  table data)
 - Untuk membuat judul dari masing-masing baris tabelnya, gunakan tag `<th>` (singkatan dari table header)

@@ -48,7 +48,7 @@ Contoh lebar iframe 600px dan tinggi iframe 250px bisa dibuat dengan kode ini.
 <p> Kamu bisa punya lebih dari 1 iframe di satu halaman </p>
 {{</alert>}}
 
-## Lazy loading image
+## Lazy loading iframe
 Butuh waktu dan sumber daya untuk menampilkan sebuah situs dengan iframe. Karena itu penting untuk hanya menampilkan iframe ketika muncul di layar saja. [Baca detailnya di sini](https://web.dev/browser-level-image-lazy-loading/)
 
 Sudah ada cara praktis untuk melakukan ini, yaitu dengan atribut `loading='lazy'`
