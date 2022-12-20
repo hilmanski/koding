@@ -60,7 +60,7 @@ Tulisan kecil bisa dibuat dengan small tag
 ```
 
 Contoh penggunaan:   
-`Saya besar, kalau {{<rawhtml>}}<small>saya kecil</small>{{</rawhtml>}}`
+`Saya besar, kalau {{<inlinerawhtml>}}<small>saya kecil</small>{{</inlinerawhtml>}}`
 
 ## Cara membuat tulisan di tengah bawah
 Membuat posisi tulisan di tengah bawah bisa dengan `<sub>`, yang diambbil dari kata subscript
@@ -70,7 +70,7 @@ Membuat posisi tulisan di tengah bawah bisa dengan `<sub>`, yang diambbil dari k
 ```
 
 Bisa digunakan pada kasus seperti menulis   
-`CO{{<rawhtml>}}<sub>2</sub>{{</rawhtml>}}` , lihat angka "2" nya!
+`CO{{<inlinerawhtml>}}<sub>2</sub>{{</inlinerawhtml>}}` , lihat angka "2" nya!
 
 ## Cara membuat tulisan di tengah atas
 Membuat posisi tulisan di tengah atas bisa dengan `<sup>`, yang diambbil dari kata superscript
@@ -80,7 +80,7 @@ Membuat posisi tulisan di tengah atas bisa dengan `<sup>`, yang diambbil dari ka
 ```
 
 Bisa digunakan pada kasus seperti menulis   
-catatan kaki `Koding{{<rawhtml>}}<sup>[i]</sup>{{</rawhtml>}}` , lihat bagian "[i]" nya!
+catatan kaki `Koding{{<inlinerawhtml>}}<sup>[i]</sup>{{</inlinerawhtml>}}` , lihat bagian "[i]" nya!
 
 ## Cara memberi sorotan (highlight) pada tulisan
 Memberi sorotan pada tulisan bisa dengan mengapitnya di antara tag `<mark>`
@@ -89,7 +89,7 @@ Memberi sorotan pada tulisan bisa dengan mengapitnya di antara tag `<mark>`
 ```
 
 Bisa digunakan pada kasus seperti menulis   
-"Ini adalah website tentang {{<rawhtml>}}<mark>Koding!</mark>{{</rawhtml>}}", lihat bagian "Koding" nya!
+"Ini adalah website tentang {{<inlinerawhtml>}}<mark>Koding!</mark>{{</inlinerawhtml>}}", lihat bagian "Koding" nya!
 
 ## Cara memberi garis tengah (mencoret) pada tulisan
 Memberi garis di tengah seperti mencoret pada tulisan bisa dengan mengapitnya di antara tag `<del>`
@@ -98,7 +98,7 @@ Memberi garis di tengah seperti mencoret pada tulisan bisa dengan mengapitnya di
 ```
 
 Bisa digunakan pada kasus seperti menulis   
-"Aku ingin {{<rawhtml>}}<del>kaya</del>{{</rawhtml>}} bahagia ", lihat bagian "kaya" nya!
+"Aku ingin {{<inlinerawhtml>}}<del>kaya</del>{{</inlinerawhtml>}} bahagia ", lihat bagian "kaya" nya!
 
 ## Cara memberi garis bawah pada tulisan
 Memberi garis di bawah pada tulisan bisa dengan mengapitnya di antara tag `<ins>`
@@ -107,4 +107,4 @@ Memberi garis di bawah pada tulisan bisa dengan mengapitnya di antara tag `<ins>
 ```
 
 Bisa digunakan pada kasus seperti menulis   
-"Aku ingin {{<rawhtml>}}<ins>kaya</ins>{{</rawhtml>}}  dan bahagia ".
+"Aku ingin {{<inlinerawhtml>}}<ins>kaya</ins>{{</inlinerawhtml>}}  dan bahagia ".
