@@ -139,17 +139,8 @@ pre code.hljs {
 because overwritten by tailwind */
 
 
-input{
+input, select{
     writing-mode: horizontal-tb !important;
-    font-style: ;
-    font-variant-ligatures: ;
-    font-variant-caps: ;
-    font-variant-numeric: ;
-    font-variant-east-asian: ;
-    font-weight: ;
-    font-stretch: ;
-    font-size: ;
-    font-family: ;
     text-rendering: auto;
     color: fieldtext;
     letter-spacing: normal;
@@ -191,6 +182,10 @@ input[type="submit"], button {
   
 input[type="submit"]:hover, button:hover {
     background-color: #c5c5c5;
+}
+
+footer a {
+    color:rgb(189, 221, 249);
 }
 
 /* =========================
