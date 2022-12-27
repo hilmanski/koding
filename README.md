@@ -117,17 +117,12 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 
 ## Next(Micro) Current HTML chapters "FORM" on Process
 content Form:
-- add radio
-- add range
-- add hidden
-- add image
-- add color
-- add file
-- input lainnya...
+- input lainnya tetap satu per satu!
   - add search
   - add url
   - add email
-- New article: atribut umum:  required - readonly 
+- add image (as button?)
+- New article: atribut umum:  required - readonly - name - value - id
 - Move attribtue form at the end of chapters ?
 
 ## Next(Macro) HTML chapters
