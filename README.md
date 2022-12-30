@@ -116,7 +116,6 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 ---
 
 ## Next(Micro) Current HTML chapters "FORM" on Process
-- add image (as button?)
 - New article: atribut umum:  required - readonly - name - value 
 - suggested value?
 ```
@@ -132,6 +131,7 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 ```
 - id, 
 - Move attribtue form at the end of chapters ?
+- Info lokasi folder relatif (../) - Mungkin di bagian media
 
 ## Next(Macro) HTML chapters
 - other tags: code, quotes
