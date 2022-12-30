@@ -116,13 +116,21 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 ---
 
 ## Next(Micro) Current HTML chapters "FORM" on Process
-content Form:
-- input lainnya tetap satu per satu!
-  - add search
-  - add url
-  - add email
 - add image (as button?)
-- New article: atribut umum:  required - readonly - name - value - id
+- New article: atribut umum:  required - readonly - name - value 
+- suggested value?
+```
+<input id="myURL" name="myURL" type="url" list="defaultURLs" />
+
+<datalist id="defaultURLs">
+  <option value="https://developer.mozilla.org/" label="MDN Web Docs"></option>
+  <option value="http://www.google.com/" label="Google"></option>
+  <option value="http://www.microsoft.com/" label="Microsoft"></option>
+  <option value="https://www.mozilla.org/" label="Mozilla"></option>
+  <option value="http://w3.org/" label="W3C"></option>
+</datalist>
+```
+- id, 
 - Move attribtue form at the end of chapters ?
 
 ## Next(Macro) HTML chapters
