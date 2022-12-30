@@ -116,8 +116,9 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 ---
 
 ## Next(Micro) Current HTML chapters "FORM" on Process
-- New article: atribut umum:  required - readonly - name - value 
-- suggested value?
+- [DONE] required
+- Atribut Umum: readonly - name - value - max? - min?
+- Suggested value dengan list/datalist
 ```
 <input id="myURL" name="myURL" type="url" list="defaultURLs" />
 
