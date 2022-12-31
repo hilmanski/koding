@@ -1,25 +1,30 @@
-<footer class="mt-20 mb-10 pt-5 md:flex justify-between border-t border-slate-400
+<footer class="mt-20 mb-10 pt-5 border-t border-slate-400
             text-gray-300 text-md">
 
-        <div>
+    <div class="md:flex justify-between ">
+     <div>
         <p class="">
             <b>Status:</b> Situs ini baru dimulai, masih dalam tahap awal pengembangan.<br> 
             Hubungi
             <a href="https://twitter.com/hilmanski" target="_blank">@hilmanski</a>
             jika ada pertanyaan. 
         </p>
-
-        <p class="mt-2">Baca <a href="https://docs.kodi.ng/"> dokumentasi situs ini</a></p>
-
-        <p class="mt-2">Intip <a href="https://github.com/hilmanski/koding">Kode dari situs ini</a></p>
     </div>
 
     <div class="">
-        <p class="mb-2">Proyek lain:</p>
-        <li><a target="_blank" href="https://halokoding.com/">Buku Halo Koding</a></li>
-        <li><a target="_blank" href="https://sekolahkoding.com/">Sekolah dan Forum Koding</a></li>
-        <li><a target="_blank" href="https://pulo.dev/">Konten Koding - PuloDev</a></li>
+        <p class=""> <a href="https://docs.kodi.ng/"> Dokumentasi kodi.ng</a></p>
+        <p class=""><a href="https://github.com/hilmanski/koding">Sumber Kode kodi.ng</a></p>
+        <p><a href="https://kodi.ng/sitemap.xml">Sitemap (Peta Situs)</a> </p>
+        <p><a href="https://kodi.ng/index.xml">RSS Feed</a> </p>
     </div>
+</div>
+
+<div class="mt-5">
+    <p class="mb-2">Proyek lain:</p>
+    <li><a target="_blank" href="https://halokoding.com/">Buku Halo Koding</a></li>
+    <li><a target="_blank" href="https://sekolahkoding.com/">Sekolah dan Forum Koding</a></li>
+    <li><a target="_blank" href="https://pulo.dev/">Konten Koding - PuloDev</a></li>
+</div>
 </footer>
 
 {{ $js := resources.Get "main.js" | minify  }}
