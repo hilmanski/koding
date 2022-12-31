@@ -115,9 +115,8 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 ---
 
 ## Next(Macro) HTML chapters
-- div and span
+- Semantic HTML5: aside, article, etc...
+- Daftar tag `meta` yang available (seperti untuk sosial media)
 - special chars, entities, symbols
+- Tag DIV dan SPAN: is inline and block
 - HTML id / class (@CSS subject)
-- what is inline and block (@CSS subject?)
-- Semantic? aside, article, etc...
-- daftar tag `meta` yang available (seperti untuk sosial media)

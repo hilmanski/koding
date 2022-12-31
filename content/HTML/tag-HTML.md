@@ -12,7 +12,17 @@ Sebelumnya kita melihat pola penulisan HTML seperti ini:
 <nama-tag> Isi atau nilai dari setiap tagnya </nama-tag>
 ```
 
-Apa itu `tag`? Tag adalah nama yang berguna sebagai "penanda" elemen HTML. Tag ini sudah ditentukan, kita tidak bisa kreatif membuat namanya.
+## Apa itu tag HTML? 
+
+Tag adalah nama yang berguna sebagai "penanda" elemen HTML. Tag ini sudah ditentukan, kita tidak bisa kreatif membuat namanya.
+
+## Contoh tag p dan tag h1
+
+Contoh Di HTML, ada tag `<p>` dan tag `<h1>`.  Cara penulisannya
+```html
+<p> Isi Tag p </p>
+<h1> Isi Tag H1 </h1>
+```
 
 `Tag "p"` adalah penanda untuk tulisan paragraf  
 `Tag "h1"` adalah penanda untuk judul (penampilannya tebal dan besar)
