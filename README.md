@@ -116,7 +116,7 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 
 ## Next(Macro) HTML chapters
 - Semantic HTML5: aside, article, etc...
-- Daftar tag `meta` yang available (seperti untuk sosial media)
-- special chars, entities, symbols
-- Tag DIV dan SPAN: is inline and block
+- Daftar tag `meta`, favicon, yang available (seperti untuk sosial media)
+- special chars, entities, symbols, 
 - HTML id / class (@CSS subject)
+- Last chapter (More Magic): canvas, SVG (will be discussed on another section)
