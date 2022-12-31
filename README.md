@@ -1,6 +1,6 @@
 # Status
 
-Just getting started! Please don't submit a new article for now. Feel free to thow any ideas, correct typos or suggesting new features on issue/PR.
+Just getting started! Please don't submit a new article for now. Feel free to throw any ideas, correct typos or suggesting new features on issue/PR.
 
 # About
 
@@ -62,7 +62,7 @@ hugo new HTML/nama.md
 {{<codepen src="id-codepen"}}
 ```
 
-- Codesandbox shotcode
+- Codesandbox shortcode
   Info: it's not working for "static HTML". search for alternative
 ```html
 {{<codesandbox>}}koding-html-intro-1s28xs{{</codesandbox>}}
@@ -79,11 +79,11 @@ hugo new HTML/nama.md
 - Footer (sitemap, RSS, about me)
 - Logo
 - favicon
-- Complete the HTML refrence
+- Complete the HTML reference
 - Upgrade design 100x better (use nice images)
-- Make hompage background alive (nice homepage)
+- Make homepage background alive (nice homepage)
 example: https://twitter.com/meezwhite/status/1599450806217867265
-- social image (OG graph autoamte by vercel)
+- social image (OG graph automate by vercel)
 - work on metadata (og metadata.html)
 - about page with disqus-comments
 - clean highlight
@@ -101,7 +101,7 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 - Improve HTML content: explore mote attribute for video and audio (muted loop playsinline etc.)
 - add CSS
 - add JS
-- sidebar menu on subjects on mobile (show toggle with burgen menu)
+- sidebar menu on subjects on mobile (show toggle with burger menu)
 - comment (utterance.us) ? needed
 - Write Live editor ?
 
@@ -109,7 +109,7 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 
 - Main site: Hugo static site generator
 - CSS: tailwind
-- Code higlight https://highlightjs.org/
+- Code highlight https://highlightjs.org/
 - Codepen, Codesandbox
 
 ---
