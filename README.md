@@ -117,11 +117,9 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 
 ## Next(Macro) HTML chapters
 - other tags: code, quotes
-- correct HTML structue: doctype, head, body
-- what is head
-- what is body
 - what is inline and block
 - div and span
 - special chars, entities, symbols
 - id / class
 - Semantic? aside, article, etc...
+- daftar tag `meta` yang available (seperti untuk sosial media)
