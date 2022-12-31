@@ -91,7 +91,6 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 (After)   
 - share on sekolahkoding
 - share on pulodev  
-- share on linkedIn
 - share on facebook
 - share on twitter
 - share on instagram
@@ -116,10 +115,9 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 ---
 
 ## Next(Macro) HTML chapters
-- other tags: code, quotes
-- what is inline and block
 - div and span
 - special chars, entities, symbols
-- id / class
+- HTML id / class (@CSS subject)
+- what is inline and block (@CSS subject?)
 - Semantic? aside, article, etc...
 - daftar tag `meta` yang available (seperti untuk sosial media)

@@ -796,10 +796,6 @@ video {
   max-width: none;
 }
 
-.max-w-sm {
-  max-width: 24rem;
-}
-
 .max-w-md {
   max-width: 28rem;
 }
@@ -1524,6 +1520,18 @@ input[type="submit"], button {
 
 input[type="submit"]:hover, button:hover {
   background-color: #c5c5c5;
+}
+
+blockquote {
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 40px;
+          margin-inline-start: 40px;
+  -webkit-margin-end: 40px;
+          margin-inline-end: 40px;
 }
 
 footer a {

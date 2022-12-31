@@ -191,6 +191,14 @@ input[type="submit"]:hover, button:hover {
     background-color: #c5c5c5;
 }
 
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
 
 footer a {
     color:rgb(189, 221, 249);
