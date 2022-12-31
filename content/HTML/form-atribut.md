@@ -4,7 +4,8 @@ slug: "atribut-form-html"
 snippet: "Berbagai atribut yang ada pada form HTML yang digunakan untuk membantu penanganan data dari formulir yang dibuat."
 date: 2022-12-17T17:25:58+08:00
 label: HTML
-order: 305
+order: 500
+chapter: Atribut pada Form HTML
 ---
 
 Di beberapa bagian bawah, kita akan membahas atribut yang bisa digunakan pada form HTML. Tapi ini belum akan banyak berguna pada saat kita hanya belajar HTML, karena ini dimanfaatkan pada saat benar-benar mengirimkan data nanti.

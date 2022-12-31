@@ -1026,14 +1026,14 @@ video {
   background-color: transparent;
 }
 
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .bg-gray-600 {
@@ -1461,6 +1461,13 @@ pre code.hljs {
 
 /* Reset default behavior
 because overwritten by tailwind */
+
+input:disabled {
+  cursor: default;
+  background-color: #FFFFFF;
+  color: -internal-light-dark(rgb(84, 84, 84), rgb(170, 170, 170));
+  border-color: rgba(118, 118, 118, 0.3);
+}
 
 input, select{
   writing-mode: horizontal-tb !important;

@@ -115,25 +115,6 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 
 ---
 
-## Next(Micro) Current HTML chapters "FORM" on Process
-- [DONE] required
-- Atribut Umum: readonly - name - value - max? - min?
-- Suggested value dengan list/datalist
-```
-<input id="myURL" name="myURL" type="url" list="defaultURLs" />
-
-<datalist id="defaultURLs">
-  <option value="https://developer.mozilla.org/" label="MDN Web Docs"></option>
-  <option value="http://www.google.com/" label="Google"></option>
-  <option value="http://www.microsoft.com/" label="Microsoft"></option>
-  <option value="https://www.mozilla.org/" label="Mozilla"></option>
-  <option value="http://w3.org/" label="W3C"></option>
-</datalist>
-```
-- id, 
-- Move attribtue form at the end of chapters ?
-- Info lokasi folder relatif (../) - Mungkin di bagian media
-
 ## Next(Macro) HTML chapters
 - other tags: code, quotes
 - correct HTML structue: doctype, head, body
@@ -142,4 +123,5 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 - what is inline and block
 - div and span
 - special chars, entities, symbols
+- id / class
 - Semantic? aside, article, etc...

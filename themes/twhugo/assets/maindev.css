@@ -139,6 +139,13 @@ pre code.hljs {
 because overwritten by tailwind */
 
 
+input:disabled {
+    cursor: default;
+    background-color: #FFFFFF;
+    color: -internal-light-dark(rgb(84, 84, 84), rgb(170, 170, 170));
+    border-color: rgba(118, 118, 118, 0.3);
+}
+
 input, select{
     writing-mode: horizontal-tb !important;
     text-rendering: auto;
@@ -183,6 +190,7 @@ input[type="submit"], button {
 input[type="submit"]:hover, button:hover {
     background-color: #c5c5c5;
 }
+
 
 footer a {
     color:rgb(189, 221, 249);

@@ -4,7 +4,7 @@ slug: "atribut-required-di-input-HTML"
 snippet: "Jika ingin mewajibkan sebuah input untuk harus diisi sebelum mengirim form data di HTML kita harus menggunakan atribut required"
 date: 2022-12-30T20:59:25+08:00
 label: HTML
-order: 400
+order: 505
 ---
 
 Untuk memberi aturan jika sebuah input harus diisi, pada sebuah formulir HTML, gunakan atribut `required`.
