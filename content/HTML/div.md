@@ -4,8 +4,7 @@ slug: "div-pada-HTML"
 snippet: "DIV bisa digunakan untuk mengelompokkan beberapa elemen HTML menjadi satu. Secara visual DIV tidak ada bedanya"
 date: 2022-12-31T16:17:51+08:00
 label: HTML
-chapter: Non Semantic HTML
-order: 600
+order: 601
 ---
 
 Untuk memberi hiasan atau aksi tertentu ke beberapa elemen sekaligus, kita bisa mengelompokkan beberapa elemen HTML menjadi satu dengan tag `div`. 
