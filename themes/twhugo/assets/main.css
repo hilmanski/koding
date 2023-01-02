@@ -840,6 +840,10 @@ video {
           user-select: auto;
 }
 
+.resize {
+  resize: both;
+}
+
 .grid-flow-dense {
   grid-auto-flow: dense;
 }

@@ -98,11 +98,11 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 - add kodi.ng link to (hilmanspace, sekolahkoding, halokoding)
 
 ## Next plan
-- Improve HTML content: explore mote attribute for video and audio (muted loop playsinline etc.)
+
+- add search (algolia search for open source)
 - add CSS
 - add JS
 - sidebar menu on subjects on mobile (show toggle with burgen menu)
-- comment (utterance.us) ? needed
 - Write Live editor ?
 
 ## Tech stack
@@ -115,7 +115,8 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 ---
 
 ## Next(Macro) HTML chapters
-- Daftar tag `meta`, favicon, yang available (seperti untuk sosial media)
 - special chars, entities, symbols, 
 - HTML id / class (@CSS subject)
 - Last chapter (More Magic): canvas, SVG (will be discussed on another section)
+- add standalone page /HTML /{index.md} /use custom layout here list all chapters
+- Improve HTML content: explore more attribute for video and audio (muted loop playsinline etc.)
