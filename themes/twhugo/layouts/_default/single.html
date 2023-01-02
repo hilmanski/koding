@@ -1,13 +1,4 @@
 {{ define "main" }}
-    <!-- Freddy feedback / survey -->
-    <script>
-        var ffWidgetId = '78b85877-96db-40d9-b991-3fd5340ef438';
-        var ffWidgetScript  = document.createElement('script');
-        ffWidgetScript.type = 'text/javascript';
-        ffWidgetScript.src = 'https://freddyfeedback.com/widget/freddyfeedback.js';
-        document.head.appendChild(ffWidgetScript);
-    </script>
-    
     <style>
         body {
             max-width: 95%;
@@ -57,6 +48,17 @@
             <div class="flex justify-end mt-10">
                 <a class="text-sky-100 text-md hover:text-sky-500" href="https://github.com/hilmanski/koding/edit/main/content/{{ .File.Path }}" target="_blank">🧐 Edit halaman ini</a>
             </div>
+
+            <!-- Freddy feedback / survey -->
+            <div id="fyfk-widget"></div>
+            <script>
+                var ffWidgetId = '78b85877-96db-40d9-b991-3fd5340ef438';
+                var ffWidgetScript  = document.createElement('script');
+                ffWidgetScript.type = 'text/javascript';
+                ffWidgetScript.src = 'https://freddyfeedback.com/widget/freddyfeedback.js';
+                document.head.appendChild(ffWidgetScript);
+            </script>
+            
         
         {{ partial "footer" . }}
         </main>
