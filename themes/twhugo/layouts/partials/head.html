@@ -10,5 +10,4 @@
     It will not work if you mention the exact location like "./assets/style.css".-->
     {{ $style := resources.Get "main.css" | resources.Minify | resources.Fingerprint  }}    
     <link rel="stylesheet" href="{{ $style.Permalink }}"> 
-
 </head>
