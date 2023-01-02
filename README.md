@@ -115,7 +115,8 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 ---
 
 ## Next(Macro) HTML chapters
-- Semantic HTML5: aside, article, etc...
+- Semantic HTML5: details / time / etc.. open ended
+- Add feedback fish
 - Daftar tag `meta`, favicon, yang available (seperti untuk sosial media)
 - special chars, entities, symbols, 
 - HTML id / class (@CSS subject)
