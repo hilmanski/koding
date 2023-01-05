@@ -1595,6 +1595,12 @@ footer a {
   padding: 10px;
 }
 
+.pagefind-ui input.pagefind-ui__search-input {
+  background-color: #171b21;
+  border: #333;
+  color: #fff;
+}
+
 /* =========================
 === Responsive mobile size    
 ============================ */
