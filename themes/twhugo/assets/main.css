@@ -1590,6 +1590,11 @@ footer a {
   color:rgb(189, 221, 249);
 }
 
+.pagefind-ui .pagefind-ui__drawer{
+  background: white;
+  padding: 10px;
+}
+
 /* =========================
 === Responsive mobile size    
 ============================ */
