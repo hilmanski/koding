@@ -6,7 +6,7 @@
     </style>
 
     <div class="flex mb-10">
-        <main class="w-full lg:w-6/12 lg:ml-[400px] -mt-2" data-pagefind-body>
+        <main class="w-full lg:w-6/12 lg:ml-[400px] -mt-2">
             <div class="text-center">
                 <h1 class="text-4xl text-rose-400 label-{{.Params.label}} "> {{.Title }} </h1>
 
@@ -63,7 +63,7 @@
         {{ partial "footer" . }}
         </main>
 
-        <aside class="fixed hidden lg:block h-[90%] w-[300px] overflow-y-auto pb-10" data-pagefind-ignore>
+        <aside class="fixed hidden lg:block h-[90%] w-[300px] overflow-y-auto pb-10">
             {{ partial "sidebar-chapters" . }}
         </aside>
     </div>
