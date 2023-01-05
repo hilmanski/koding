@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Koding - referensi programming Bahasa Indonesia</title>
-    <link>http://kodi.ng/tags/</link>
+    <link>https://kodi.ng/tags/</link>
     <description>Recent content in Tags on Koding - referensi programming Bahasa Indonesia</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>id</language><atom:link href="http://kodi.ng/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>id</language><atom:link href="https://kodi.ng/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
