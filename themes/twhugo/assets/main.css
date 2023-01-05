@@ -655,6 +655,14 @@ video {
   left: 140px;
 }
 
+.left-\[100px\] {
+  left: 100px;
+}
+
+.left-\[120px\] {
+  left: 120px;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -892,6 +900,14 @@ video {
   max-width: 700px;
 }
 
+.max-w-xl {
+  max-width: 36rem;
+}
+
+.max-w-lg {
+  max-width: 32rem;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -918,6 +934,10 @@ video {
 
 .cursor-move {
   cursor: move;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .select-all {
@@ -1123,6 +1143,26 @@ video {
   border-color: rgb(100 116 139 / var(--tw-border-opacity));
 }
 
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-rose-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(251 113 133 / var(--tw-border-opacity));
+}
+
+.border-rose-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(244 63 94 / var(--tw-border-opacity));
+}
+
+.border-rose-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(254 205 211 / var(--tw-border-opacity));
+}
+
 .bg-transparent {
   background-color: transparent;
 }
@@ -1274,6 +1314,10 @@ video {
 
 .text-5xl {
   font-size: 3.052rem;
+}
+
+.text-3xl {
+  font-size: 1.953rem;
 }
 
 .font-thin {
@@ -1674,6 +1718,16 @@ footer a {
   border-color: rgb(226 232 240 / var(--tw-border-opacity));
 }
 
+.hover\:bg-rose-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 205 211 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-rose-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 113 133 / var(--tw-bg-opacity));
+}
+
 .hover\:text-slate-400:hover {
   --tw-text-opacity: 1;
   color: rgb(148 163 184 / var(--tw-text-opacity));
@@ -1692,6 +1746,11 @@ footer a {
 .hover\:text-slate-200:hover {
   --tw-text-opacity: 1;
   color: rgb(226 232 240 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -1720,8 +1779,20 @@ footer a {
 }
 
 @media (min-width: 768px) {
+  .md\:left-\[150px\] {
+    left: 150px;
+  }
+
   .md\:flex {
     display: flex;
+  }
+
+  .md\:text-5xl {
+    font-size: 3.052rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.563rem;
   }
 }
 

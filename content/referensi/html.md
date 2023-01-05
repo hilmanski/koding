@@ -4,6 +4,13 @@ snippet: "Belajar HTML dalam bahasa Indonesia lewat referensi lengkap seputar el
 label: "HTML"
 ---
 
+{{<rawhtml>}}
+<a href="/html/apa-itu-html"
+    class="block transition-all mx-auto text-center rounded-xl p-5 border border-rose-200 max-w-lg
+           cursor-pointer hover:bg-rose-400 hover:text-white"> Referensi HTML lengkap </a>
+{{</rawhtml>}}
+
+
 Sebagai jembatan untuk mengenal dunia pemrograman, banyak yang memilih melalui pengembangan website karena dua hal:
 bisa cepat melihat hasilnya dan mudah diimplementasikan
 
