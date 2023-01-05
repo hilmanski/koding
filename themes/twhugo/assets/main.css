@@ -884,6 +884,14 @@ video {
   max-width: 28rem;
 }
 
+.max-w-\[900px\] {
+  max-width: 900px;
+}
+
+.max-w-\[700px\] {
+  max-width: 700px;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -1108,6 +1116,11 @@ video {
 .border-violet-200 {
   --tw-border-opacity: 1;
   border-color: rgb(221 214 254 / var(--tw-border-opacity));
+}
+
+.border-slate-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(100 116 139 / var(--tw-border-opacity));
 }
 
 .bg-transparent {

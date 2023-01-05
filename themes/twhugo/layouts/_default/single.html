@@ -63,8 +63,9 @@
         {{ partial "footer" . }}
         </main>
 
-        {{ partial "sidebar-chapters" . }}
-
+        <sidebar class="fixed hidden lg:block h-[90%] w-[300px] overflow-y-auto pb-10">
+            {{ partial "sidebar-chapters" . }}
+        </sidebar>
     </div>
 
     <!-- Code Highlighter -->

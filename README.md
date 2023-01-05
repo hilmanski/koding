@@ -111,4 +111,3 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 
 ## Announce HTML is ready
 - Make navbar
-- add standalone page /HTML /{index.md} /use custom layout here list all chapters
