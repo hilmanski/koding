@@ -115,8 +115,6 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 ---
 
 ## Next(Macro) HTML chapters
-- special chars, entities, symbols, 
-- HTML id / class (@CSS subject)
 - Last chapter (More Magic): canvas, SVG (will be discussed on another section)
 - add standalone page /HTML /{index.md} /use custom layout here list all chapters
 - Improve HTML content: explore more attribute for video and audio (muted loop playsinline etc.)
