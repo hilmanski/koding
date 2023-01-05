@@ -76,15 +76,10 @@ hugo new HTML/nama.md
 ## Before first release
 
 - Very important ! (reread everything. edit multiple times! hapus "kita" menjadi "gunakan" misalnya)
-- Footer (sitemap, RSS, about me)
-- Logo
-- favicon
-- Complete the HTML refrence
 - Upgrade design 100x better (use nice images)
 - Make hompage background alive (nice homepage)
 example: https://twitter.com/meezwhite/status/1599450806217867265
 - social image (OG graph autoamte by vercel)
-- work on metadata (og metadata.html)
 - about page with disqus-comments
 - clean highlight
 
@@ -115,6 +110,5 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 ---
 
 ## Announce HTML is ready
-- Make design standout
 - Make navbar
 - add standalone page /HTML /{index.md} /use custom layout here list all chapters
