@@ -114,10 +114,6 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 
 ---
 
-## Next(Macro) HTML chapters
-- Last chapter (More Magic): canvas, SVG (will be discussed on another section)
-
-
 ## Announce HTML is ready
 - Make design standout
 - Make navbar
