@@ -1248,6 +1248,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.overline {
+  text-decoration-line: overline;
+}
+
 .mix-blend-plus-lighter {
   mix-blend-mode: plus-lighter;
 }
