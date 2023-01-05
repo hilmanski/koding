@@ -6,7 +6,8 @@
     </style>
 
     <div class="flex mb-10">
-        <main class="w-full lg:w-6/12 lg:ml-[400px] -mt-2">
+        <main data-pagefind-body 
+              class="w-full lg:w-6/12 lg:ml-[400px] -mt-2">
             <div class="text-center">
                 <h1 class="text-4xl text-rose-400 label-{{.Params.label}} "> {{.Title }} </h1>
 
@@ -29,7 +30,8 @@
                 {{ .Content }}
             </div>
 
-            <div class="flex justify-between mt-10">
+            <!-- Prev and Next navigation -->
+            <div data-pagefind-ignore class="flex justify-between mt-10">
                 {{ $pages := where site.RegularPages "Section" .Section }}
                 {{ with ($pages.ByParam "order").Next . }}
                     <a class="flex items-center text-slate-300 hover:text-slate-400" title="previous page in {{ .Section }}" href="{{ .Permalink }}">

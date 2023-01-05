@@ -20,10 +20,10 @@ Visit [discussion tab in this repository](https://github.com/hilmanski/koding/di
 
 - Install [Hugo](https://gohugo.io/)
 - Clone repo
-- Run server
+- Run server locally + search
 
 ```bash
-hugo serve
+./dev.sh
 ```
 
 - Watch tailwind
