@@ -1,4 +1,0 @@
-source: public
-bundle_dir: _pagefind
-exclude_selectors:
-  - "aside"
