@@ -83,4 +83,3 @@ Kamu tidak harus mengerti bagian ini, kita akan membahas seputar `canvas` di bag
   </script>
 
 {{</rawhtml>}}
-```
