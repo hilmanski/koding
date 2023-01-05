@@ -8,7 +8,7 @@ order: 30
 chapter: Elemen dan Tag HTML
 ---
 
-Untuk mulai menulis kode HTML, ada cara yang perlu diikuti.
+Untuk mulai menulis kode HTML, ada cara penulisan yang perlu diikuti.
 
 ## Mengenal elemen HTML  
 Untuk memberitahu file HTML bahwa kita ingin menampilkan elemen tertentu, misalnya menampilkan text, gambar, video atau yang lainnya, kita perlu mengikuti penulisan elemen HTML yang sudah ditentukan.

@@ -55,5 +55,5 @@ Hasilnya
 {{</rawhtml>}}
 
 **Penjelasan**  
-- Cara menunjuk id pada CSS dengan karakter `#` (tanda pagar) 
+- Cara menunjuk id pada CSS dengan karakter `.` (tanda titik) 
 - Di CSS, kita memberi warna latar dan text dasar.
