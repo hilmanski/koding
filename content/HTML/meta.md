@@ -31,7 +31,7 @@ Cara menggunakan `meta author` di HTML
 </head>
 ```
 
-## Bahasa situs
+## Bahasa situs (lang)
 Untuk memberitahu bahasa apa yang digunakan pada sebuah situs, gunakan atribut lang pada tag HTML
 
 ```html
