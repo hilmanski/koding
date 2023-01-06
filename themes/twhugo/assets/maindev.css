@@ -225,3 +225,8 @@ footer a {
     }
 }
 
+@media screen and (max-width: 760px) {
+    .pagefind-ui input.pagefind-ui__search-input {
+        max-width: 150px;
+    }
+}
