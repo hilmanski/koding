@@ -26,7 +26,7 @@ Visit [discussion tab in this repository](https://github.com/hilmanski/koding/di
 ./dev.sh
 ```
 
-- Watch tailwind
+- Watch tailwind (open new terminal tab)
 
 ```bash
 yarn install # for first time

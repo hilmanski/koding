@@ -135,6 +135,10 @@ pre code.hljs {
     color: #38BDF9;
 }
 
+.label-CSS {
+    color: #ee8cc7;
+}
+
 /* Reset default behavior
 because overwritten by tailwind */
 

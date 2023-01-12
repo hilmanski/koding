@@ -635,6 +635,11 @@ video {
   margin-bottom: 5rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -1189,16 +1194,24 @@ video {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.text-4xl {
-  font-size: 2.441rem;
+.text-3xl {
+  font-size: 1.953rem;
 }
 
 .text-xs {
   font-size: 0.8rem;
 }
 
+.text-lg {
+  font-size: 1.1rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
 }
 
 .text-md {
@@ -1209,12 +1222,8 @@ video {
   font-size: 1.563rem;
 }
 
-.text-lg {
-  font-size: 1.1rem;
-}
-
-.text-3xl {
-  font-size: 1.953rem;
+.text-4xl {
+  font-size: 2.441rem;
 }
 
 .font-thin {
@@ -1243,30 +1252,6 @@ video {
 
 .not-italic {
   font-style: normal;
-}
-
-.leading-3 {
-  line-height: .75rem;
-}
-
-.leading-5 {
-  line-height: 1.25rem;
-}
-
-.leading-4 {
-  line-height: 1rem;
-}
-
-.leading-6 {
-  line-height: 1.5rem;
-}
-
-.leading-8 {
-  line-height: 2rem;
-}
-
-.leading-10 {
-  line-height: 2.5rem;
 }
 
 .leading-9 {
@@ -1543,6 +1528,10 @@ pre code.hljs {
   color: #38BDF9;
 }
 
+.label-CSS {
+  color: #ee8cc7;
+}
+
 /* Reset default behavior
 because overwritten by tailwind */
 
@@ -1720,8 +1709,19 @@ footer a {
     left: 150px;
   }
 
+  .md\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   .md\:flex {
     display: flex;
+  }
+
+  .md\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:text-5xl {
