@@ -881,6 +881,10 @@ video {
   grid-auto-flow: dense;
 }
 
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -915,6 +919,10 @@ video {
 
 .justify-evenly {
   justify-content: space-evenly;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1704,6 +1712,16 @@ footer a {
   }
 }
 
+@media (min-width: 640px) {
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:gap-6 {
+    gap: 1.5rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:left-\[150px\] {
     left: 150px;
@@ -1716,6 +1734,10 @@ footer a {
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
