@@ -1,6 +1,6 @@
 # Status
 
-Just getting started! Please don't submit a new article for now. Feel free to thow any ideas, correct typos or suggesting new features on issue/PR.
+Just getting started! Please don't submit a new article for now. Feel free to throw any ideas, correct typos or suggesting new features on issue/PR.
 
 # About
 
@@ -62,7 +62,7 @@ hugo new HTML/nama.md
 {{<codepen src="id-codepen"}}
 ```
 
-- Codesandbox shotcode
+- Codesandbox shortcode
   Info: it's not working for "static HTML". search for alternative
 ```html
 {{<codesandbox>}}koding-html-intro-1s28xs{{</codesandbox>}}
@@ -77,7 +77,7 @@ hugo new HTML/nama.md
 
 - Very important ! (reread everything. edit multiple times! hapus "kita" menjadi "gunakan" misalnya)
 - Upgrade design 100x better (use nice images)
-- Make hompage background alive (nice homepage)
+- Make homepage background alive (nice homepage)
 example: https://twitter.com/meezwhite/status/1599450806217867265
 - social image (OG graph autoamte by vercel)
 - about page with disqus-comments
@@ -104,7 +104,7 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 
 - Main site: Hugo static site generator
 - CSS: tailwind
-- Code higlight https://highlightjs.org/
+- Code highlight https://highlightjs.org/
 - Codepen, Codesandbox
 
 ---
