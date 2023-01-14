@@ -42,9 +42,15 @@ Contoh hasil
 ## Atribut controls di tag video
 Atribut `controls` digunakan untuk menampikan video player, yang bisa digunakan untuk memutar dan memberhentikan video di HTML.
 
-Secara otomatis, kamu melihat tombol play/pause, waktu lama video, kontrol volume, download, full screen dan playback speed
+Secara otomatis, kamu melihat: 
+- Tombol play/pause
+- Durasi audio
+- Kontrol volume
+- Tombol Download (unduh)
+- Playback speed (mengatur kecepatan)
+- Tombol fullscreen
 
-## Source boleh lebih dari satu
+## Sumber cadangan boleh lebih dari satu
 Kita bisa memasukkan satu `<source>` saja atau lebih sebagai cadangan ketika file sebelumnya tidak didukung. 
 
 Contoh hanya memasukkan satu sumber
@@ -70,6 +76,40 @@ Kita bisa mengatur ukuran video player dengan mengganti nilai tag `width` untuk 
 
 ## Format yang didukung
 Untuk melihat browser apa yang mendukung tipe jenis apa. Cek di situs [caniuse video](https://caniuse.com/?search=video)
+
+## Memutar video otomatis
+Untuk membuat auto play (memutar video secara otomatis) tanpa perlu klik tombol play di saat mengunjungi situs. Gunakan atribut `autoplay`
+
+```html
+<video controls autoplay>
+...
+</video>
+```
+
+## Mengulang video otomatis
+Untuk terus mengulang video secara otomatis, pasangkan atribut `loop` pada atribut video
+```html
+<video controls loop>
+...
+</video>
+```
+
+## Membuat video mute (tanpa suara)
+Untuk terus mengulang video secara otomatis, pasangkan atribut `muted` pada atribut video
+```html
+<video controls muted>
+...
+</video>
+```
+## Poster untuk video (thumbnail)
+Jika ingin menampilkan gambar tertentu saat video belum dimulai. Gunakan atribut `poster` yang disertai dengan sumber gambarmu.
+
+```html
+<video controls poster="/images/sumbergambar.png">
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+</video>
+```
 
 ## Mengambil video dari lokasi relatif
 Selain dengan link langsung dari video tersebut, jika kita mempunyai video di folder yang sama di mana HTML kita berada, kita bisa menampilkannya berdasarkan lokasi tersebut. 

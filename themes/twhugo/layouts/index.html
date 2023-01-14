@@ -1,36 +1,89 @@
 {{ define "main" }}
 
     <div class="flex items-center">
-        <h1 class="text-2xl text-rose-400 mr-1">Koding</h1>
-        <span class="text-xs bg-slate-700 p-1 rounded-md text-sky-400 inline-block">BETA</span>
+
+        <div>
+            <img src="https://i.ibb.co/YZR3CjV/Screen-Shot-2023-01-05-at-10-46-43.png" 
+                 alt="Logo Komodo Koding"
+                 width="80"
+                 height="80"
+                 class="rounded-xl mr-2">
+        </div>
+
+        <div>
+            <div class="relative">
+                <h1 class="text-3xl md:text-5xl -mt-4 text-rose-400 mr-1">Koding</h1>
+                <span class="absolute top-2 left-[120px] md:left-[150px] text-xs bg-slate-700 p-1 rounded-md text-sky-400 inline-block">BETA</span>
+            </div>
+            <h2 class="-mt-3 text-lg md:text-2xl">Referensi pemrograman bahasa Indonesia</h2>
+        </div>
     </div>
 
+    <section class="block md:flex my-20 space-x-0 md:space-x-2 justify-between">
+        <article>
+            <a href="/referensi/html" 
+            class="group border border-slate-400 p-5 rounded-xl block w-[300px] text-center
+            transition-all hover:border-slate-200">
+                <img class="rounded-xl" 
+                    src="https://ucarecdn.com/7fed8574-f576-4bd3-b12d-4990973ad766/-/preview/-/quality/smart/-/format/auto/" 
+                    alt="a plain wood bridge"
+                    width="300" height="300" />
+                
+            <p class="text-slate-400 text-xl mt-2 
+                            group-hover:underline 
+                            group-hover:text-slate-200 "> Referensi HTML</p>
 
-    <h2 class="">Referensi programming bahasa Indonesia</h2>
+            <p class="text-slate-400 text-[15px]">Kerangka dasar pembuatan website</p>
+            </a>
+        </article>
 
-    <div class="my-20">
-        <a href="/html/apa-itu-html/" class="group">
-        <img src="https://ucarecdn.com/f535e34e-ae3a-4571-b23a-d532205b7eb5/HTMLcover.png" 
-             alt="covert computer image illustration"
-             width="300" height="300">
-            
-           <p class="text-xl mt-2 hover:underline"> Referensi HTML</p>
-        </a>
-    </div>
+        <article class="my-2 md:my-0">
+            <a href="/css/apa-itu-css" 
+            class="group border border-slate-400 p-5 rounded-xl block w-[300px] text-center
+            transition-all hover:border-slate-200">
+                <img class="rounded-xl" 
+                    src="https://ucarecdn.com/b2997efc-240f-42c5-80f6-bf80df01f5df/-/preview/-/quality/smart/-/format/auto/" 
+                    alt="a colorful  wood bridge"
+                    width="300" height="300" />
+                
+            <p class="text-slate-400 text-xl mt-2 
+                            group-hover:underline 
+                            group-hover:text-slate-200 "> Referensi CSS (PROSES)</p>
+            <p class="text-slate-400 text-[15px]">Memberi hiasan untuk website</p>
+            </a>
+        </article>
+
+        <article>
+            <a href="#" 
+            class="group border border-slate-400 p-5 rounded-xl block w-[300px] text-center
+            transition-all hover:border-slate-200">
+                <img class="rounded-xl" 
+                    src="https://ucarecdn.com/29714f72-9b40-413f-b297-c73b954d6596/-/preview/-/quality/smart/-/format/auto/" 
+                    alt="a mechanical wood bridge"
+                    width="300" height="300" />
+                
+            <p class="text-slate-400 text-xl mt-2 
+                            group-hover:underline 
+                            group-hover:text-slate-200 "> Referensi Javascript (SOON)</p>
+            <p class="text-slate-400 text-[15px]">Membuat website menjadi interaktif</p>
+            </a>
+        </article>
+    
+</section>
 
     <div class="my-20">
         <p>Link</p>
         <ul>
             <!-- Place this tag where you want the button to render. -->
             <li class="flex items-center"> 
-                <a class="mr-2" href="https://github.com/hilmanski/koding" target="_blank">Repository Github</a> 
+                <a class="mr-2 text-slate-400 hover:underline hover:text-slate-200" href="https://github.com/hilmanski/koding" target="_blank">Repository Github</a> 
                 <div class="-mb-2">
                 <a class="github-button" href="https://github.com/hilmanski/koding" data-color-scheme="no-preference: dark_dimmed; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star hilmanski/koding on GitHub">Star</a>
                 </div>
                 <script async defer src="https://buttons.github.io/buttons.js"></script>
             </li>
-            <li> <a href="https://docs.kodi.ng" target="_blank">Dokumentasi/Catatan</a> </li>
-            <li> <a href="https://twitter.com/hilmanski/status/1598572511871922176" target="_blank">Progres di Twitter</a> </li>
+            <li> <a class="text-slate-400 hover:underline hover:text-slate-200" href="https://docs.kodi.ng" target="_blank">Dokumentasi/Catatan</a> </li>
+            <li> <a class="text-slate-400 hover:underline hover:text-slate-200" href="https://twitter.com/hilmanski/status/1598572511871922176" target="_blank">Progres di Twitter</a> </li>
         </ul>
     </div>
 

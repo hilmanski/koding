@@ -1,0 +1,31 @@
+{{ define "main" }}
+    <style>
+        body {
+            max-width: 95%;
+        }
+    </style>
+
+    <div class="mb-10 max-w-[700px] mx-auto">
+        <main data-pagefind-body>
+            <header>
+                <div class="text-center">
+                    <h1 class="text-4xl text-rose-400 label-{{.Params.label}} "> {{.Title }} </h1>
+    
+                    {{ if .Params.snippet }}
+                    <h2 class="italic text-md max-w-md mx-auto"> {{ .Params.snippet }} </h2>
+                    {{ end }}
+                </div>
+            </header>
+
+            <div class="content mt-10">
+                {{ .Content }}
+            </div>
+
+            <div class="mt-5 border-t pt-5 border-slate-500">
+                {{ partial "sidebar-chapters" . }}
+            </div>
+        </main>
+
+        {{ partial "footer" . }}
+    </div>
+{{ end }}

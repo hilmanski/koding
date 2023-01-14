@@ -41,13 +41,43 @@ Contoh hasil
 ## Atirbut controls tag audio
 Atribut `controls` digunakan untuk menampikan audio player, yang bisa digunakan untuk memutar dan memberhentikan suara di HTML.
 
-Secara otomatis, kamu melihat tombol play/pause, waktu lama audio, kontrol volume, download dan playback speed
+Secara otomatis, kamu melihat: 
+- Tombol play/pause
+- Durasi audio
+- Kontrol volume
+- Tombol Download (unduh)
+- Playback speed (mengatur kecepatan)
 
 ## Lebih dari satu sumber
 Kita bisa memasukkan satu `<source>` saja atau lebih sebagai cadangan ketika file sebelumnya tidak didukung. 
 
 ## Format audio apa yang didukung browser
 Untuk melihat browser apa yang mendukung tipe jenis apa. Cek di situs [caniuse audio](https://caniuse.com/?search=audio)
+
+## Memutar audio otomatis
+Untuk membuat auto play (memutar audio secara otomatis) tanpa perlu klik tombol play di saat mengunjungi situs. Gunakan atribut `autoplay`
+
+```html
+<audio controls autoplay>
+...
+</audio>
+```
+
+## Mengulang audio otomatis
+Untuk terus mengulang audio secara otomatis, pasangkan atribut `loop` pada atribut audio
+```html
+<audio controls loop>
+...
+</audio>
+```
+
+## Membuat audio mute (tanpa suara)
+Untuk terus mengulang audio secara otomatis, pasangkan atribut `muted` pada atribut audio
+```html
+<audio controls muted>
+...
+</audio>
+```
 
 ## Mengambil audio dari lokasi relatif
 Selain dengan link langsung dari audio tersebut, jika kita mempunyai audio di folder yang sama di mana HTML kita berada, kita bisa menampilkannya berdasarkan lokasi tersebut. 

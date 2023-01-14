@@ -1,7 +1,7 @@
 ---
-title: "Non Semantic pada HTML"
-slug: "non-semantic-pada-HTML"
-snippet: "Non semantic elemen berarti elemen yang tidak bermakna apa-apa dan tidak punya tampilan otomatis khusus"
+title: "Non Semantik pada HTML"
+slug: "non-semantik-pada-HTML"
+snippet: "Non semantik elemen berarti elemen yang tidak bermakna apa-apa dan tidak punya tampilan otomatis khusus"
 date: 2022-12-31T16:17:51+08:00
 label: HTML
 chapter: Non Semantic HTML

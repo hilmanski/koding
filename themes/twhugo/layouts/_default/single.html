@@ -1,6 +1,4 @@
 {{ define "main" }}
-
-
     <style>
         body {
             max-width: 95%;
@@ -8,9 +6,11 @@
     </style>
 
     <div class="flex mb-10">
-        <main class="w-full lg:w-6/12 lg:ml-[400px] -mt-2">
+        <main data-pagefind-body 
+              class="w-full lg:w-6/12 lg:ml-[400px] -mt-2">
             <div class="text-center">
-                <h1 class="text-4xl text-rose-400 label-{{.Params.label}} "> {{.Title }} </h1>
+                <h1 class="text-3xl leading-9 mb-5 md:text-4xl 
+                            text-rose-400 label-{{.Params.label}} "> {{.Title }} </h1>
 
                 {{ if .Params.snippet }}
                 <h2 class="italic text-md max-w-md mx-auto"> {{ .Params.snippet }} </h2>
@@ -31,7 +31,8 @@
                 {{ .Content }}
             </div>
 
-            <div class="flex justify-between mt-10">
+            <!-- Prev and Next navigation -->
+            <div data-pagefind-ignore class="flex justify-between mt-10">
                 {{ $pages := where site.RegularPages "Section" .Section }}
                 {{ with ($pages.ByParam "order").Next . }}
                     <a class="flex items-center text-slate-300 hover:text-slate-400" title="previous page in {{ .Section }}" href="{{ .Permalink }}">
@@ -48,14 +49,26 @@
             </div>
 
             <div class="flex justify-end mt-10">
-                <a class="text-sky-100 text-md hover:text-sky-500" href="https://github.com/hilmanski/koding/edit/main/content/{{ .File.Path }}" target="_blank">🧐 Edit halaman ini</a>
+                <a class="text-sky-100 text-md hover:text-sky-500" href="https://github.com/hilmanski/koding/edit/main/content/{{ .File.Path }}" target="_blank">💅 Edit halaman ini</a>
             </div>
+
+            <!-- Freddy feedback / survey -->
+            <div id="fyfk-widget"></div>
+            <script>
+                var ffWidgetId = '78b85877-96db-40d9-b991-3fd5340ef438';
+                var ffWidgetScript  = document.createElement('script');
+                ffWidgetScript.type = 'text/javascript';
+                ffWidgetScript.src = 'https://freddyfeedback.com/widget/freddyfeedback.js';
+                document.head.appendChild(ffWidgetScript);
+            </script>
+            
         
         {{ partial "footer" . }}
         </main>
 
-        {{ partial "sidebar-chapters" . }}
-
+        <aside class="fixed hidden lg:block h-[90%] w-[300px] overflow-y-auto pb-10">
+            {{ partial "sidebar-chapters" . }}
+        </aside>
     </div>
 
     <!-- Code Highlighter -->

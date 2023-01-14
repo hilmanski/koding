@@ -20,13 +20,13 @@ Visit [discussion tab in this repository](https://github.com/hilmanski/koding/di
 
 - Install [Hugo](https://gohugo.io/)
 - Clone repo
-- Run server
+- Run server locally + search
 
 ```bash
-hugo serve
+./dev.sh
 ```
 
-- Watch tailwind
+- Watch tailwind (open new terminal tab)
 
 ```bash
 yarn install # for first time
@@ -76,15 +76,10 @@ hugo new HTML/nama.md
 ## Before first release
 
 - Very important ! (reread everything. edit multiple times! hapus "kita" menjadi "gunakan" misalnya)
-- Footer (sitemap, RSS, about me)
-- Logo
-- favicon
-- Complete the HTML reference
 - Upgrade design 100x better (use nice images)
 - Make homepage background alive (nice homepage)
 example: https://twitter.com/meezwhite/status/1599450806217867265
-- social image (OG graph automate by vercel)
-- work on metadata (og metadata.html)
+- social image (OG graph autoamte by vercel)
 - about page with disqus-comments
 - clean highlight
 
@@ -98,11 +93,11 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 - add kodi.ng link to (hilmanspace, sekolahkoding, halokoding)
 
 ## Next plan
-- Improve HTML content: explore mote attribute for video and audio (muted loop playsinline etc.)
+
+- add search (algolia search for open source)
 - add CSS
 - add JS
-- sidebar menu on subjects on mobile (show toggle with burger menu)
-- comment (utterance.us) ? needed
+- sidebar menu on subjects on mobile (show toggle with burgen menu)
 - Write Live editor ?
 
 ## Tech stack
@@ -114,9 +109,5 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 
 ---
 
-## Next(Macro) HTML chapters
-- Semantic HTML5: aside, article, etc...
-- Daftar tag `meta`, favicon, yang available (seperti untuk sosial media)
-- special chars, entities, symbols, 
-- HTML id / class (@CSS subject)
-- Last chapter (More Magic): canvas, SVG (will be discussed on another section)
+## Announce HTML is ready
+- Make navbar

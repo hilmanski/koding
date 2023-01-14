@@ -135,6 +135,10 @@ pre code.hljs {
     color: #38BDF9;
 }
 
+.label-CSS {
+    color: #ee8cc7;
+}
+
 /* Reset default behavior
 because overwritten by tailwind */
 
@@ -204,6 +208,17 @@ footer a {
     color:rgb(189, 221, 249);
 }
 
+.pagefind-ui .pagefind-ui__drawer{
+    background: white;
+    padding: 10px;
+}
+
+.pagefind-ui input.pagefind-ui__search-input {
+    background-color: #171b21;
+    border: #333;
+    color: #fff;
+}
+
 /* =========================
 === Responsive mobile size    
 ============================ */
@@ -214,3 +229,8 @@ footer a {
     }
 }
 
+@media screen and (max-width: 760px) {
+    .pagefind-ui input.pagefind-ui__search-input {
+        max-width: 150px;
+    }
+}

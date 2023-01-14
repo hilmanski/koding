@@ -1,5 +1,5 @@
 ---
-title: "Berbagai media lain HTML"
+title: "Multimedia HTML"
 slug: "multimedia-di-HTML"
 snippet: "Bukan hanya tulisan, HTML bisa menampilkan berbagai elemen media lain seperti gambar, video, audio hingga animasi"
 date: 2022-12-10T16:12:09+08:00
