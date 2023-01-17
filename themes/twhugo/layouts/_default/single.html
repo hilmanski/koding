@@ -32,20 +32,25 @@
             </div>
 
             <!-- Prev and Next navigation -->
-            <div data-pagefind-ignore class="flex justify-between mt-10">
+            <div data-pagefind-ignore 
+                class="flex justify-between mt-10">
                 {{ $pages := where site.RegularPages "Section" .Section }}
+                <div>
                 {{ with ($pages.ByParam "order").Next . }}
                     <a class="flex items-center text-slate-300 hover:text-slate-400" title="previous page in {{ .Section }}" href="{{ .Permalink }}">
                         <svg viewBox="0 0 3 6" class="mr-3 w-auto h-1.5 text-slate-400 overflow-visible group-hover:text-slate-600 dark:group-hover:text-slate-300"><path d="M3 0L0 3L3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                         {{.Title }} </a>
                 {{ end }}
+                </div>
 
+                <div>
                 {{ with ($pages.ByParam "order").Prev . }}
                     <a class="flex items-center text-slate-300 hover:text-slate-300" title="next page in {{ .Section }}" href="{{ .Permalink }}">
                         {{.Title }}
                         <svg viewBox="0 0 3 6" class="ml-3 w-auto h-1.5 text-slate-400 overflow-visible group-hover:text-slate-600 dark:group-hover:text-slate-300"><path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                     </a>
                 {{ end }}
+                </div>
             </div>
 
             <div class="flex justify-end mt-10">
