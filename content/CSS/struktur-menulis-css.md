@@ -55,7 +55,10 @@ p {
 }
 ```
 
+{{<alert>}}
 Berati tag p sekarang punya warna `blue` dengan ukuran (font-size) `20px`.
+{{</alert>}}
+
 
 ## Boleh memberi nilai lebih dari satu selektor
 Kita juga bisa memilih beberapa selektor sekaligus, untuk diberi properti yang sama
@@ -66,4 +69,6 @@ h1, p {
 }
 ```
 
+{{<alert>}}
 Kode di atas bearti tag h1 dan tag p punya warna dan ukuran yang sama.
+{{</alert>}}
