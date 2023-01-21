@@ -2,7 +2,7 @@
 title: "Selektor CSS dan HTML"
 slug: "selektor-css-dan-html"
 snippet: "Ada banyak cara untuk memilih elemen HTML mana yang ingin dihias. Pelajari tentang selektor CSS"
-date: 2023-01-21T00:13:20-08:00
+date: 2023-01-21T00:06:20-08:00
 label: CSS
 order: 15
 ---
@@ -14,13 +14,18 @@ Kita bisa memilih elemen HTML dengan nama tagnya langsung.
 Hiasan akan diaplikasikan langsung untuk [semua tag HTML](/html/apa-itu-tag-html/)nya.
 
 Contoh
-```html
+```css
 p {
  color: blue;
 }
 ```
 
+
+{{<alert class="">}}
 Berarti semua tag p yang ada di halaman, akan menjadi warna biru
+{{</alert>}}
+
+
 
 ## Selektor dengan atribut id HTML
 Memilih elemen mana yang dihias, bisa juga dengan [atribut id pada tag HTML](/html/atribut-id-pada-html/)nya.

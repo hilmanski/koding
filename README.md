@@ -1,5 +1,3 @@
-# Todo
-add menu html dan css at navbar
 
 # Status
 
@@ -112,5 +110,9 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 
 ---
 
-## Announce HTML is ready
-- Make navbar
+# next article: 
+
+
+# Todo
+- add menu html dan css at navbar
+- css content dont forget (pseudo selector, comment, etc..)
