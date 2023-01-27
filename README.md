@@ -29,10 +29,21 @@ Visit [discussion tab in this repository](https://github.com/hilmanski/koding/di
 
 - Watch tailwind (open new terminal tab)
 
+Install - One time only 
 ```bash
-yarn install # for first time
+cd themes/twhugo
+yarn install
+```
+
+Next time for Dev
+```bash
 cd themes/twhugo
 yarn dev
+```
+
+or one liner
+```bash
+cd themes/twhugo && yarn dev
 ```
 
 ##  Create new file
@@ -111,8 +122,10 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 ---
 
 # next article: 
-
+- width dan height
+- outline
+- box-model ?
 
 # Todo
 - add menu html dan css at navbar
-- css content dont forget (pseudo selector, comment, etc..)
+- (later) css content dont forget (pseudo selector, comment, etc..)
