@@ -25,3 +25,6 @@ Buka tab CSS untuk melihat kodenya. Kita menghias situs di atas dengan warna lat
 {{<alert>}}
 Pastikan kamu sudah <a href="/referensi/html/">belajar HTML</a> sebelumnya
 {{</alert>}}
+
+## Referensi terkait 
+- [Apa itu CSS](https://blog.sko.dev/apa-itu/css/)

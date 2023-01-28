@@ -84,5 +84,5 @@ Ini contoh lain kode HTML yang lebih lengkap. Tenang.. Kamu tidak perlu mengerti
 
 Semuanya akan kita pelajari secara perlahan.
 
-## Referensi lain
+## Referensi terkait 
 - [Apa itu HTML](https://blog.sko.dev/apa-itu/html/)
