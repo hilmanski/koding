@@ -74,6 +74,20 @@
         <aside class="fixed hidden lg:block h-[90%] w-[300px] overflow-y-auto pb-10">
             {{ partial "sidebar-chapters" . }}
         </aside>
+
+        <!-- Button list untuk device kecil -->
+        <div class="fixed bottom-4 w-full lg:hidden">
+            <div class="space-y-3">
+                <div onclick="seeList()" class="w-fit bg-emerald-500 hover:bg-emerald-700 rounded-lg p-1 text-center cursor-pointer">
+                    <img src="/expand-content.svg" height="36" width="36">
+                </div>
+                <div id="list" class="w-11/12 h-[85vh] bg-slate-800 px-2 py-4 rounded-2xl hidden origin-bottom-right transition-all">
+                    <div class="h-full overflow-y-auto">
+                        {{ partial "sidebar-chapters" . }}
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Code Highlighter -->
@@ -103,6 +117,14 @@
         const _links = _article.getElementsByTagName('a')
         for (var i = 0; i<_links.length; i++) {
           _links[i].setAttribute('target', '_blank')
+        }
+    </script>
+
+    <!-- List untuk device kecil -->
+    <script>
+        const list = document.querySelector('#list')
+        function seeList() {
+            list.classList.toggle('hidden')
         }
     </script>
 
