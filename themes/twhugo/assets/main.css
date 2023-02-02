@@ -701,28 +701,12 @@ video {
   margin-top: 1.25rem;
 }
 
-.-mt-2 {
-  margin-top: -0.5rem;
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mb-2 {
   margin-bottom: 0.5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mr-3 {
-  margin-right: 0.75rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
 }
 
 .mt-6 {
@@ -731,6 +715,22 @@ video {
 
 .-ml-\[1px\] {
   margin-left: -1px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.-mt-2 {
+  margin-top: -0.5rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
 .block {
@@ -781,6 +781,10 @@ video {
   display: none;
 }
 
+.h-\[70vh\] {
+  height: 70vh;
+}
+
 .h-1\.5 {
   height: 0.375rem;
 }
@@ -799,6 +803,11 @@ video {
 
 .w-\[100px\] {
   width: 100px;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .w-\[300px\] {
@@ -821,12 +830,12 @@ video {
   max-width: none;
 }
 
-.max-w-md {
-  max-width: 28rem;
-}
-
 .max-w-\[700px\] {
   max-width: 700px;
+}
+
+.max-w-md {
+  max-width: 28rem;
 }
 
 .grow {
@@ -913,6 +922,10 @@ video {
   justify-content: flex-end;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -931,6 +944,12 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(0px * var(--tw-space-x-reverse));
   margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -1007,12 +1026,16 @@ video {
   border-radius: 0.375rem;
 }
 
-.border-0 {
-  border-width: 0px;
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .border {
   border-width: 1px;
+}
+
+.border-0 {
+  border-width: 0px;
 }
 
 .border-x {
@@ -1105,6 +1128,11 @@ video {
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
+.bg-violet-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(139 92 246 / var(--tw-bg-opacity));
+}
+
 .bg-slate-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
@@ -1170,8 +1198,14 @@ video {
   padding: 0.5rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pt-5 {
@@ -1180,6 +1214,10 @@ video {
 
 .pl-3 {
   padding-left: 0.75rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .text-center {
@@ -1206,6 +1244,10 @@ video {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.text-xl {
+  font-size: 1.25rem;
+}
+
 .text-3xl {
   font-size: 1.953rem;
 }
@@ -1216,10 +1258,6 @@ video {
 
 .text-lg {
   font-size: 1.1rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
 }
 
 .text-\[15px\] {
@@ -1244,6 +1282,10 @@ video {
 
 .font-extralight {
   font-weight: 200;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .font-semibold {
@@ -1290,9 +1332,19 @@ video {
   color: rgb(251 113 133 / var(--tw-text-opacity));
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .text-slate-400 {
   --tw-text-opacity: 1;
   color: rgb(148 163 184 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .text-slate-300 {
@@ -1303,16 +1355,6 @@ video {
 .text-sky-100 {
   --tw-text-opacity: 1;
   color: rgb(224 242 254 / var(--tw-text-opacity));
-}
-
-.text-gray-300 {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .overline {
@@ -1666,6 +1708,11 @@ footer a {
   background-color: rgb(251 113 133 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-violet-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(124 58 237 / var(--tw-bg-opacity));
+}
+
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1734,6 +1781,10 @@ footer a {
     --tw-space-x-reverse: 0;
     margin-right: calc(0.5rem * var(--tw-space-x-reverse));
     margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:text-3xl {
+    font-size: 1.953rem;
   }
 
   .md\:text-5xl {
