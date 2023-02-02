@@ -20,7 +20,7 @@ Kita akan membuat sebuah form dengan tombol submit yang menggunakan gambar
 <form action="#">
     <input type='text'> <br>
     <input type='image' width="150" height="50"
-           src="https://i.ibb.co/g7sKvB7/Screen-Shot-2022-12-30-at-20-49-36.png"
+           src="https://sko.dev/sumber-gambar.png"
             >
 
 </form>
@@ -31,7 +31,7 @@ Hasilnya
 <form action="">
     <input type='text'>  <br>
     <input type='image' width="150" height="30" 
-            src="https://i.ibb.co/g7sKvB7/Screen-Shot-2022-12-30-at-20-49-36.png">
+            src="https://ucarecdn.com/142626cf-ad1b-4f7c-90a7-bbbb6e0e0223/-/preview/150x50/">
 </form>
 {{</rawhtml>}}
 
@@ -49,6 +49,5 @@ Gunakan atribut `alt` sebagai alternatif jika gambar tidak berhasil dimuat atau 
 
 ```html
 <input type='image' width="150" height="50" alt="tombol submit"
-           src="https://i.ibb.co/g7sKvB7/Screen-Shot-2022-12-30-at-20-49-36.png"
-            >
+           src="https://sko.dev/sumber-gambar.png" />
 ```

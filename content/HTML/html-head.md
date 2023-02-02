@@ -29,7 +29,7 @@ Tag title berisi judul dari halaman ini.
 - Kamu bisa melihat judul pada tab browser 
 - Judul juga ditampilkan pada mesin pencari
 
-{{<mediacontent src="https://i.ibb.co/PzMbMgK/Screen-Shot-2022-12-31-at-10-26-18.png" alt="screenhost goodle hasil kodi.ng" title="screenhost google pencarian kodi.ng">}}
+{{<mediacontent src="https://ucarecdn.com/fcca00a9-4eab-489c-8a5b-1fe2b5d4b41c/" alt="screenhost goodle hasil kodi.ng" title="screenhost google pencarian kodi.ng">}}
 
 Gambar di atas adalah tangkapan gambar dari Google (mesin pencari) saat mencari situs kodi.ng.
 

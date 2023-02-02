@@ -10,12 +10,12 @@ order: 210
 Bosan dong kalau tulisan terus isi websitenya. Sekarang kita lihat cara memasukkan gambar di situs kamu dengan HTML.
 
 ```html
-<img src="https://i.ibb.co/k39G1tL/Screen-Shot-2022-12-05-at-17-18-51.png">
+<img src="https://sko.dev/sumber-gambar.png">
 ```
 
 menghasilkan gambar
 
-![sample image classic computer in woods](https://i.ibb.co/k39G1tL/Screen-Shot-2022-12-05-at-17-18-51.png)
+![sample image classic computer in woods](https://ucarecdn.com/152bb474-7d2f-4240-a5ad-f8b5f925e49a/)
 
 ## Tag img tanpa penutup
 Tag `<img>` tidak punya tag penutup seperti ini `</img>` teman-teman. Kita cukup membuat tag pembuka dengan atribut `src`.
@@ -27,12 +27,12 @@ Atribut `src` pada tag Img berguna sebagai informasi dari mana sumber gambar yan
 Untuk menentukan ukuran lebar gambar di HTML, kita menambahkan atribut `width`, yang berisi nilai angka dalam [pixel](https://en.wikipedia.org/wiki/Pixel).
 
 ```html
-<img width="100" src="https://i.ibb.co/k39G1tL/Screen-Shot-2022-12-05-at-17-18-51.png">
+<img width="100" src="https://sko.dev/sumber-gambar.png">
 ```
 
 menghasilkan gambar
 
-{{<rawhtml>}}<img width="100" alt="gambar komputer dengan hutan" src="https://i.ibb.co/k39G1tL/Screen-Shot-2022-12-05-at-17-18-51.png">{{</rawhtml>}}
+{{<rawhtml>}}<img width="100" alt="gambar komputer dengan hutan" src="https://ucarecdn.com/152bb474-7d2f-4240-a5ad-f8b5f925e49a/">{{</rawhtml>}}
 
 Di contoh ini kita menampilkan gambar sebelumnya dengan lebar 100 pixel. Secara otomatis, tingginya pun ikut disesuaikan.
 
@@ -42,10 +42,10 @@ Untuk menentukan ukuran tinggi gambar di HTML, kita menambahkan atribut `height`
 menghasilkan gambar
 
 ```html
-<img height="200" src="https://i.ibb.co/k39G1tL/Screen-Shot-2022-12-05-at-17-18-51.png">
+<img height="200" src="https://sko.dev/sumber-gambar.png">
 ```
 
-{{<rawhtml>}}<img height="200" style="height: 200px;" alt="gambar komputer dengan hutan" src="https://i.ibb.co/k39G1tL/Screen-Shot-2022-12-05-at-17-18-51.png">{{</rawhtml>}}
+{{<rawhtml>}}<img height="200" style="height: 200px;" alt="gambar komputer dengan hutan" src="https://ucarecdn.com/152bb474-7d2f-4240-a5ad-f8b5f925e49a/">{{</rawhtml>}}
 
 Di contoh ini kita menampilkan gambar sebelumnya dengan lebar 200 pixel. Secara otomatis, lebarnya pun ikut disesuaikan.
 
@@ -53,10 +53,10 @@ Di contoh ini kita menampilkan gambar sebelumnya dengan lebar 200 pixel. Secara 
 Sangat disarankan untuk mengatur lebar dan tinggi gambar pada saat ingin menampilkannya. Ini membantu browser untuk menyediakan tempat yang dibutuhkan sesuai ukuran tersebut
 
 ```html
-<img width="300" height="150" src="https://i.ibb.co/k39G1tL/Screen-Shot-2022-12-05-at-17-18-51.png">
+<img width="300" height="150" src="https://sko.dev/sumber-gambar.png">
 ```
 
-{{<rawhtml>}}<img width="250" height="150" style="height: 200px;" alt="gambar komputer dengan hutan" src="https://i.ibb.co/k39G1tL/Screen-Shot-2022-12-05-at-17-18-51.png">{{</rawhtml>}}
+{{<rawhtml>}}<img width="250" height="150" style="height: 200px;" alt="gambar komputer dengan hutan" src="https://ucarecdn.com/152bb474-7d2f-4240-a5ad-f8b5f925e49a/">{{</rawhtml>}}
 
 ## Mengambil gambar dari lokasi relatif
 Selain dengan link langsung dari gambar tersebut, jika kita mempunya gambar di folder yang sama di mana HTML kita berada, kita bisa menampilkannya berdasarkan lokasi tersebut. 

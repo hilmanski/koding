@@ -11,7 +11,7 @@ Selain dengan tag `image`, kita juga bisa menampilkan gambar dengan tag `figure`
 
 ```html
 <figure>
-  <img src="https://i.ibb.co/k39G1tL/Screen-Shot-2022-12-05-at-17-18-51.png">
+  <img src="https://sko.dev/sumber-gambar.png">
   <figcaption>Gambar komputer dan hutan</figcaption>
 </figure>
 ```
@@ -20,7 +20,7 @@ menghasilkan gambar
 
 {{<rawhtml>}}
 <figure>
-  <img src="https://i.ibb.co/k39G1tL/Screen-Shot-2022-12-05-at-17-18-51.png">
+  <img src="https://ucarecdn.com/152bb474-7d2f-4240-a5ad-f8b5f925e49a/-/preview/400x400/">
   <figcaption>Gambar komputer dan hutan</figcaption>
 </figure>
 {{</rawhtml>}}
