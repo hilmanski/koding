@@ -122,8 +122,6 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 ---
 
 # next article: 
-- width dan height
-- outline
 - box-model ?
 
 # Todo
