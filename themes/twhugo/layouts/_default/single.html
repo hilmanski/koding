@@ -76,12 +76,18 @@
         </aside>
 
         <!-- Button list untuk device kecil -->
-        <div class="fixed bottom-4 w-full lg:hidden">
-            <div class="space-y-3">
-                <div onclick="seeList()" class="w-fit bg-emerald-500 hover:bg-emerald-700 rounded-lg p-1 text-center cursor-pointer">
-                    <img src="/expand-content.svg" height="36" width="36">
+        <div class="fixed right-3 top-32 lg:hidden">
+            <div class="space-x-2 flex">
+                <div onclick="seeList()" class="w-fit h-fit bg-emerald-500 hover:bg-emerald-700 rounded-lg p-1 text-center cursor-pointer">
+                    <!-- <img src="/menu-2.svg" height="36" width="36"> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="36" height="36" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M4 6l16 0"></path>
+                        <path d="M4 12l16 0"></path>
+                        <path d="M4 18l16 0"></path>
+                     </svg>
                 </div>
-                <div id="list" class="w-11/12 h-[85vh] bg-slate-800 px-2 py-4 rounded-2xl hidden origin-bottom-right transition-all">
+                <div id="list" class="w-11/12 h-[75vh] bg-slate-800 px-3 py-5 -mt-2 rounded-2xl hidden origin-bottom-right transition-all">
                     <div class="h-full overflow-y-auto">
                         {{ partial "sidebar-chapters" . }}
                     </div>
