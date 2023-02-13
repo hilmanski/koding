@@ -5,7 +5,7 @@ snippet: "Box model adalah istilah pada CSS yang menggambarkan secara visual pos
 date: 2023-01-27T10:00:05-08:00
 label: CSS
 order: 100
-chapter: Batas dan Jarak
+chapter: Ukuran, Batas dan Jarak
 ---
 
 Elemen-elemen HTML, bisa diberikan batas dan jarak. Ada berbagai jenis batas dan jarak yang bisa digunakan pada CSS. Untuk membantu kita secara visual, kita akan melihat `box model` pada CSS.
