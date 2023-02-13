@@ -1,3 +1,5 @@
+## Info to add
+substack skodev newletter -> as link
 
 # Status
 
