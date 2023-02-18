@@ -108,10 +108,7 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 
 ## Next plan
 
-- add search (algolia search for open source)
-- add CSS
 - add JS
-- sidebar menu on subjects on mobile (show toggle with burgen menu)
 - Write Live editor ?
 
 ## Tech stack
