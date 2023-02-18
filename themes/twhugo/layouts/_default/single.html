@@ -75,6 +75,34 @@
             overflow-y-auto pb-[150px]">
             {{ partial "sidebar-chapters" . }}
         </aside>
+
+        <!-- Button list untuk device kecil -->
+        <div class="fixed right-3 top-32 lg:hidden">
+            <div id="button-list" class="w-fit h-fit bg-emerald-500 hover:bg-emerald-700 rounded-lg p-1 text-center cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="36" height="36" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M4 6l16 0"></path>
+                    <path d="M4 12l16 0"></path>
+                    <path d="M4 18l16 0"></path>
+                    </svg>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="fixed top-0 left-0 right-12 lg:hidden">
+        <div id="open-list" class="w-full h-screen bg-slate-800 px-8 py-20 hidden transition-all">
+            <div id="button-close-list" class="w-full flex pb-4 justify-end">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="36" height="36" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M18 6l-12 12"></path>
+                    <path d="M6 6l12 12"></path>
+                 </svg>
+            </div>
+            <div class="h-full w-full overflow-y-auto">
+                {{ partial "sidebar-chapters" . }}
+            </div>
+        </div>
     </div>
 
     <!-- Code Highlighter -->
@@ -105,6 +133,23 @@
         for (var i = 0; i<_links.length; i++) {
           _links[i].setAttribute('target', '_blank')
         }
+    </script>
+
+    <!-- List untuk device kecil -->
+    <script>
+        const buttonList = document.querySelector('#button-list')
+        const openList = document.querySelector('#open-list')
+        const buttonCloseList = document.querySelector('#button-close-list')
+
+        buttonList.addEventListener('click', function () {
+            buttonList.classList.add('hidden')
+            openList.classList.remove('hidden')
+        })
+        
+        buttonCloseList.addEventListener('click', () => {
+            buttonList.classList.remove('hidden')
+            openList.classList.add('hidden')
+        })
     </script>
 
 {{ end }}
