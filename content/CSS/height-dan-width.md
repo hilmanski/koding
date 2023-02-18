@@ -114,7 +114,7 @@ Properti height dan width pada CSS, bisa punya nilai berikut:
 
 ## Mengatur ukuran maksimal
 
-Jika kita ingin membatasi lebar atau tinggi dari suatu elemen, makan gunakan properi `max-height` atau `max-width`.
+Jika kita ingin membatasi lebar atau tinggi dari suatu elemen, makan gunakan properti `max-height` atau `max-width`.
 
 Biasanya ini berguna ketika kita TIDAK menentukan nilai satuannya, namun ingin memberi jarak maksimal.
 
@@ -122,7 +122,7 @@ Penggunaan dan satuannya sama dengan `width` dan `height` di atas.
 
 ## Mengatur ukuran minimal
 
-Jika kita ingin membatasi sekecil apa lebar atau tinggi dari suatu elemen, makan gunakan properi `min-height` atau `min-width`.
+Jika kita ingin membatasi sekecil apa lebar atau tinggi dari suatu elemen, makan gunakan properti `min-height` atau `min-width`.
 
 Biasanya ini berguna ketika kita TIDAK menentukan nilai satuannya, namun ingin memberi jarak minimal.
 

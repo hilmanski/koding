@@ -1,13 +1,13 @@
 ---
 title: "Text transformation pada CSS"
 slug: "text-transformation-pada-css"
-snippet: "Untuk mengubah besar/kecilnya huruf yang digunakan bisa juga melalui CSS lewat properi text-transformation"
+snippet: "Untuk mengubah besar/kecilnya huruf yang digunakan bisa juga melalui CSS lewat properti text-transformation"
 date: 2023-02-18T10:55:05+08:00
 label: CSS
 order: 170
 ---
 
-`text-transformation` pada CSS adalah properi yang digunakan untuk mengatur besar-kecilnya huruf pada sebuah text HTML
+`text-transformation` pada CSS adalah properti yang digunakan untuk mengatur besar-kecilnya huruf pada sebuah text HTML
 
 ## Contoh menggunakan text-transformation
 

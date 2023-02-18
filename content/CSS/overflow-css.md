@@ -7,7 +7,7 @@ label: CSS
 order: 130
 ---
 
-Bagaimana jika lebar atau tinggi dari suatu elemen HTML tidak cukup menampung isi dari kontennya? Kita bisa mengatur apa yang akan terjadi dengan properi `overflow`.
+Bagaimana jika lebar atau tinggi dari suatu elemen HTML tidak cukup menampung isi dari kontennya? Kita bisa mengatur apa yang akan terjadi dengan properti `overflow`.
 
 ## Opsi nilai overflow
 Kita bisa memberi nilai dari overflow dengan ini:

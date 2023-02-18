@@ -8,7 +8,7 @@ order: 105
 ---
 
 Untuk memperlihatkan garis batas dari sebuah elemen, gunakan properti `border` pada CSS.
-Berikut berbagai properi border yang akan kita lihat:
+Berikut berbagai properti border yang akan kita lihat:
 - border
 - border-style
 - border-ARAH (top/bottom/right/left)
@@ -46,7 +46,7 @@ Tidak hanya garis lurus, ada banyak variasi border lainnya !
 {{</alert>}}
 
 ## Jenis Jenis garis border
-Untuk mengubah jenis border gunakan properti spesifik `border-style` atau sebagai parameter kedua jika menggunakan properi umum `border`. 
+Untuk mengubah jenis border gunakan properti spesifik `border-style` atau sebagai parameter kedua jika menggunakan properti umum `border`. 
 
 Berikut daftar variasi garis border dan penampakannya.
 
@@ -128,7 +128,7 @@ atau
 {{</rawhtml>}}
 
 ## Mengganti warna border
-Warna border bisa diubah dengan properi `border-color`
+Warna border bisa diubah dengan properti `border-color`
 
 ```html
 <p style="border: 5px solid red;">
