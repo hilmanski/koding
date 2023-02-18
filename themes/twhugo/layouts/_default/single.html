@@ -33,7 +33,10 @@
 
             <!-- Prev and Next navigation -->
             <div data-pagefind-ignore 
-                class="flex justify-between mt-10">
+                class="flex flex-col md:flex-row 
+                            items-end  md:justify-between 
+                            space-y-2 md:space-y-0
+                            mt-10">
                 {{ $pages := where site.RegularPages "Section" .Section }}
                 <div>
                 {{ with ($pages.ByParam "order").Next . }}
