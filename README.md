@@ -121,8 +121,8 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 ---
 
 # next article: 
-- box-model ?
+- text styling
 
 # Todo
 - add menu html dan css at navbar
-- (later) css content dont forget (pseudo selector, comment, etc..)
+- Article: (much later) css content dont forget (pseudo selector, comment, etc..)
