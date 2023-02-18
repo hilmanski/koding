@@ -595,68 +595,16 @@ video {
   right: 0.75rem;
 }
 
-.top-32 {
-  top: 8rem;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.left-0 {
-  left: 0px;
-}
-
-.right-12 {
-  right: 3rem;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
-.top-\[200px\] {
-  top: 200px;
+.top-\[130px\] {
+  top: 130px;
 }
 
 .top-\[100px\] {
   top: 100px;
 }
 
-.top-\[120px\] {
-  top: 120px;
-}
-
-.top-\[150px\] {
-  top: 150px;
-}
-
-.top-\[130px\] {
-  top: 130px;
-}
-
-.top-\[1200px\] {
-  top: 1200px;
-}
-
-.-right-\[200px\] {
-  right: -200px;
-}
-
-.-right-\[300px\] {
-  right: -300px;
-}
-
 .-right-\[400px\] {
   right: -400px;
-}
-
-.-top-\[400px\] {
-  top: -400px;
 }
 
 .-z-10 {
@@ -1299,11 +1247,6 @@ video {
   padding-right: 2rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1787,8 +1730,13 @@ footer a {
 }
 
 .pagefind-ui .pagefind-ui__drawer{
-  background: white;
+  background: #23272F;
+  color: #F6F7F9;
   padding: 10px;
+}
+
+.pagefind-ui .pagefind-ui__result-link {
+  color: white !important;
 }
 
 .pagefind-ui input.pagefind-ui__search-input {

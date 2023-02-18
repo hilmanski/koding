@@ -209,8 +209,13 @@ footer a {
 }
 
 .pagefind-ui .pagefind-ui__drawer{
-    background: white;
+    background: #23272F;
+    color: #F6F7F9;
     padding: 10px;
+}
+
+.pagefind-ui .pagefind-ui__result-link {
+    color: white !important;
 }
 
 .pagefind-ui input.pagefind-ui__search-input {
