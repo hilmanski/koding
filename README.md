@@ -1,6 +1,3 @@
-## Info to add
-substack skodev newletter -> as link
-
 # Status
 
 Just getting started! Please don't submit a new article for now. Feel free to throw any ideas, correct typos or suggesting new features on issue/PR.
@@ -126,3 +123,13 @@ example: https://twitter.com/meezwhite/status/1599450806217867265
 # Todo
 - add menu html dan css at navbar
 - Article: (much later) css content dont forget (pseudo selector, comment, etc..)
+
+Make endpoint for /html /css /etc..
+  redirect referensi
+
+## Info to add
+substack skodev newletter -> as link
+
+# New
+introduce new component: {{<result>}} to show html results.
+change everything with **hasil** to use this component.
