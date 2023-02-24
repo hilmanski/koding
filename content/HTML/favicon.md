@@ -29,3 +29,8 @@ Berikut contoh menggunakan gambar favicon di sebuah situs
 ```
 
 Pastikan lokasi gambar pada atribut `href` sesuai dengan lokasi asal file gambar yang kamu gunakan.
+
+## Bagaimana untuk punya file .ico
+Ada banyak situs di internet yang bisa kamu gunakan. Misalnya kamu punya gambar berformat jpg yang ingin diconvert ke .ico.
+
+Maka coba google "convert jpg to ico", nanti kamu bisa mendapatkan file .ico tersebut sebagai sumber filenya.
