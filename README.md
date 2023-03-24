@@ -1,3 +1,7 @@
+## Refactor
+new shortcode:
+kalau contoh kode dan result sama, cukup tulis satu kali di markdown.
+
 # Status
 
 Just getting started! Please don't submit a new article for now. Feel free to throw any ideas, correct typos or suggesting new features on issue/PR.
