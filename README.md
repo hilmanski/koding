@@ -1,3 +1,12 @@
+## Archived!
+Repository ini akan ditutup.  
+Proyek kodi.ng pindah ke [referensi coding di skodev](https://sko.dev/referensi)
+
+Terima kasih untuk teman-teman yang sudah berkontribusi !!
+Repo ini akan tetap hidup, untuk yang ingin jadikan media belajar atau membuat situs serupa.
+
+====
+
 ## Refactor
 new shortcode:
 kalau contoh kode dan result sama, cukup tulis satu kali di markdown.
